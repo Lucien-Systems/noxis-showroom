@@ -1,4 +1,3 @@
-import React from "react";
 
 export default function HowViz({ step }: { step: number | "signals" | "analysis" | "graphs" | "brief" | "audit" }) {
   const map = ["signals","analysis","graphs","brief","audit"] as const;

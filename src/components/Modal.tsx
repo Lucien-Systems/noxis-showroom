@@ -1,4 +1,3 @@
-import FocusTrap from "focus-trap-react";
 import { createPortal } from "react-dom";
 export default function Modal({open,onClose,title,children,descId}:{open:boolean;onClose:()=>void;title:string;children:React.ReactNode;descId?:string}){
   if(!open) return null;

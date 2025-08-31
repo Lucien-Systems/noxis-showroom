@@ -1,7 +1,6 @@
 import { useMemo, useState } from "react";
 
 type Node = { id:string; title:string; sub:string; info:string; x?:number; y?:number };
-const center:Node = {
   id:"brief",
   title:"Briefing Desk",
   sub:"Decision-ready outputs",
