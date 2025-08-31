@@ -1,0 +1,15 @@
+:root{
+  --bg:#0B1224;
+  --card:#111A2D;
+  --panel:#162037;
+  --line:#1F3046;
+  --ink:#E7EEF8;
+  --mute:#9AA6BF;
+  --accent:#1EE9A6;
+  --accent2:#FFCC55;
+
+  --radius-2xl:20px;
+  --shadow-glow:0 0 0 1px #263850,0 0 32px 3px rgba(30,233,166,.12);
+  --shadow-glow-strong:0 0 0 1px #2c415e,0 0 48px 6px rgba(30,233,166,.18);
+  --max-container:1200px;
+}
