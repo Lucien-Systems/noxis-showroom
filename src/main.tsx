@@ -1,16 +1,19 @@
+// src/main.tsx
 import "@fontsource/inter/400.css";
 import "@fontsource/inter/500.css";
 import "@fontsource/inter/600.css";
-import "@fontsource/inter/700.css";import "./styles/tailwind.css";
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.tsx'
+import "@fontsource/inter/700.css";
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+import "./index.css";
+// Pokud legacy styly opravdu potřebuješ, nech jeden import. Jinak smaž.
+// import "./styles/legacy.css";
+
+import React from "react";
+import { createRoot } from "react-dom/client";
+import App from "./App";
+
+createRoot(document.getElementById("root")!).render(
+  <React.StrictMode>
     <App />
-  </StrictMode>,
-)
-import "./styles/legacy.css";
-import "./styles/legacy.css";
+  </React.StrictMode>
+);
