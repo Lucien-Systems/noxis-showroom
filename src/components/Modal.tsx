@@ -40,10 +40,7 @@ export default function Modal({ open, onClose, title, children, descId }: ModalP
         return;
       }
       if (e.key === "Tab") {
-        if (focusables.length === 0) {
-          e.preventDefault();
-          return;
-        }
+        if (focusables.length === 0) { e.preventDefault(); return; }
         const idx = focusables.indexOf(document.activeElement as HTMLElement);
         let next = idx;
         if (e.shiftKey) next = idx <= 0 ? focusables.length - 1 : idx - 1;
@@ -97,12 +94,8 @@ export default function Modal({ open, onClose, title, children, descId }: ModalP
 
 function getFocusable(root: HTMLElement): HTMLElement[] {
   const selectors = [
-    "a[href]",
-    "button:not([disabled])",
-    "textarea:not([disabled])",
-    "input:not([disabled])",
-    "select:not([disabled])",
-    "[tabindex]:not([tabindex='-1'])",
+    "a[href]","button:not([disabled])","textarea:not([disabled])",
+    "input:not([disabled])","select:not([disabled])","[tabindex]:not([tabindex='-1'])",
   ].join(",");
   return Array.from(root.querySelectorAll<HTMLElement>(selectors)).filter(
     (el) => !el.hasAttribute("disabled") && !el.getAttribute("aria-hidden")

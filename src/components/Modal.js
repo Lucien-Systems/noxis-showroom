@@ -57,12 +57,8 @@ export default function Modal({ open, onClose, title, children, descId }) {
 }
 function getFocusable(root) {
     const selectors = [
-        "a[href]",
-        "button:not([disabled])",
-        "textarea:not([disabled])",
-        "input:not([disabled])",
-        "select:not([disabled])",
-        "[tabindex]:not([tabindex='-1'])",
+        "a[href]", "button:not([disabled])", "textarea:not([disabled])",
+        "input:not([disabled])", "select:not([disabled])", "[tabindex]:not([tabindex='-1'])",
     ].join(",");
     return Array.from(root.querySelectorAll(selectors)).filter((el) => !el.hasAttribute("disabled") && !el.getAttribute("aria-hidden"));
 }
