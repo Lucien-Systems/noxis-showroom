@@ -1,0 +1,4 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+export default function WhatIs() {
+    return (_jsxs("div", { className: "grid gap-4 md:grid-cols-2", children: [_jsxs("div", { className: "card p-6", children: [_jsx("h3", { className: "text-xl font-semibold m-0", children: "What is Noxis" }), _jsx("p", { className: "text-mute mt-2", children: "Noxis is an AI-powered OSINT & narrative-intelligence demo designed for targeted, transparent and auditable protection of the information space." })] }), _jsxs("div", { className: "card p-6", children: [_jsx("h3", { className: "text-xl font-semibold m-0", children: "Rights-first, not mass scanning" }), _jsx("p", { className: "text-mute mt-2", children: "No blanket tracking of populations. Purpose limitation, minimization and verifiable audit receipts baked in by design." })] })] }));
+}

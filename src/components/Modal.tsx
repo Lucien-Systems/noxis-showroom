@@ -6,14 +6,14 @@ type ModalProps = {
   onClose: () => void;
   title?: string;
   children: ReactNode;
+  descId?: string;
 };
 
-export default function Modal({ open, onClose, title, children }: ModalProps) {
+export default function Modal({ open, onClose, title, children, descId }: ModalProps) {
   const overlayRef = useRef<HTMLDivElement | null>(null);
   const dialogRef = useRef<HTMLDivElement | null>(null);
   const lastActiveRef = useRef<HTMLElement | null>(null);
 
-  // Lock scroll & remember last focused element
   useEffect(() => {
     if (!open) return;
     lastActiveRef.current = document.activeElement as HTMLElement | null;
@@ -21,15 +21,12 @@ export default function Modal({ open, onClose, title, children }: ModalProps) {
     document.body.style.overflow = "hidden";
     return () => {
       document.body.style.overflow = prevOverflow;
-      // restore focus
-      if (lastActiveRef.current) lastActiveRef.current.focus();
+      lastActiveRef.current?.focus();
     };
   }, [open]);
 
-  // Focus trap & ESC
   useEffect(() => {
     if (!open) return;
-
     const container = dialogRef.current;
     if (!container) return;
 
@@ -49,11 +46,8 @@ export default function Modal({ open, onClose, title, children }: ModalProps) {
         }
         const idx = focusables.indexOf(document.activeElement as HTMLElement);
         let next = idx;
-        if (e.shiftKey) {
-          next = idx <= 0 ? focusables.length - 1 : idx - 1;
-        } else {
-          next = idx === focusables.length - 1 ? 0 : idx + 1;
-        }
+        if (e.shiftKey) next = idx <= 0 ? focusables.length - 1 : idx - 1;
+        else next = idx === focusables.length - 1 ? 0 : idx + 1;
         e.preventDefault();
         focusables[next].focus();
       }
@@ -65,31 +59,28 @@ export default function Modal({ open, onClose, title, children }: ModalProps) {
 
   if (!open) return null;
 
+  const labelledBy = title ? "modal-title" : undefined;
+  const describedBy = descId || undefined;
+
   return createPortal(
     <div
       ref={overlayRef}
       role="presentation"
-      onMouseDown={(e) => {
-        // Click outside dialog closes
-        if (e.target === overlayRef.current) onClose();
-      }}
+      onMouseDown={(e) => { if (e.target === overlayRef.current) onClose(); }}
       className="fixed inset-0 z-[1000] bg-black/60 backdrop-blur-sm"
       aria-hidden={!open}
     >
       <div
         role="dialog"
         aria-modal="true"
-        aria-labelledby={title ? "modal-title" : undefined}
+        aria-labelledby={labelledBy}
+        aria-describedby={describedBy}
         ref={dialogRef}
         tabIndex={-1}
         className="mx-auto mt-24 w-[min(640px,calc(100%-2rem))] rounded-2xl border border-[#1F3046] bg-[#111A2D] p-6 text-[#E7EEF8] shadow-[0_0_0_1px_#263850,0_0_32px_3px_rgba(30,233,166,.12)] focus:outline-none"
       >
-        {title && (
-          <h3 id="modal-title" className="mb-3 text-lg font-semibold">
-            {title}
-          </h3>
-        )}
-        <div className="text-sm text-[#9AA6BF]">{children}</div>
+        {title && <h3 id="modal-title" className="mb-3 text-lg font-semibold">{title}</h3>}
+        <div id={descId} className="text-sm text-[#9AA6BF]">{children}</div>
         <div className="mt-6 flex justify-end">
           <button
             onClick={onClose}
