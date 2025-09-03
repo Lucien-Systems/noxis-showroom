@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Noxis//Press Briefing//EN
+BEGIN:VEVENT
+UID:noxis-press-briefing
+DTSTAMP:20250830T120000Z
+DTSTART:20250905T140000Z
+DTEND:20250905T150000Z
+SUMMARY:Noxis Media Briefing (Synthetic)
+DESCRIPTION:Rights-first intelligence. Synthetic demo — no live data.
+LOCATION:Online
+END:VEVENT
+END:VCALENDAR
