@@ -1,15 +1,15 @@
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Hero from "./sections/Hero";
-import WhatIs from "./sections/WhatIs";
-import Atlas from "./sections/Atlas";
-import Principles from "./sections/Principles";
-import How from "./sections/How";
-import Audience from "./sections/Audience";
-import Technology from "./sections/Technology";
-import Roadmap from "./sections/Roadmap";
-import Founder from "./sections/Founder";
-import Press from "./sections/Press";
+import Navbar from "./components/Navbar.tsx";
+import Footer from "./components/Footer.tsx";
+import Hero from "./sections/Hero.tsx";
+import WhatIs from "./sections/WhatIs.tsx";
+import Atlas from "./sections/Atlas.tsx";
+import Principles from "./sections/Principles.tsx";
+import How from "./sections/How.tsx";
+import Audience from "./sections/Audience.tsx";
+import Technology from "./sections/Technology.tsx";
+import Roadmap from "./sections/Roadmap.tsx";
+import Founder from "./sections/Founder.tsx";
+import Press from "./sections/Press.tsx";
 
 function Wrap({id,title,children}:{id:string;title:string;children:React.ReactNode}){
   return (
@@ -26,7 +26,7 @@ export default function App(){
   return (
     <>
       <Navbar />
-      <main style={{paddingTop:80}}>
+      <main style={{ paddingTop: 96 }}>
         <section id="top" className="section"><div className="container"><Hero /></div></section>
         <Wrap id="about" title="What is Noxis"><WhatIs /></Wrap>
         <Wrap id="atlas" title="Noxis Atlas"><div className="card p-6"><Atlas /></div></Wrap>

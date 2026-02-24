@@ -13,7 +13,7 @@ export default function Navbar(){
       const h=document.body.scrollHeight - window.innerHeight;
       setProgress(h>0 ? (y/h)*100 : 0);
 
-      const top = y + 80;
+      const top = y + 96;
       let cur = "about";
       for(const id of NAV){
         const el=document.getElementById(id);

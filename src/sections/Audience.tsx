@@ -1,7 +1,7 @@
 import { useState, useMemo } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { FiShield, FiRadio, FiTarget, FiGlobe, FiUsers, FiActivity, FiSend } from "react-icons/fi";
-import Modal from "../components/Modal";
+import Modal from "../components/Modal.tsx";
 
 const tabs = ["Government","Security","Newsrooms","Civil","Research"] as const;
 type Tab = typeof tabs[number];

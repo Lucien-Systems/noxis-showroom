@@ -2,5 +2,76 @@
 @tailwind components;
 @tailwind utilities;
 
-:focus-visible { outline:2px solid #1EE9A6; outline-offset:2px }
-html { scroll-behavior: smooth; }
+:focus-visible { outline: 2px solid #1EE9A6; outline-offset: 2px; }
+html { scroll-behavior: smooth; color-scheme: dark; }
+
+/* Fallback-safe global styling */
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #0b1224;
+  color: #e7eef8;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+.container {
+  width: min(1200px, 100%);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+
+.section {
+  padding: 56px 0;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: 72px 0;
+  }
+}
+
+.section__title {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #e7eef8;
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center gap-2 rounded-xl border border-line bg-panel px-4 py-2 text-sm text-ink/90 transition hover:shadow-glow;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-xl bg-accent2 px-4 py-2 text-bg font-semibold shadow-glow-strong;
+  }
+
+  .card {
+    @apply rounded-2xl border border-line bg-card shadow-glow;
+  }
+
+  .panel {
+    @apply rounded-2xl border border-line bg-panel;
+  }
+}
+
+@layer utilities {
+  .shadow-glow {
+    box-shadow: 0 0 0 1px #263850, 0 0 32px 3px rgba(30, 233, 166, 0.12);
+  }
+
+  .shadow-glow-strong {
+    box-shadow: 0 0 0 1px #385070, 0 0 48px 6px rgba(255, 204, 85, 0.28);
+  }
+}
