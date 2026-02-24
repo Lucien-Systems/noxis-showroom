@@ -3,22 +3,22 @@ import { FiInfo, FiShield, FiZap } from "react-icons/fi";
 
 const ITEMS = [
   {
-    icon: <FiInfo className="h-5 w-5 text-accent" />,
-    title: "Overview",
+    icon: <FiInfo className="h-5 w-5" />,
+    title: "Strategic Role",
     desc:
-      "Noxis is an AI-powered OSINT & narrative-intelligence demo designed for targeted, transparent and auditable protection of the information space.",
+      "NOXIS is a specialized security layer inside the wider ΛRCHΞON ecosystem, built as a digital immune system for information space, data integrity and decision workflows.",
   },
   {
-    icon: <FiShield className="h-5 w-5 text-accent2" />,
-    title: "Rights-first, not mass scanning",
+    icon: <FiShield className="h-5 w-5" />,
+    title: "Rights-first Architecture",
     desc:
-      "No blanket tracking of populations. Purpose limitation, minimization and verifiable audit receipts baked in by design.",
+      "No blanket population monitoring. Targeted OSINT scope, need-to-know modular access, synthetic training signals, and strict minimization are enforced by design.",
   },
   {
-    icon: <FiZap className="h-5 w-5 text-accent" />,
-    title: "Why it’s revolutionary",
+    icon: <FiZap className="h-5 w-5" />,
+    title: "Narrative Intelligence Core",
     desc:
-      "Unlike traditional platforms, Noxis unifies synthetic signals, narrative graphs and cryptographic audit trails into one coherent system — delivering decision-ready insights faster while preserving rights-first constraints.",
+      "Narrative graphs, anomaly burst detection, and multimodal analysis (text + image/video) are paired with cryptographic audit trails for verifiable, decision-ready outputs.",
   },
 ];
 
@@ -36,7 +36,7 @@ export default function WhatIs() {
               transition={{ duration: 0.35, delay: i * 0.12 }}
               className="rounded-2xl border border-line bg-panel p-6 shadow-glow hover:shadow-glow-strong hover:-translate-y-1 transition"
             >
-              <div className="h-10 w-10 rounded-full border border-line bg-bg grid place-items-center shadow-glow mb-4">
+              <div className="icon-badge mb-4">
                 {it.icon}
               </div>
               <h3 className="text-xl font-semibold m-0">{it.title}</h3>
@@ -44,6 +44,9 @@ export default function WhatIs() {
               <div className="mt-4 h-px w-16 bg-accent/40" />
             </motion.div>
           ))}
+        </div>
+        <div className="mt-6 panel p-4 text-sm text-mute">
+          Chief architect: <span className="text-ink font-medium">Adam Karl Lucien</span>.
         </div>
       </div>
     </section>

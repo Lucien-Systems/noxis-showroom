@@ -4,12 +4,12 @@ import { FiCpu, FiLink, FiDatabase, FiEyeOff, FiGrid, FiActivity } from "react-i
 
 type Tech = { id:string; title:string; deck:string; points:string[]; why:string; Icon:any };
 const TECH:Tech[]=[
-  {id:"aiml", title:"AI/ML (NLP + CV)", deck:"Configurable pipelines. Deterministic runs.", points:["Topic clustering","Embeddings & retrieval","Vision tags"], why:"Turns chaotic streams into structured signals with repeatable outcomes — critical for trust and policy review.", Icon:FiCpu},
-  {id:"ingest", title:"OSINT Ingestion", deck:"Public/licensed sources with safety filters.", points:["Media/RSS/API adapters","Normalization & dedupe","Ethics guards"], why:"Brings many sources together safely, preventing over-collection and keeping scope targeted.", Icon:FiLink},
-  {id:"receipts", title:"Cryptographic Receipts", deck:"Hash + provenance for verifiable briefs.", points:["Run receipt","Data fingerprint","Repro playback"], why:"Lets oversight verify what was run, on what, and when — no black boxes.", Icon:FiDatabase},
-  {id:"privacy", title:"Privacy Controls", deck:"Minimization & redaction by design.", points:["Scope limits","PII redaction","Retention guards"], why:"Builds civil safeguards into the pipeline so discovery never becomes dragnet.", Icon:FiEyeOff},
-  {id:"stores", title:"Decentralized Stores", deck:"Distributed artifacts for review rooms.", points:["Bundle shards","Signed artifacts","Access policies"], why:"Keeps evidence tamper-resistant and shareable with institutions without central chokepoints.", Icon:FiGrid},
-  {id:"viz", title:"Visualization", deck:"Briefing & narrative graphs.", points:["Story arcs","Actors & channels","Propagation lens"], why:"Surfaces what matters at a glance so decisions happen fast and auditable.", Icon:FiActivity},
+  {id:"aiml", title:"AI/ML (NLP + CV)", deck:"Narrative-aware pipelines with deterministic runs.", points:["Cross-modal feature fusion","Narrative pattern extraction","Signal confidence scoring"], why:"Transforms chaotic information flow into evidence-grade structure for high-trust decisions.", Icon:FiCpu},
+  {id:"ingest", title:"Targeted OSINT Ingestion", deck:"Public/licensed sources under strict scope control.", points:["Media/RSS/API connectors","Normalization + dedupe","Need-to-know gating"], why:"Protects operations from over-collection while preserving speed and mission relevance.", Icon:FiLink},
+  {id:"receipts", title:"Cryptographic Receipts", deck:"Hash + provenance for every critical output.", points:["Run fingerprint","Source lineage record","Replayable execution context"], why:"Enables legal, institutional, and independent verification without opaque black-box claims.", Icon:FiDatabase},
+  {id:"privacy", title:"Rights-first Controls", deck:"Minimization, redaction, and lawful use boundaries.", points:["Purpose limitation","PII reduction layer","Retention constraints"], why:"Keeps NOXIS aligned with civil rights while operating at strategic security depth.", Icon:FiEyeOff},
+  {id:"stores", title:"Attribution Correlation Layer", deck:"Narrative events linked with ownership/finance context.", points:["Entity relationship maps","Risk-score joins","False-flag path tracing"], why:"Connects information operations to real infrastructure and potential sponsoring networks.", Icon:FiGrid},
+  {id:"viz", title:"Operational Visualization", deck:"Narrative graphs and command-level briefing views.", points:["Actor-channel topology","Burst anomaly overlays","Decision-ready summary cards"], why:"Gives analysts and decision-makers instant orientation in dynamic hybrid-threat environments.", Icon:FiActivity},
 ];
 
 function Illustration({id}:{id:string}){
@@ -104,7 +104,9 @@ export default function Technology(){
               key={x.id}
               onClick={()=>setIdx(i)}
               className={`flex items-center gap-3 rounded-xl border px-4 py-3 transition ${i===idx?'border-accent2 shadow-glow-strong':'border-line bg-panel hover:shadow-glow'}`}>
-              <x.Icon className={`${i===idx?'text-accent2':'text-accent'}`} />
+              <span className="icon-badge !h-9 !w-9 rounded-lg">
+                <x.Icon className={`${i===idx?'text-accent2':'text-accent'}`} />
+              </span>
               <div className="text-left">
                 <div className="font-extrabold text-base md:text-lg">{x.title}</div>
                 <div className="text-mute text-sm">{x.deck}</div>
@@ -125,7 +127,9 @@ export default function Technology(){
               className="relative grid gap-3"
             >
               <div className="flex items-center gap-3">
-                <T.Icon className="text-accent2" />
+                <span className="icon-badge">
+                  <T.Icon className="text-accent2" />
+                </span>
                 <h2 className="m-0 text-2xl font-bold">{T.title}</h2>
               </div>
               <p className="text-mute text-base">{T.deck}</p>
@@ -144,7 +148,7 @@ export default function Technology(){
               </div>
 
               <div className="flex gap-3 mt-2">
-                <button className="btn-primary">Download sample config</button>
+                <button className="btn-primary">Request technical brief</button>
                 <a className="btn" href="#ecosystem">See ecosystem linkage</a>
               </div>
             </motion.div>

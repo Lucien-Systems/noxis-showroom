@@ -21,7 +21,7 @@ export default function Hero(){
           initial={{opacity:0,y:10}} animate={{opacity:1,y:0}} transition={{delay:.08}}
           className="text-mute max-w-[760px] mt-3"
         >
-          Rights-first intelligence. Synthetic signals, narrative graphs, audit-ready briefs. Never mass surveillance.
+          Specialized security system within ΛRCHΞON. Rights-first intelligence with targeted OSINT scope, narrative graph analysis, synthetic signals, and audit-ready outputs.
         </motion.p>
 
         <motion.div

@@ -64,19 +64,48 @@ body::before {
 
 @layer components {
   .btn {
-    @apply inline-flex items-center gap-2 rounded-xl border border-line bg-panel px-4 py-2 text-sm text-ink/90 transition hover:shadow-glow;
+    @apply inline-flex items-center gap-2 rounded-xl border border-line bg-panel px-4 py-2 text-sm text-ink/90 transition duration-300 hover:-translate-y-0.5 hover:border-accent2/70 hover:shadow-glow;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
   }
 
   .btn-primary {
-    @apply inline-flex items-center gap-2 rounded-xl bg-accent2 px-4 py-2 text-bg font-semibold shadow-glow-strong;
+    @apply inline-flex items-center gap-2 rounded-xl bg-accent2 px-4 py-2 text-bg font-semibold shadow-glow-strong transition duration-300 hover:-translate-y-0.5 hover:brightness-110;
+    box-shadow: 0 0 0 1px rgba(255, 216, 79, 0.55), 0 10px 30px rgba(255, 216, 79, 0.22);
   }
 
   .card {
-    @apply rounded-2xl border border-line bg-card shadow-glow;
+    @apply relative overflow-hidden rounded-2xl border border-line/90 bg-card shadow-glow transition duration-300 hover:-translate-y-1 hover:shadow-glow-strong;
+    backdrop-filter: blur(3px);
   }
 
   .panel {
-    @apply rounded-2xl border border-line bg-panel;
+    @apply relative overflow-hidden rounded-2xl border border-line/90 bg-panel transition duration-300;
+    backdrop-filter: blur(2px);
+  }
+
+  .card::before,
+  .panel::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+      radial-gradient(520px 220px at -10% -20%, rgba(255, 216, 79, 0.14), transparent 65%),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent 35%);
+    opacity: 0.9;
+  }
+
+  .icon-badge {
+    @apply grid place-items-center rounded-xl border border-line bg-bg text-accent2 shadow-glow;
+    width: 2.75rem;
+    height: 2.75rem;
+    transition: transform .28s ease, box-shadow .28s ease, border-color .28s ease;
+  }
+
+  .icon-badge:hover {
+    transform: translateY(-2px) scale(1.03);
+    border-color: rgba(255, 216, 79, 0.65);
+    box-shadow: 0 0 0 1px #334a7d, 0 0 36px 5px rgba(255, 216, 79, 0.26);
   }
 }
 
@@ -87,5 +116,16 @@ body::before {
 
   .shadow-glow-strong {
     box-shadow: 0 0 0 1px #334a7d, 0 0 48px 8px rgba(255, 216, 79, 0.32);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn,
+  .btn-primary,
+  .card,
+  .panel,
+  .icon-badge {
+    transition: none !important;
+    transform: none !important;
   }
 }

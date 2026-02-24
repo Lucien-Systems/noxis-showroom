@@ -17,7 +17,7 @@ const PRINCIPLES = [
 
 type Row = { y:string; t:string; d:string; brief?:string };
 const TIMELINE: Row[] = [
-  { y:"2025–Present", t:"Chief Architect, NOXIS — AI Surveillance Platform", d:"Lucien Systems LLC (USA)", brief:"Architecture & UX across OSINT, GEOINT, darknet; auditability & governance-by-design." },
+  { y:"2025–Present", t:"Chief Architect, NOXIS — Rights-first Narrative Security System", d:"Lucien Systems LLC (USA)", brief:"Architecture across OSINT, hybrid-threat analytics, auditability, and governance-by-design controls." },
   { y:"2023–2024", t:"Interim Project Consultancy", d:"Deutsche Mechatronics GmbH (DE)", brief:"Automation, supply chain, manufacturing systems for AI-era operations." },
   { y:"2022–2023", t:"Industrial & IT Engineer / Data Analyst", d:"L.I.T. Gruppe (DE)", brief:"Process intelligence, data ops; pipelines for logistics decisions." },
   { y:"2022–Present", t:"Founder & Managing Shareholder", d:"Lucien Systems LLC (USA)", brief:"R&D and advisory: AI, OSINT, governance-by-design, reproducible runs." },
@@ -96,7 +96,7 @@ export default function Founder(){
 
                   {tab==="Bio" && (
                     <motion.div key="b" {...variant} className="text-mute">
-                      <p>Architecting rights-first intelligence systems that turn open-source signals into decision-ready briefs — with cryptographic receipts, reproducible configs, and oversight workflows.</p>
+                      <p>Adam Karl Lucien leads the NOXIS architecture inside the ΛRCHΞON ecosystem, focused on rights-first narrative security, targeted intelligence, and cryptographically verifiable decision workflows.</p>
                     </motion.div>
                   )}
 

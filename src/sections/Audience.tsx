@@ -14,19 +14,19 @@ type Meta = {
 };
 
 const META: Record<Tab, Meta> = {
-  Government: { Icon:FiGlobe, deck:"Policy alignment & verifiable briefs", colors:{from:"#E9C25B",to:"#FFD84F"}, preset:{scope:92,min:88,audit:98} },
-  Security:   { Icon:FiTarget, deck:"Targeted intel within strict limits",   colors:{from:"#FFD84F",to:"#E9C25B"}, preset:{scope:95,min:90,audit:96} },
-  Newsrooms:  { Icon:FiRadio,  deck:"Narrative maps & evidence bundles",     colors:{from:"#E0BA57",to:"#FFD84F"}, preset:{scope:80,min:92,audit:94} },
-  Civil:      { Icon:FiUsers,  deck:"Public methods; no profiling",          colors:{from:"#D2AC4E",to:"#E9C25B"}, preset:{scope:75,min:95,audit:90} },
-  Research:   { Icon:FiActivity,  deck:"Open configs & reproducibility",     colors:{from:"#C8A349",to:"#F1CE66"}, preset:{scope:78,min:88,audit:92} },
+  Government: { Icon:FiGlobe, deck:"Decision protection for state governance flows", colors:{from:"#E9C25B",to:"#FFD84F"}, preset:{scope:92,min:88,audit:98} },
+  Security:   { Icon:FiTarget, deck:"Hybrid-threat radar with rights-first constraints", colors:{from:"#FFD84F",to:"#E9C25B"}, preset:{scope:95,min:90,audit:96} },
+  Newsrooms:  { Icon:FiRadio,  deck:"Narrative traceability and source-pattern verification", colors:{from:"#E0BA57",to:"#FFD84F"}, preset:{scope:80,min:92,audit:94} },
+  Civil:      { Icon:FiUsers,  deck:"Citizen-safe transparency without mass profiling", colors:{from:"#D2AC4E",to:"#E9C25B"}, preset:{scope:75,min:95,audit:90} },
+  Research:   { Icon:FiActivity,  deck:"Method validation with reproducible model behavior", colors:{from:"#C8A349",to:"#F1CE66"}, preset:{scope:78,min:88,audit:92} },
 };
 
 const BENEFITS: Record<Tab, string[]> = {
-  Government: ["Policy briefs","Receipts-ready outputs","Hours-to-insight"],
-  Security:   ["Targeted intel","Minimization","Governance-by-design"],
-  Newsrooms:  ["Narrative maps","Evidence bundles","Ethical limits"],
-  Civil:      ["Public methods","No profiling","Sample datasets"],
-  Research:   ["Open configs","Reproducibility","Validation paths"],
+  Government: ["Policy shock detection","Immunity veto for tainted inputs","Receipts-ready decisions"],
+  Security:   ["Coordinated campaign detection","Signal vs noise separation","Need-to-know operation mode"],
+  Newsrooms:  ["Narrative propagation maps","Visual meme correlation","Evidence bundles for editorial review"],
+  Civil:      ["No dragnet monitoring","Rights-first guardrails","Explainable public-facing outputs"],
+  Research:   ["Open method framing","Reproducible benchmarks","Auditable experiment chain"],
 };
 
 function gaugePath(percent:number){
