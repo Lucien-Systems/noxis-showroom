@@ -28,7 +28,7 @@ export default function Hero(){
           initial={{opacity:0,y:8}} animate={{opacity:1,y:0}} transition={{delay:.12}}
           className="flex gap-3 mt-4"
         >
-          <a className="btn-primary" href="#ecosystem">Lucien Ecosystem</a>
+          <a className="btn-primary" href="#how">Start NOXIS Walkthrough</a>
           <a className="btn" href="#about">Learn More</a>
         </motion.div>
 
