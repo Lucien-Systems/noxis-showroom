@@ -145,7 +145,7 @@ export default function Technology(){
 
               <div className="flex gap-3 mt-2">
                 <button className="btn-primary">Download sample config</button>
-                <a className="btn" href="#roadmap">See roadmap linkage</a>
+                <a className="btn" href="#ecosystem">See ecosystem linkage</a>
               </div>
             </motion.div>
           </AnimatePresence>

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
-const NAV = ["about","atlas","principles","how","audience","technology","roadmap","founder","press"];
+const NAV = ["about","principles","how","audience","technology","ecosystem","founder"];
 
 export default function Navbar(){
   const [active,setActive]=useState("about");
@@ -32,7 +32,7 @@ export default function Navbar(){
       <div className="backdrop-blur bg-bg/70 border-b border-line">
         <div className="max-w-[1200px] mx-auto flex items-center justify-between px-6 py-3">
           <div className="flex items-center gap-3">
-            <a href="#hero" className="flex items-center">
+            <a href="#top" className="flex items-center">
               <img src="/noxis-logo.svg" alt="Noxis" className="h-14 md:h-16" />
             </a>
             <span className="text-[11px] px-2 py-[2px] rounded-md bg-accent/10 border border-accent text-accent font-medium tracking-wide">

@@ -30,13 +30,13 @@ export default function Footer() {
               <div className="text-sm font-semibold mb-2">Contact</div>
               <ul className="space-y-1 text-sm">
                 <li>
-                  <a className="text-mute hover:text-ink hover:underline" href="mailto:media@noxis.ai">
-                    media@noxis.ai
+                  <a className="text-mute hover:text-ink hover:underline" href="mailto:company@luciensystems.io">
+                    company@luciensystems.io
                   </a>
                 </li>
                 <li>
-                  <a className="text-mute hover:text-ink hover:underline" href="#press">
-                    Press & media
+                  <a className="text-mute hover:text-ink hover:underline" href="#ecosystem">
+                    Ecosystem links
                   </a>
                 </li>
               </ul>
@@ -44,21 +44,31 @@ export default function Footer() {
 
             {/* Links */}
             <div>
-              <div className="text-sm font-semibold mb-2">Links</div>
+              <div className="text-sm font-semibold mb-2">Projects</div>
               <ul className="space-y-1 text-sm">
                 <li>
-                  <a className="text-mute hover:text-ink hover:underline" href="#technology">
-                    Technology
+                  <a className="text-mute hover:text-ink hover:underline" href="https://luciensystems.io" target="_blank" rel="noopener noreferrer">
+                    luciensystems.io
                   </a>
                 </li>
                 <li>
-                  <a className="text-mute hover:text-ink hover:underline" href="#roadmap">
-                    Roadmap
+                  <a className="text-mute hover:text-ink hover:underline" href="https://lucien.technology" target="_blank" rel="noopener noreferrer">
+                    lucien.technology
                   </a>
                 </li>
                 <li>
-                  <a className="text-mute hover:text-ink hover:underline" href="#atlas">
-                    Atlas
+                  <a className="text-mute hover:text-ink hover:underline" href="https://archeon.lucien.technology" target="_blank" rel="noopener noreferrer">
+                    archeon.lucien.technology
+                  </a>
+                </li>
+                <li>
+                  <a className="text-mute hover:text-ink hover:underline" href="https://portal.lucien.technology" target="_blank" rel="noopener noreferrer">
+                    portal.lucien.technology
+                  </a>
+                </li>
+                <li>
+                  <a className="text-mute hover:text-ink hover:underline" href="https://kryfor.lucien.technology" target="_blank" rel="noopener noreferrer">
+                    kryfor.lucien.technology
                   </a>
                 </li>
               </ul>
@@ -70,16 +80,8 @@ export default function Footer() {
               <ul className="space-y-1 text-sm">
                 <li className="text-mute">WCAG AA contrast</li>
                 <li className="text-mute">Auditability by design</li>
-                <li>
-                  <a className="text-mute hover:text-ink hover:underline" href="#privacy">
-                    Privacy
-                  </a>
-                </li>
-                <li>
-                  <a className="text-mute hover:text-ink hover:underline" href="#terms">
-                    Terms
-                  </a>
-                </li>
+                <li className="text-mute">Privacy-first constraints</li>
+                <li className="text-mute">Demo environment disclaimer</li>
               </ul>
             </div>
           </div>
