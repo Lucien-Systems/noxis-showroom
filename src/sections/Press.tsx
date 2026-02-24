@@ -78,7 +78,7 @@ export default function Press(){
               <motion.div key="assets" {...fade} className="grid gap-3 md:grid-cols-4">
                 {assets.map(a=>(
                   <button key={a.id} onClick={()=>setOpen({title:a.t, src:a.src})} className="relative group overflow-hidden rounded-2xl border border-line bg-panel hover:shadow-glow transition">
-                    <div className="absolute inset-0 bg-[radial-gradient(400px_140px_at_-120px_-80px,rgba(255,204,85,.10),transparent_70%)]" />
+                    <div className="absolute inset-0 bg-[radial-gradient(400px_140px_at_-120px_-80px,rgba(255,216,79,.10),transparent_70%)]" />
                     <div className="aspect-[4/3] grid place-items-center">
                       <FiImage className="text-accent2 opacity-80" />
                     </div>

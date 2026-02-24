@@ -50,7 +50,7 @@ export default function Roadmap(){
         </div>
 
         <div className="relative card p-6 overflow-hidden">
-          <div className="absolute inset-0 bg-[radial-gradient(650px_220px_at_-80px_-120px,rgba(30,233,166,.10),transparent_70%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(650px_220px_at_-80px_-120px,rgba(233,194,91,.10),transparent_70%)]" />
           <AnimatePresence mode="wait">
             <motion.div
               key={cur.t}

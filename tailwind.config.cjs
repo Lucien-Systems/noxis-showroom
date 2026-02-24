@@ -5,17 +5,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        bg: "#0B1224",
-        card: "#111A2D",
-        panel: "#162037",
-        line: "#1F3046",
-        ink: "#E7EEF8",
-        mute: "#9AA6BF",
-        accent: "#1EE9A6",
-        accent2: "#FFCC55",
+        bg: "#040816",
+        card: "#0A132B",
+        panel: "#101C3A",
+        line: "#24345C",
+        ink: "#F2F5FF",
+        mute: "#97A7CC",
+        accent: "#E9C25B",
+        accent2: "#FFD84F",
       },
       boxShadow: {
-        glow: "0 0 0 1px #263850, 0 0 32px 3px rgba(30,233,166,.12)",
+        glow: "0 0 0 1px #24345c, 0 0 38px 4px rgba(255,216,79,.18)",
       },
       borderRadius: {
         "2xl": "20px",

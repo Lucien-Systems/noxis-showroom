@@ -21,7 +21,7 @@
 }
 
 @layer utilities {
-  .shadow-glow { box-shadow: 0 0 0 1px #263850, 0 0 32px 3px rgba(30,233,166,.12); }
-  .shadow-glow-strong { box-shadow: 0 0 0 1px #385070, 0 0 48px 6px rgba(255,204,85,.28); }
+  .shadow-glow { box-shadow: 0 0 0 1px #24345C, 0 0 32px 3px rgba(233,194,91,.12); }
+  .shadow-glow-strong { box-shadow: 0 0 0 1px #334A7D, 0 0 48px 6px rgba(255,216,79,.28); }
   .focus-ring:focus { outline: 2px solid theme(colors.accent); outline-offset: 2px; }
 }

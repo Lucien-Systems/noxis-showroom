@@ -87,7 +87,7 @@ export default function Footer() {
           {/* Bottom bar */}
           <div className="border-t border-line/60 px-6 py-3 text-xs text-mute flex items-center justify-between">
             <div>© {year} NOXIS. All rights reserved.</div>
-            <div className="h-px w-24 bg-accent2/70 shadow-[0_0_12px_1px_rgba(255,204,85,0.35)] rounded-full" />
+            <div className="h-px w-24 bg-accent2/70 shadow-[0_0_12px_1px_rgba(255,216,79,0.35)] rounded-full" />
           </div>
         </div>
       </div>

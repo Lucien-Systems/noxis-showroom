@@ -68,7 +68,7 @@ export default function Atlas() {
           </button>
         </div>
 
-        <div className="rounded-2xl border border-[#1F3046] bg-[#111A2D] p-4 shadow-[0_0_0_1px_#263850,0_0_32px_3px_rgba(30,233,166,.12)]">
+        <div className="rounded-2xl border border-[#24345C] bg-[#0A132B] p-4 shadow-[0_0_0_1px_#24345C,0_0_32px_3px_rgba(233,194,91,.12)]">
           <div className="relative mx-auto max-w-full overflow-hidden">
             <svg
               viewBox="0 0 600 460"
@@ -78,8 +78,8 @@ export default function Atlas() {
               {/* gradient pro hrany */}
               <defs>
                 <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0%" stopColor="#1EE9A6" stopOpacity="0.7" />
-                  <stop offset="100%" stopColor="#FFCC55" stopOpacity="0.7" />
+                  <stop offset="0%" stopColor="#E9C25B" stopOpacity="0.7" />
+                  <stop offset="100%" stopColor="#FFD84F" stopOpacity="0.7" />
                 </linearGradient>
                 <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
                   <feGaussianBlur stdDeviation="6" result="coloredBlur" />
@@ -147,7 +147,7 @@ function NodeRect({ x, y, label }: { x: number; y: number; label: string }) {
         strokeWidth={3}
       />
       {/* neon tečka nahoře */}
-      <circle cx={x} cy={y - ry - capR + 4} r={capR} fill="#0F1A2B" stroke="#27F0B3" strokeWidth={6} />
+      <circle cx={x} cy={y - ry - capR + 4} r={capR} fill="#0F1A2B" stroke="#E9C25B" strokeWidth={6} />
       {/* text */}
       <text
         x={x}

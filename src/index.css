@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:focus-visible { outline: 2px solid #1EE9A6; outline-offset: 2px; }
+:focus-visible { outline: 2px solid #FFD84F; outline-offset: 2px; }
 html { scroll-behavior: smooth; color-scheme: dark; }
 
 /* Fallback-safe global styling */
@@ -14,9 +14,23 @@ body,
 
 body {
   margin: 0;
-  background: #0b1224;
-  color: #e7eef8;
+  background-color: #040816;
+  background-image:
+    radial-gradient(1400px 700px at 12% -8%, rgba(255, 216, 79, 0.1), transparent 62%),
+    radial-gradient(1200px 680px at 92% 0%, rgba(38, 60, 109, 0.45), transparent 66%),
+    linear-gradient(180deg, #040816 0%, #060d1f 46%, #08132b 100%);
+  color: #f2f5ff;
   font-family: Inter, system-ui, sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(circle at 1px 1px, rgba(255, 216, 79, 0.09) 1px, transparent 0);
+  background-size: 26px 26px;
+  opacity: 0.22;
 }
 
 .container {
@@ -45,7 +59,7 @@ body {
   margin: 0;
   font-size: 1.6rem;
   font-weight: 700;
-  color: #e7eef8;
+  color: #f2f5ff;
 }
 
 @layer components {
@@ -68,10 +82,10 @@ body {
 
 @layer utilities {
   .shadow-glow {
-    box-shadow: 0 0 0 1px #263850, 0 0 32px 3px rgba(30, 233, 166, 0.12);
+    box-shadow: 0 0 0 1px #24345c, 0 0 32px 3px rgba(255, 216, 79, 0.15);
   }
 
   .shadow-glow-strong {
-    box-shadow: 0 0 0 1px #385070, 0 0 48px 6px rgba(255, 204, 85, 0.28);
+    box-shadow: 0 0 0 1px #334a7d, 0 0 48px 8px rgba(255, 216, 79, 0.32);
   }
 }
