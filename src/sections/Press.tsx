@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { FiDownload, FiFileText, FiCalendar, FiMail, FiImage, FiCopy } from "react-icons/fi";
-import Modal from "../components/Modal.tsx";
+import Modal from "../components/Modal";
 
 type Tab = "press" | "assets";
 

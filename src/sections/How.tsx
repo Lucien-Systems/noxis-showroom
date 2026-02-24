@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import HowViz from "../components/HowViz.tsx";
+import HowViz from "../components/HowViz";
 
 type Step = 1 | 2 | 3 | 4 | 5;
 
