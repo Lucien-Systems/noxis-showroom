@@ -1,4 +1,14 @@
 import { Fragment } from "react";
+import {
+  AlertTriangle,
+  BriefcaseBusiness,
+  Building2,
+  Radar,
+  ShieldCheck,
+  Sparkles,
+  UserRound,
+  Waypoints,
+} from "lucide-react";
 import { industries, roles, tiers, useCases } from "../content/siteData";
 
 type SolutionsPageProps = {
@@ -32,53 +42,91 @@ const scenarioMatrix = [
   },
 ];
 
+const useCaseIcons = [ShieldCheck, AlertTriangle, Waypoints, Radar];
+
 export default function SolutionsPage({ onNavigate }: SolutionsPageProps) {
   return (
     <>
       <section className="hero-band hero-solutions">
         <div className="container hero-grid">
-          <div>
+          <div className="hero-content">
             <p className="kicker">Solutions</p>
             <h1 className="display-title">Protect institutions from narrative, visual, and aerial threats</h1>
             <p className="hero-copy">
-              NOXIS delivers configurable solutions by use case, sector, and command role to prevent escalation across
-              information and physical domains.
+              NOXIS provides configurable solutions by scenario, sector, and command role across information and
+              physical domains.
             </p>
+            <div className="hero-kpis" aria-label="Solution outcomes">
+              <span className="hero-kpi">
+                <ShieldCheck size={16} aria-hidden="true" />
+                Faster incident triage
+              </span>
+              <span className="hero-kpi">
+                <Radar size={16} aria-hidden="true" />
+                Multi-domain correlation
+              </span>
+              <span className="hero-kpi">
+                <Sparkles size={16} aria-hidden="true" />
+                Mandate-ready governance
+              </span>
+            </div>
           </div>
           <div className="hero-visual" aria-hidden="true">
             <img src="/assets/noxis-hero.png" alt="" />
+            <span className="hero-visual__badge hero-visual__badge--top">Use-case Driven</span>
+            <span className="hero-visual__badge hero-visual__badge--bottom">Tier-aligned Outcomes</span>
           </div>
         </div>
       </section>
 
       <section id="use-cases" className="section-block section-dark">
         <div className="container section-3col">
-          <article>
-            <h2 className="section-title">Solutions by Use Case</h2>
+          <article className="content-panel">
+            <h2 className="section-title section-title--with-icon">
+              <BriefcaseBusiness className="section-icon" aria-hidden="true" />
+              Solutions by Use Case
+            </h2>
             <div className="link-stack">
-              {useCases.map((entry) => (
-                <div key={entry.title} className="link-stack__item">
-                  <h3>{entry.title}</h3>
-                  <p>{entry.detail}</p>
-                </div>
-              ))}
+              {useCases.map((entry, index) => {
+                const Icon = useCaseIcons[index % useCaseIcons.length];
+                return (
+                  <div key={entry.title} className="link-stack__item">
+                    <div className="card-head">
+                      <span className="card-icon" aria-hidden="true">
+                        <Icon size={18} />
+                      </span>
+                      <p className="card-eyebrow">Mission scenario</p>
+                    </div>
+                    <h3>{entry.title}</h3>
+                    <p>{entry.detail}</p>
+                  </div>
+                );
+              })}
             </div>
           </article>
-          <article>
-            <h2 className="section-title">Solutions by Industry</h2>
+          <article className="content-panel">
+            <h2 className="section-title section-title--with-icon">
+              <Building2 className="section-icon" aria-hidden="true" />
+              Solutions by Industry
+            </h2>
             <div className="pill-grid">
               {industries.map((item) => (
                 <span key={item} className="line-pill">
+                  <Building2 size={14} aria-hidden="true" />
                   {item}
                 </span>
               ))}
             </div>
           </article>
-          <article>
-            <h2 className="section-title">Solutions by Role</h2>
+          <article className="content-panel">
+            <h2 className="section-title section-title--with-icon">
+              <UserRound className="section-icon" aria-hidden="true" />
+              Solutions by Role
+            </h2>
             <div className="pill-grid">
               {roles.map((item) => (
                 <span key={item} className="line-pill">
+                  <UserRound size={14} aria-hidden="true" />
                   {item}
                 </span>
               ))}
@@ -91,23 +139,26 @@ export default function SolutionsPage({ onNavigate }: SolutionsPageProps) {
         <div className="container">
           <div className="section-head">
             <p className="kicker">Tier-to-Scenario Matrix</p>
-            <h2 className="section-title">How the three layers work together in live operations</h2>
+            <h2 className="section-title section-title--with-icon">
+              <Waypoints className="section-icon" aria-hidden="true" />
+              How the three layers operate together in live conditions
+            </h2>
           </div>
-          <div className="matrix-table">
-            <div className="matrix-head">Scenario</div>
-            <div className="matrix-head">{tiers[0].name}</div>
-            <div className="matrix-head">{tiers[1].name}</div>
-            <div className="matrix-head">{tiers[2].name}</div>
-            {scenarioMatrix.map((row) => (
-              <Fragment key={row.scenario}>
-                <div className="matrix-cell matrix-cell--scenario">
-                  {row.scenario}
-                </div>
-                <div className="matrix-cell">{row.tierA}</div>
-                <div className="matrix-cell">{row.tierB}</div>
-                <div className="matrix-cell">{row.tierC}</div>
-              </Fragment>
-            ))}
+          <div className="matrix-wrap">
+            <div className="matrix-table">
+              <div className="matrix-head">Scenario</div>
+              <div className="matrix-head">{tiers[0].name}</div>
+              <div className="matrix-head">{tiers[1].name}</div>
+              <div className="matrix-head">{tiers[2].name}</div>
+              {scenarioMatrix.map((row) => (
+                <Fragment key={row.scenario}>
+                  <div className="matrix-cell matrix-cell--scenario">{row.scenario}</div>
+                  <div className="matrix-cell">{row.tierA}</div>
+                  <div className="matrix-cell">{row.tierB}</div>
+                  <div className="matrix-cell">{row.tierC}</div>
+                </Fragment>
+              ))}
+            </div>
           </div>
         </div>
       </section>

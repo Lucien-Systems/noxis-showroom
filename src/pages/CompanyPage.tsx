@@ -1,24 +1,36 @@
+import type { LucideIcon } from "lucide-react";
+import { Compass, Gavel, Handshake, ShieldCheck, Sparkles, Users, Waypoints } from "lucide-react";
 import { companyMilestones } from "../content/siteData";
 
 type CompanyPageProps = {
   onNavigate: (path: string) => void;
 };
 
-const leadership = [
+type LeadershipItem = {
+  name: string;
+  role: string;
+  brief: string;
+  icon: LucideIcon;
+};
+
+const leadership: LeadershipItem[] = [
   {
     name: "Adam Karl Lucien",
     role: "Chief Architect, NOXIS",
     brief: "Designs the tiered intelligence architecture and governance doctrine for institutional deployments.",
+    icon: Compass,
   },
   {
     name: "Strategic Operations Cell",
     role: "Mission Planning Unit",
     brief: "Builds cross-tier playbooks for narrative escalation, surveillance response, and ISR coordination.",
+    icon: Waypoints,
   },
   {
     name: "Oversight and Legal Team",
     role: "Governance Authority",
     brief: "Ensures mandate compliance, access accountability, and audit readiness across active operations.",
+    icon: Gavel,
   },
 ];
 
@@ -31,41 +43,73 @@ const governancePoints = [
   "Red-team and synthetic rehearsal environments",
 ];
 
+const allianceItems = [
+  "National command partners",
+  "Critical infrastructure agencies",
+  "Cyber and threat intelligence networks",
+  "Emergency response authorities",
+  "Public communication and media risk units",
+  "Judicial and compliance oversight bodies",
+];
+
 export default function CompanyPage({ onNavigate }: CompanyPageProps) {
   return (
     <>
       <section className="hero-band hero-company">
         <div className="container hero-grid">
-          <div>
+          <div className="hero-content">
             <p className="kicker">Company</p>
             <h1 className="display-title">Protectors of Narrative and Operational Integrity</h1>
             <p className="hero-copy">
-              NOXIS exists to help institutions operate under pressure with stronger information integrity, faster
-              situational awareness, and accountable decision authority.
+              NOXIS helps institutions operate under pressure with stronger information integrity, faster situational
+              awareness, and accountable decision authority.
             </p>
+            <div className="hero-kpis" aria-label="Company posture">
+              <span className="hero-kpi">
+                <ShieldCheck size={16} aria-hidden="true" />
+                Governance first
+              </span>
+              <span className="hero-kpi">
+                <Users size={16} aria-hidden="true" />
+                Institutional operations
+              </span>
+              <span className="hero-kpi">
+                <Sparkles size={16} aria-hidden="true" />
+                High-accountability deployment
+              </span>
+            </div>
           </div>
           <div className="hero-visual" aria-hidden="true">
             <img src="/assets/noxis-hero.png" alt="" />
+            <span className="hero-visual__badge hero-visual__badge--top">Strategic Alliances</span>
+            <span className="hero-visual__badge hero-visual__badge--bottom">Policy + Operations + Legal</span>
           </div>
         </div>
       </section>
 
       <section id="governance" className="section-block section-dark">
         <div className="container section-2col">
-          <article>
-            <h2 className="section-title">Mission and governance stance</h2>
+          <article className="content-panel">
+            <h2 className="section-title section-title--with-icon">
+              <ShieldCheck className="section-icon" aria-hidden="true" />
+              Mission and governance stance
+            </h2>
             <p>
               We build sovereign intelligence systems for environments where narrative pressure, surveillance demands,
-              and operational risk converge. Every NOXIS deployment is designed for high-control institutions requiring
-              legal-grade oversight and traceability.
+              and operational risk converge.
             </p>
             <p>
-              Our architecture supports both national command structures and critical infrastructure operators under
-              formal governance protocols.
+              Every deployment is designed for institutions that require legal-grade oversight, mandate controls, and
+              full traceability.
             </p>
           </article>
           <article className="module-card">
-            <h3>Governance controls</h3>
+            <div className="card-head">
+              <span className="card-icon" aria-hidden="true">
+                <Gavel size={18} />
+              </span>
+              <p className="card-eyebrow">Governance controls</p>
+            </div>
             <ul>
               {governancePoints.map((point) => (
                 <li key={point}>{point}</li>
@@ -79,16 +123,27 @@ export default function CompanyPage({ onNavigate }: CompanyPageProps) {
         <div className="container">
           <div className="section-head">
             <p className="kicker">Leadership</p>
-            <h2 className="section-title">Mission team built for high-accountability operations</h2>
+            <h2 className="section-title section-title--with-icon">
+              <Users className="section-icon" aria-hidden="true" />
+              Mission team built for high-accountability operations
+            </h2>
           </div>
           <div className="case-grid">
-            {leadership.map((person) => (
-              <article key={person.name} className="case-card">
-                <h3>{person.name}</h3>
-                <p className="role-label">{person.role}</p>
-                <p>{person.brief}</p>
-              </article>
-            ))}
+            {leadership.map((person) => {
+              const Icon = person.icon;
+              return (
+                <article key={person.name} className="case-card">
+                  <div className="card-head">
+                    <span className="card-icon" aria-hidden="true">
+                      <Icon size={18} />
+                    </span>
+                    <p className="card-eyebrow">{person.role}</p>
+                  </div>
+                  <h3>{person.name}</h3>
+                  <p>{person.brief}</p>
+                </article>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -97,15 +152,18 @@ export default function CompanyPage({ onNavigate }: CompanyPageProps) {
         <div className="container">
           <div className="section-head">
             <p className="kicker">Alliance Framework</p>
-            <h2 className="section-title">Partnerships across policy, security, and infrastructure domains</h2>
+            <h2 className="section-title section-title--with-icon">
+              <Handshake className="section-icon" aria-hidden="true" />
+              Partnerships across policy, security, and infrastructure domains
+            </h2>
           </div>
           <div className="pill-grid">
-            <span className="line-pill">National command partners</span>
-            <span className="line-pill">Critical infrastructure agencies</span>
-            <span className="line-pill">Cyber and threat intelligence networks</span>
-            <span className="line-pill">Emergency response authorities</span>
-            <span className="line-pill">Public communication and media risk units</span>
-            <span className="line-pill">Judicial and compliance oversight bodies</span>
+            {allianceItems.map((item) => (
+              <span key={item} className="line-pill">
+                <Handshake size={14} aria-hidden="true" />
+                {item}
+              </span>
+            ))}
           </div>
         </div>
       </section>
@@ -114,7 +172,10 @@ export default function CompanyPage({ onNavigate }: CompanyPageProps) {
         <div className="container">
           <div className="section-head">
             <p className="kicker">Timeline</p>
-            <h2 className="section-title">NOXIS evolution</h2>
+            <h2 className="section-title section-title--with-icon">
+              <Waypoints className="section-icon" aria-hidden="true" />
+              NOXIS evolution
+            </h2>
           </div>
           <div className="timeline-grid">
             {companyMilestones.map((milestone) => (

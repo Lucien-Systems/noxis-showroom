@@ -1,3 +1,4 @@
+import { ArrowUpRight } from "lucide-react";
 import { useMemo } from "react";
 
 type NavItem = {
@@ -70,6 +71,7 @@ export default function SiteHeader({ currentPath, onNavigate }: SiteHeaderProps)
           }}
         >
           Book a Demo
+          <ArrowUpRight size={16} aria-hidden="true" />
         </a>
       </div>
     </header>

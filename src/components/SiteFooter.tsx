@@ -1,3 +1,4 @@
+import { BookOpenText, Building2, Send, Shield } from "lucide-react";
 import { industries, roles, tiers, useCases } from "../content/siteData";
 
 type SiteFooterProps = {
@@ -63,7 +64,10 @@ export default function SiteFooter({ onNavigate }: SiteFooterProps) {
 
           <div className="footer-columns">
             <div>
-              <h4>Platform</h4>
+              <h4 className="footer-heading">
+                <Building2 size={14} aria-hidden="true" />
+                Platform
+              </h4>
               <div className="footer-list">
                 {platformLinks.map((link) => (
                   <FooterLink key={link.path} label={link.label} path={link.path} onNavigate={onNavigate} />
@@ -71,7 +75,10 @@ export default function SiteFooter({ onNavigate }: SiteFooterProps) {
               </div>
             </div>
             <div>
-              <h4>Company</h4>
+              <h4 className="footer-heading">
+                <Shield size={14} aria-hidden="true" />
+                Company
+              </h4>
               <div className="footer-list">
                 {companyLinks.map((link) => (
                   <FooterLink key={link.path} label={link.label} path={link.path} onNavigate={onNavigate} />
@@ -79,7 +86,10 @@ export default function SiteFooter({ onNavigate }: SiteFooterProps) {
               </div>
             </div>
             <div>
-              <h4>Learn</h4>
+              <h4 className="footer-heading">
+                <BookOpenText size={14} aria-hidden="true" />
+                Learn
+              </h4>
               <div className="footer-list">
                 {learnLinks.map((link) => (
                   <FooterLink key={link.path} label={link.label} path={link.path} onNavigate={onNavigate} />
@@ -126,7 +136,10 @@ export default function SiteFooter({ onNavigate }: SiteFooterProps) {
 
         <div className="site-footer__bottom">
           <span>© 2026 NOXIS // Sovereign intelligence operations.</span>
-          <span>Built for mandate-based deployment and accountable oversight.</span>
+          <span className="footer-signoff">
+            <Send size={13} aria-hidden="true" />
+            Built for mandate-based deployment and accountable oversight.
+          </span>
         </div>
       </div>
     </footer>

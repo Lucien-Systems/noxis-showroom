@@ -1,0 +1,226 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button "Go to NOXIS homepage" [ref=e6] [cursor=pointer]:
+        - img "NOXIS" [ref=e7]
+        - generic [ref=e8]: Sovereign Intelligence Grid
+      - navigation "Primary" [ref=e9]:
+        - link "Platform" [ref=e10] [cursor=pointer]:
+          - /url: /platform
+        - link "Solutions" [ref=e11] [cursor=pointer]:
+          - /url: /solutions
+        - link "Company" [ref=e12] [cursor=pointer]:
+          - /url: /company
+        - link "LAB" [ref=e13] [cursor=pointer]:
+          - /url: /lab
+        - link "Pricing" [ref=e14] [cursor=pointer]:
+          - /url: /pricing
+      - link "Book a Demo" [ref=e15] [cursor=pointer]:
+        - /url: /pricing#contact
+        - text: Book a Demo
+        - img [ref=e16]
+  - main [ref=e19]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - paragraph [ref=e23]: Company
+        - heading "Protectors of Narrative and Operational Integrity" [level=1] [ref=e24]
+        - paragraph [ref=e25]: NOXIS helps institutions operate under pressure with stronger information integrity, faster situational awareness, and accountable decision authority.
+        - generic "Company posture" [ref=e26]:
+          - generic [ref=e27]:
+            - img [ref=e28]
+            - text: Governance first
+          - generic [ref=e31]:
+            - img [ref=e32]
+            - text: Institutional operations
+          - generic [ref=e37]:
+            - img [ref=e38]
+            - text: High-accountability deployment
+      - generic [ref=e41]:
+        - generic [ref=e42]: Strategic Alliances
+        - generic [ref=e43]: Policy + Operations + Legal
+    - generic [ref=e45]:
+      - article [ref=e46]:
+        - heading "Mission and governance stance" [level=2] [ref=e47]:
+          - img [ref=e48]
+          - text: Mission and governance stance
+        - paragraph [ref=e51]: We build sovereign intelligence systems for environments where narrative pressure, surveillance demands, and operational risk converge.
+        - paragraph [ref=e52]: Every deployment is designed for institutions that require legal-grade oversight, mandate controls, and full traceability.
+      - article [ref=e53]:
+        - generic [ref=e54]:
+          - img [ref=e56]
+          - paragraph [ref=e62]: Governance controls
+        - list [ref=e63]:
+          - listitem [ref=e64]: Mandate-aware access boundaries and role-scoped visibility
+          - listitem [ref=e65]: Continuous operator accountability and intervention ledger
+          - listitem [ref=e66]: Cryptographic receipts for court-compatible replay
+          - listitem [ref=e67]: Data minimization and retention controls by jurisdiction
+          - listitem [ref=e68]: Supervisory override chain for critical incidents
+          - listitem [ref=e69]: Red-team and synthetic rehearsal environments
+    - generic [ref=e71]:
+      - generic [ref=e72]:
+        - paragraph [ref=e73]: Leadership
+        - heading "Mission team built for high-accountability operations" [level=2] [ref=e74]:
+          - img [ref=e75]
+          - text: Mission team built for high-accountability operations
+      - generic [ref=e80]:
+        - article [ref=e81]:
+          - generic [ref=e82]:
+            - img [ref=e84]
+            - paragraph [ref=e87]: Chief Architect, NOXIS
+          - heading "Adam Karl Lucien" [level=3] [ref=e88]
+          - paragraph [ref=e89]: Designs the tiered intelligence architecture and governance doctrine for institutional deployments.
+        - article [ref=e90]:
+          - generic [ref=e91]:
+            - img [ref=e93]
+            - paragraph [ref=e100]: Mission Planning Unit
+          - heading "Strategic Operations Cell" [level=3] [ref=e101]
+          - paragraph [ref=e102]: Builds cross-tier playbooks for narrative escalation, surveillance response, and ISR coordination.
+        - article [ref=e103]:
+          - generic [ref=e104]:
+            - img [ref=e106]
+            - paragraph [ref=e112]: Governance Authority
+          - heading "Oversight and Legal Team" [level=3] [ref=e113]
+          - paragraph [ref=e114]: Ensures mandate compliance, access accountability, and audit readiness across active operations.
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - paragraph [ref=e118]: Alliance Framework
+        - heading "Partnerships across policy, security, and infrastructure domains" [level=2] [ref=e119]:
+          - img [ref=e120]
+          - text: Partnerships across policy, security, and infrastructure domains
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - img [ref=e127]
+          - text: National command partners
+        - generic [ref=e132]:
+          - img [ref=e133]
+          - text: Critical infrastructure agencies
+        - generic [ref=e138]:
+          - img [ref=e139]
+          - text: Cyber and threat intelligence networks
+        - generic [ref=e144]:
+          - img [ref=e145]
+          - text: Emergency response authorities
+        - generic [ref=e150]:
+          - img [ref=e151]
+          - text: Public communication and media risk units
+        - generic [ref=e156]:
+          - img [ref=e157]
+          - text: Judicial and compliance oversight bodies
+    - generic [ref=e163]:
+      - generic [ref=e164]:
+        - paragraph [ref=e165]: Timeline
+        - heading "NOXIS evolution" [level=2] [ref=e166]:
+          - img [ref=e167]
+          - text: NOXIS evolution
+      - generic [ref=e174]:
+        - article [ref=e175]:
+          - paragraph [ref=e176]: "2023"
+          - heading "NOXIS architecture program initiated" [level=3] [ref=e177]
+          - paragraph [ref=e178]: "Mission: align advanced surveillance and narrative intelligence with accountable governance."
+        - article [ref=e179]:
+          - paragraph [ref=e180]: "2024"
+          - heading "Tiered intelligence blueprint validated" [level=3] [ref=e181]
+          - paragraph [ref=e182]: Narrative, camera, and aerial layers integrated into one decision model.
+        - article [ref=e183]:
+          - paragraph [ref=e184]: "2025"
+          - heading "Command-ready synthetic operational environment" [level=3] [ref=e185]
+          - paragraph [ref=e186]: Full-stack simulation enabled for policy rehearsal and operator training.
+        - article [ref=e187]:
+          - paragraph [ref=e188]: "2026"
+          - heading "National deployment preparation framework" [level=3] [ref=e189]
+          - paragraph [ref=e190]: Mandate-aware access controls and legal-grade audit protocols completed.
+    - generic [ref=e192]:
+      - generic [ref=e193]:
+        - paragraph [ref=e194]: Strategic Contact
+        - heading "Discuss alliance, policy, or deployment pathways." [level=2] [ref=e195]
+        - paragraph [ref=e196]: Connect with the NOXIS team to align mission objectives with tiered implementation.
+      - link "Contact Strategic Team" [ref=e197] [cursor=pointer]:
+        - /url: /pricing#contact
+  - contentinfo [ref=e198]:
+    - generic [ref=e199]:
+      - generic [ref=e200]:
+        - generic [ref=e201]:
+          - heading "Subscribe to Mission Updates" [level=3] [ref=e202]
+          - paragraph [ref=e203]: Receive deployment notes, threat briefs, and operational methodology updates.
+          - generic [ref=e204]:
+            - textbox "Work email address" [ref=e205]
+            - button "Subscribe" [ref=e206] [cursor=pointer]
+        - generic [ref=e207]:
+          - generic [ref=e208]:
+            - heading "Platform" [level=4] [ref=e209]:
+              - img [ref=e210]
+              - text: Platform
+            - generic [ref=e214]:
+              - link "Constellation Command Grid" [ref=e215] [cursor=pointer]:
+                - /url: /platform
+              - link "Realtime Vision Core" [ref=e216] [cursor=pointer]:
+                - /url: /platform#vision
+              - link "Narrative Risk Engine" [ref=e217] [cursor=pointer]:
+                - /url: /platform#narrative
+              - link "Aerial ISR Fabric" [ref=e218] [cursor=pointer]:
+                - /url: /platform#aerial
+          - generic [ref=e219]:
+            - heading "Company" [level=4] [ref=e220]:
+              - img [ref=e221]
+              - text: Company
+            - generic [ref=e223]:
+              - link "Mission and Oversight" [ref=e224] [cursor=pointer]:
+                - /url: /company
+              - link "Alliances" [ref=e225] [cursor=pointer]:
+                - /url: /company#alliances
+              - link "Leadership" [ref=e226] [cursor=pointer]:
+                - /url: /company#leadership
+              - link "Contact" [ref=e227] [cursor=pointer]:
+                - /url: /pricing#contact
+          - generic [ref=e228]:
+            - heading "Learn" [level=4] [ref=e229]:
+              - img [ref=e230]
+              - text: Learn
+            - generic [ref=e232]:
+              - link "LAB Reports" [ref=e233] [cursor=pointer]:
+                - /url: /lab
+              - link "Tier Architecture" [ref=e234] [cursor=pointer]:
+                - /url: /platform#tiers
+              - link "Use Case Matrix" [ref=e235] [cursor=pointer]:
+                - /url: /solutions#use-cases
+              - link "Governance Model" [ref=e236] [cursor=pointer]:
+                - /url: /company#governance
+      - generic [ref=e237]:
+        - article [ref=e238]:
+          - heading "Tier Stack" [level=5] [ref=e239]
+          - list [ref=e240]:
+            - listitem [ref=e241]: Tier A / Narrative Defense
+            - listitem [ref=e242]: Tier B / Vision and Sensors
+            - listitem [ref=e243]: Tier C / Aerial and ISR
+        - article [ref=e244]:
+          - heading "Industries" [level=5] [ref=e245]
+          - list [ref=e246]:
+            - listitem [ref=e247]: National Security
+            - listitem [ref=e248]: Public Sector
+            - listitem [ref=e249]: Critical Infrastructure
+            - listitem [ref=e250]: Financial Systems
+            - listitem [ref=e251]: Media and Communications
+            - listitem [ref=e252]: Transportation
+            - listitem [ref=e253]: Healthcare Networks
+            - listitem [ref=e254]: Energy Operations
+        - article [ref=e255]:
+          - heading "Roles" [level=5] [ref=e256]
+          - list [ref=e257]:
+            - listitem [ref=e258]: Security Leadership
+            - listitem [ref=e259]: Intelligence Directors
+            - listitem [ref=e260]: Operations Centers
+            - listitem [ref=e261]: Crisis Communication Teams
+            - listitem [ref=e262]: Policy and Governance Boards
+            - listitem [ref=e263]: Risk and Compliance Leads
+        - article [ref=e264]:
+          - heading "Use Cases" [level=5] [ref=e265]
+          - list [ref=e266]:
+            - listitem [ref=e267]: Election integrity and narrative containment
+            - listitem [ref=e268]: Urban camera command and incident response
+            - listitem [ref=e269]: Border and perimeter drone oversight
+            - listitem [ref=e270]: Critical infrastructure continuity
+      - generic [ref=e271]:
+        - generic [ref=e272]: © 2026 NOXIS // Sovereign intelligence operations.
+        - generic [ref=e273]:
+          - img [ref=e274]
+          - text: Built for mandate-based deployment and accountable oversight.

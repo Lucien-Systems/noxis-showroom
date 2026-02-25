@@ -1,0 +1,244 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button "Go to NOXIS homepage" [ref=e6] [cursor=pointer]:
+        - img "NOXIS" [ref=e7]
+        - generic [ref=e8]: Sovereign Intelligence Grid
+      - navigation "Primary" [ref=e9]:
+        - link "Platform" [ref=e10] [cursor=pointer]:
+          - /url: /platform
+        - link "Solutions" [ref=e11] [cursor=pointer]:
+          - /url: /solutions
+        - link "Company" [ref=e12] [cursor=pointer]:
+          - /url: /company
+        - link "LAB" [ref=e13] [cursor=pointer]:
+          - /url: /lab
+        - link "Pricing" [ref=e14] [cursor=pointer]:
+          - /url: /pricing
+      - link "Book a Demo" [ref=e15] [cursor=pointer]:
+        - /url: /pricing#contact
+        - text: Book a Demo
+        - img [ref=e16]
+  - main [ref=e19]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - paragraph [ref=e23]: Solutions
+        - heading "Protect institutions from narrative, visual, and aerial threats" [level=1] [ref=e24]
+        - paragraph [ref=e25]: NOXIS provides configurable solutions by scenario, sector, and command role across information and physical domains.
+        - generic "Solution outcomes" [ref=e26]:
+          - generic [ref=e27]:
+            - img [ref=e28]
+            - text: Faster incident triage
+          - generic [ref=e31]:
+            - img [ref=e32]
+            - text: Multi-domain correlation
+          - generic [ref=e39]:
+            - img [ref=e40]
+            - text: Mandate-ready governance
+      - generic [ref=e43]:
+        - generic [ref=e44]: Use-case Driven
+        - generic [ref=e45]: Tier-aligned Outcomes
+    - generic [ref=e47]:
+      - article [ref=e48]:
+        - heading "Solutions by Use Case" [level=2] [ref=e49]:
+          - img [ref=e50]
+          - text: Solutions by Use Case
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - img [ref=e58]
+              - paragraph [ref=e61]: Mission scenario
+            - heading "Election integrity and narrative containment" [level=3] [ref=e62]
+            - paragraph [ref=e63]: Detects coordinated disinformation spikes, synthetic media clusters, and influence channels before they destabilize public decision cycles.
+          - generic [ref=e64]:
+            - generic [ref=e65]:
+              - img [ref=e67]
+              - paragraph [ref=e69]: Mission scenario
+            - heading "Urban camera command and incident response" [level=3] [ref=e70]
+            - paragraph [ref=e71]: Correlates realtime camera signals across city, transport, and emergency nodes for faster intervention decisions.
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - img [ref=e75]
+              - paragraph [ref=e82]: Mission scenario
+            - heading "Border and perimeter drone oversight" [level=3] [ref=e83]
+            - paragraph [ref=e84]: Monitors geospatial corridors with mission telemetry and synchronized escalation into command governance channels.
+          - generic [ref=e85]:
+            - generic [ref=e86]:
+              - img [ref=e88]
+              - paragraph [ref=e95]: Mission scenario
+            - heading "Critical infrastructure continuity" [level=3] [ref=e96]
+            - paragraph [ref=e97]: Maps cascading risks across facilities, media narratives, and field sensors to protect operations under stress.
+      - article [ref=e98]:
+        - heading "Solutions by Industry" [level=2] [ref=e99]:
+          - img [ref=e100]
+          - text: Solutions by Industry
+        - generic [ref=e104]:
+          - generic [ref=e105]:
+            - img [ref=e106]
+            - text: National Security
+          - generic [ref=e110]:
+            - img [ref=e111]
+            - text: Public Sector
+          - generic [ref=e115]:
+            - img [ref=e116]
+            - text: Critical Infrastructure
+          - generic [ref=e120]:
+            - img [ref=e121]
+            - text: Financial Systems
+          - generic [ref=e125]:
+            - img [ref=e126]
+            - text: Media and Communications
+          - generic [ref=e130]:
+            - img [ref=e131]
+            - text: Transportation
+          - generic [ref=e135]:
+            - img [ref=e136]
+            - text: Healthcare Networks
+          - generic [ref=e140]:
+            - img [ref=e141]
+            - text: Energy Operations
+      - article [ref=e145]:
+        - heading "Solutions by Role" [level=2] [ref=e146]:
+          - img [ref=e147]
+          - text: Solutions by Role
+        - generic [ref=e150]:
+          - generic [ref=e151]:
+            - img [ref=e152]
+            - text: Security Leadership
+          - generic [ref=e155]:
+            - img [ref=e156]
+            - text: Intelligence Directors
+          - generic [ref=e159]:
+            - img [ref=e160]
+            - text: Operations Centers
+          - generic [ref=e163]:
+            - img [ref=e164]
+            - text: Crisis Communication Teams
+          - generic [ref=e167]:
+            - img [ref=e168]
+            - text: Policy and Governance Boards
+          - generic [ref=e171]:
+            - img [ref=e172]
+            - text: Risk and Compliance Leads
+    - generic [ref=e176]:
+      - generic [ref=e177]:
+        - paragraph [ref=e178]: Tier-to-Scenario Matrix
+        - heading "How the three layers operate together in live conditions" [level=2] [ref=e179]:
+          - img [ref=e180]
+          - text: How the three layers operate together in live conditions
+      - generic [ref=e188]:
+        - generic [ref=e189]: Scenario
+        - generic [ref=e190]: Tier A / Narrative Defense
+        - generic [ref=e191]: Tier B / Vision and Sensors
+        - generic [ref=e192]: Tier C / Aerial and ISR
+        - generic [ref=e193]: Election information protection
+        - generic [ref=e194]: Campaign detection and narrative containment
+        - generic [ref=e195]: Realtime hotspot camera escalation
+        - generic [ref=e196]: Aerial monitoring around critical zones
+        - generic [ref=e197]: Coordinated civil disruption
+        - generic [ref=e198]: Influence cluster and trigger analysis
+        - generic [ref=e199]: Citywide camera fusion and incident relay
+        - generic [ref=e200]: Drone perimeter and route visibility
+        - generic [ref=e201]: Critical infrastructure attack pressure
+        - generic [ref=e202]: Narrative pressure tracking against operators
+        - generic [ref=e203]: Facility camera anomaly correlation
+        - generic [ref=e204]: Aerial corridor inspection and threat confirmation
+        - generic [ref=e205]: Cross-border hybrid operation
+        - generic [ref=e206]: Propaganda and actor-chain mapping
+        - generic [ref=e207]: Entry-point surveillance orchestration
+        - generic [ref=e208]: UAV geospatial event continuity
+    - generic [ref=e210]:
+      - generic [ref=e211]:
+        - paragraph [ref=e212]: Solution Design
+        - heading "Need a mission-specific tier configuration?" [level=2] [ref=e213]
+        - paragraph [ref=e214]: We build deployment blueprints by jurisdiction, command model, and threat profile.
+      - link "Explore Solution Fit" [ref=e215] [cursor=pointer]:
+        - /url: /pricing#contact
+  - contentinfo [ref=e216]:
+    - generic [ref=e217]:
+      - generic [ref=e218]:
+        - generic [ref=e219]:
+          - heading "Subscribe to Mission Updates" [level=3] [ref=e220]
+          - paragraph [ref=e221]: Receive deployment notes, threat briefs, and operational methodology updates.
+          - generic [ref=e222]:
+            - textbox "Work email address" [ref=e223]
+            - button "Subscribe" [ref=e224] [cursor=pointer]
+        - generic [ref=e225]:
+          - generic [ref=e226]:
+            - heading "Platform" [level=4] [ref=e227]:
+              - img [ref=e228]
+              - text: Platform
+            - generic [ref=e232]:
+              - link "Constellation Command Grid" [ref=e233] [cursor=pointer]:
+                - /url: /platform
+              - link "Realtime Vision Core" [ref=e234] [cursor=pointer]:
+                - /url: /platform#vision
+              - link "Narrative Risk Engine" [ref=e235] [cursor=pointer]:
+                - /url: /platform#narrative
+              - link "Aerial ISR Fabric" [ref=e236] [cursor=pointer]:
+                - /url: /platform#aerial
+          - generic [ref=e237]:
+            - heading "Company" [level=4] [ref=e238]:
+              - img [ref=e239]
+              - text: Company
+            - generic [ref=e241]:
+              - link "Mission and Oversight" [ref=e242] [cursor=pointer]:
+                - /url: /company
+              - link "Alliances" [ref=e243] [cursor=pointer]:
+                - /url: /company#alliances
+              - link "Leadership" [ref=e244] [cursor=pointer]:
+                - /url: /company#leadership
+              - link "Contact" [ref=e245] [cursor=pointer]:
+                - /url: /pricing#contact
+          - generic [ref=e246]:
+            - heading "Learn" [level=4] [ref=e247]:
+              - img [ref=e248]
+              - text: Learn
+            - generic [ref=e250]:
+              - link "LAB Reports" [ref=e251] [cursor=pointer]:
+                - /url: /lab
+              - link "Tier Architecture" [ref=e252] [cursor=pointer]:
+                - /url: /platform#tiers
+              - link "Use Case Matrix" [ref=e253] [cursor=pointer]:
+                - /url: /solutions#use-cases
+              - link "Governance Model" [ref=e254] [cursor=pointer]:
+                - /url: /company#governance
+      - generic [ref=e255]:
+        - article [ref=e256]:
+          - heading "Tier Stack" [level=5] [ref=e257]
+          - list [ref=e258]:
+            - listitem [ref=e259]: Tier A / Narrative Defense
+            - listitem [ref=e260]: Tier B / Vision and Sensors
+            - listitem [ref=e261]: Tier C / Aerial and ISR
+        - article [ref=e262]:
+          - heading "Industries" [level=5] [ref=e263]
+          - list [ref=e264]:
+            - listitem [ref=e265]: National Security
+            - listitem [ref=e266]: Public Sector
+            - listitem [ref=e267]: Critical Infrastructure
+            - listitem [ref=e268]: Financial Systems
+            - listitem [ref=e269]: Media and Communications
+            - listitem [ref=e270]: Transportation
+            - listitem [ref=e271]: Healthcare Networks
+            - listitem [ref=e272]: Energy Operations
+        - article [ref=e273]:
+          - heading "Roles" [level=5] [ref=e274]
+          - list [ref=e275]:
+            - listitem [ref=e276]: Security Leadership
+            - listitem [ref=e277]: Intelligence Directors
+            - listitem [ref=e278]: Operations Centers
+            - listitem [ref=e279]: Crisis Communication Teams
+            - listitem [ref=e280]: Policy and Governance Boards
+            - listitem [ref=e281]: Risk and Compliance Leads
+        - article [ref=e282]:
+          - heading "Use Cases" [level=5] [ref=e283]
+          - list [ref=e284]:
+            - listitem [ref=e285]: Election integrity and narrative containment
+            - listitem [ref=e286]: Urban camera command and incident response
+            - listitem [ref=e287]: Border and perimeter drone oversight
+            - listitem [ref=e288]: Critical infrastructure continuity
+      - generic [ref=e289]:
+        - generic [ref=e290]: © 2026 NOXIS // Sovereign intelligence operations.
+        - generic [ref=e291]:
+          - img [ref=e292]
+          - text: Built for mandate-based deployment and accountable oversight.
