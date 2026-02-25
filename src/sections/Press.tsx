@@ -18,7 +18,13 @@ export default function Press(){
   const [tab,setTab] = useState<Tab>("press");
   const [open,setOpen] = useState<{title:string,src:string}|null>(null);
 
-  const copy = async (v:string)=>{ try{ await navigator.clipboard.writeText(v);}catch{} };
+  const copy = async (v:string)=>{
+    try {
+      await navigator.clipboard.writeText(v);
+    } catch {
+      return;
+    }
+  };
 
   return (
     <section id="press" className="section">

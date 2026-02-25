@@ -1,13 +1,14 @@
 import { useState, useMemo } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { FiShield, FiRadio, FiTarget, FiGlobe, FiUsers, FiActivity, FiSend } from "react-icons/fi";
+import type { IconType } from "react-icons";
 import Modal from "../components/Modal";
 
 const tabs = ["Government","Security","Newsrooms","Civil","Research"] as const;
 type Tab = typeof tabs[number];
 
 type Meta = {
-  Icon:any;
+  Icon: IconType;
   deck:string;
   colors:{from:string;to:string};
   preset:{scope:number;min:number;audit:number};
@@ -79,13 +80,13 @@ export default function Audience(){
 
   return (
     <div className="grid gap-4">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between gap-3">
         <div className="flex overflow-x-auto gap-2 snap-x snap-mandatory">
           {tabs.map(t=>(
             <button
               key={t}
               onClick={()=>setTab(t)}
-              className={`snap-start whitespace-nowrap rounded-xl px-3 py-1.5 text-sm border transition
+              className={`snap-start whitespace-nowrap rounded-xl px-3 py-1.5 text-xs uppercase tracking-[0.08em] border transition
               ${tab===t ? "border-accent2 text-ink shadow-glow-strong" : "border-line text-mute hover:text-ink hover:shadow-glow"}`}
             >
               {t}
@@ -104,10 +105,10 @@ export default function Audience(){
               <div>
                 <div className="flex items-center gap-2">
                   <meta.Icon className="text-accent2" />
-                  <h3 className="m-0 text-lg font-semibold">{tab}</h3>
+                  <h3 className="m-0 text-base">{tab}</h3>
                 </div>
-                <p className="text-mute mt-1">{meta.deck}</p>
-                <ul className="text-mute mt-2 grid gap-1 list-disc ml-5">
+                <p className="text-mute mt-1 text-sm">{meta.deck}</p>
+                <ul className="text-mute mt-3 grid gap-1.5 list-disc ml-5 text-sm">
                   {BENEFITS[tab].map(b=><li key={b}>{b}</li>)}
                 </ul>
                 <div className="flex gap-2 mt-4">

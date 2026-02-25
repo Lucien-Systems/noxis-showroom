@@ -118,14 +118,14 @@ export default function Ecosystem() {
             <span className="icon-badge">
               <EcosystemIcon kind={project.key} />
             </span>
-            <h3 className="m-0 text-lg font-semibold leading-tight">{project.name}</h3>
+            <h3 className="m-0 text-base leading-tight">{project.name}</h3>
           </div>
-          <p className="mt-2 text-mute">{project.desc}</p>
+          <p className="mt-2 text-sm text-mute">{project.desc}</p>
           <a
             href={project.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn mt-4"
+            className="btn mt-4 text-xs uppercase tracking-[0.08em]"
           >
             Open {project.url.replace("https://", "")}
           </a>

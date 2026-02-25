@@ -1,8 +1,9 @@
 import { useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { FiCpu, FiLink, FiDatabase, FiEyeOff, FiGrid, FiActivity } from "react-icons/fi";
+import type { IconType } from "react-icons";
 
-type Tech = { id:string; title:string; deck:string; points:string[]; why:string; Icon:any };
+type Tech = { id:string; title:string; deck:string; points:string[]; why:string; Icon: IconType };
 const TECH:Tech[]=[
   {id:"aiml", title:"AI/ML (NLP + CV)", deck:"Narrative-aware pipelines with deterministic runs.", points:["Cross-modal feature fusion","Narrative pattern extraction","Signal confidence scoring"], why:"Transforms chaotic information flow into evidence-grade structure for high-trust decisions.", Icon:FiCpu},
   {id:"ingest", title:"Targeted OSINT Ingestion", deck:"Public/licensed sources under strict scope control.", points:["Media/RSS/API connectors","Normalization + dedupe","Need-to-know gating"], why:"Protects operations from over-collection while preserving speed and mission relevance.", Icon:FiLink},
@@ -103,13 +104,13 @@ export default function Technology(){
             <button
               key={x.id}
               onClick={()=>setIdx(i)}
-              className={`flex items-center gap-3 rounded-xl border px-4 py-3 transition ${i===idx?'border-accent2 shadow-glow-strong':'border-line bg-panel hover:shadow-glow'}`}>
+              className={`flex items-center gap-3 rounded-xl border px-4 py-3 transition ${i===idx?'border-accent2 shadow-glow-strong':'border-line bg-panel hover:border-accent/40 hover:shadow-glow'}`}>
               <span className="icon-badge !h-9 !w-9 rounded-lg">
                 <x.Icon className={`${i===idx?'text-accent2':'text-accent'}`} />
               </span>
               <div className="text-left">
-                <div className="font-extrabold text-base md:text-lg">{x.title}</div>
-                <div className="text-mute text-sm">{x.deck}</div>
+                <div className="text-sm md:text-[0.95rem]">{x.title}</div>
+                <div className="text-mute text-xs md:text-sm">{x.deck}</div>
               </div>
             </button>
           ))}
@@ -130,9 +131,9 @@ export default function Technology(){
                 <span className="icon-badge">
                   <T.Icon className="text-accent2" />
                 </span>
-                <h2 className="m-0 text-2xl font-bold">{T.title}</h2>
+                <h3 className="m-0 text-xl">{T.title}</h3>
               </div>
-              <p className="text-mute text-base">{T.deck}</p>
+              <p className="text-mute text-sm">{T.deck}</p>
 
               <Illustration id={T.id} />
 

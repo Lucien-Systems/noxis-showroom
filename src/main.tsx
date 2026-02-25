@@ -1,12 +1,10 @@
-// src/main.tsx
-import "@fontsource/inter/400.css";
-import "@fontsource/inter/500.css";
-import "@fontsource/inter/600.css";
-import "@fontsource/inter/700.css";
+import "@fontsource/space-grotesk/400.css";
+import "@fontsource/space-grotesk/500.css";
+import "@fontsource/space-grotesk/600.css";
+import "@fontsource/space-grotesk/700.css";
+import "@fontsource/michroma/400.css";
 
 import "./index.css";
-// Pokud legacy styly opravdu potřebuješ, nech jeden import. Jinak smaž.
-// import "./styles/legacy.css";
 
 import React from "react";
 import { createRoot } from "react-dom/client";

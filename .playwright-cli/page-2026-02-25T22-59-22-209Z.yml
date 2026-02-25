@@ -1,0 +1,155 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button "Go to NOXIS homepage" [ref=e6] [cursor=pointer]:
+        - img "NOXIS" [ref=e7]
+        - generic [ref=e8]: Sovereign Intelligence Grid
+      - navigation "Primary" [ref=e9]:
+        - link "Platform" [ref=e10] [cursor=pointer]:
+          - /url: /platform
+        - link "Solutions" [ref=e11] [cursor=pointer]:
+          - /url: /solutions
+        - link "Company" [ref=e12] [cursor=pointer]:
+          - /url: /company
+        - link "LAB" [ref=e13] [cursor=pointer]:
+          - /url: /lab
+        - link "Pricing" [ref=e14] [cursor=pointer]:
+          - /url: /pricing
+      - link "Book a Demo" [ref=e15] [cursor=pointer]:
+        - /url: /pricing#contact
+  - main [ref=e16]:
+    - generic [ref=e19]:
+      - paragraph [ref=e20]: LAB / Research and Intelligence Notes
+      - heading "Operational intelligence reports for high-risk environments" [level=1] [ref=e21]
+      - paragraph [ref=e22]: NOXIS LAB publishes method notes, benchmark reports, and strategic intelligence briefs from the narrative, vision, and aerial operations domains.
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - paragraph [ref=e27]: Featured Reports
+        - heading "Latest intelligence publications" [level=2] [ref=e28]
+      - generic [ref=e29]:
+        - article [ref=e30]:
+          - paragraph [ref=e31]: Narrative Intelligence
+          - heading "State of Coordinated Narrative Operations / Q1 2026" [level=3] [ref=e32]
+          - paragraph [ref=e33]: How cross-platform campaign cells moved from social clusters to mainstream discourse in under 48 hours.
+          - link "Request Full Brief" [ref=e34] [cursor=pointer]:
+            - /url: /pricing#contact
+        - article [ref=e35]:
+          - paragraph [ref=e36]: Vision Operations
+          - heading "Realtime Vision Latency Benchmarks for Tier B" [level=3] [ref=e37]
+          - paragraph [ref=e38]: Operational benchmark report for high-load camera pipelines and response-window reliability.
+          - link "Request Full Brief" [ref=e39] [cursor=pointer]:
+            - /url: /pricing#contact
+        - article [ref=e40]:
+          - paragraph [ref=e41]: Drone Operations
+          - heading "Aerial ISR Relay Patterns in Dense Urban Zones" [level=3] [ref=e42]
+          - paragraph [ref=e43]: Mission continuity analysis for UAV handoff, geofence enforcement, and command reconciliation.
+          - link "Request Full Brief" [ref=e44] [cursor=pointer]:
+            - /url: /pricing#contact
+        - article [ref=e45]:
+          - paragraph [ref=e46]: Governance
+          - 'heading "Oversight by Design: Auditability as a Security Primitive" [level=3] [ref=e47]'
+          - paragraph [ref=e48]: Why cryptographic traceability must be treated as a core command capability, not a compliance add-on.
+          - link "Request Full Brief" [ref=e49] [cursor=pointer]:
+            - /url: /pricing#contact
+    - generic [ref=e51]:
+      - article [ref=e52]:
+        - heading "Research tracks" [level=3] [ref=e53]
+        - list [ref=e54]:
+          - listitem [ref=e55]: Narrative attack pattern intelligence
+          - listitem [ref=e56]: Vision pipeline reliability and latency
+          - listitem [ref=e57]: Drone ISR continuity and geospatial correlation
+          - listitem [ref=e58]: Oversight, legal traceability, and institutional governance
+      - article [ref=e59]:
+        - heading "Publication modes" [level=3] [ref=e60]
+        - list [ref=e61]:
+          - listitem [ref=e62]: Executive threat brief
+          - listitem [ref=e63]: Operator methodology note
+          - listitem [ref=e64]: System benchmark update
+          - listitem [ref=e65]: Red-team observation memo
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - paragraph [ref=e69]: RAV3N Cell
+        - heading "Need a custom intelligence report for your mission profile?" [level=2] [ref=e70]
+        - paragraph [ref=e71]: Our analysts can produce targeted briefings for your policy, security, or command teams.
+      - link "Request Custom Report" [ref=e72] [cursor=pointer]:
+        - /url: /pricing#contact
+  - contentinfo [ref=e73]:
+    - generic [ref=e74]:
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - heading "Subscribe to Mission Updates" [level=3] [ref=e77]
+          - paragraph [ref=e78]: Receive deployment notes, threat briefs, and operational methodology updates.
+          - generic [ref=e79]:
+            - textbox "Work email address" [ref=e80]
+            - button "Subscribe" [ref=e81] [cursor=pointer]
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - heading "Platform" [level=4] [ref=e84]
+            - generic [ref=e85]:
+              - link "Constellation Command Grid" [ref=e86] [cursor=pointer]:
+                - /url: /platform
+              - link "Realtime Vision Core" [ref=e87] [cursor=pointer]:
+                - /url: /platform#vision
+              - link "Narrative Risk Engine" [ref=e88] [cursor=pointer]:
+                - /url: /platform#narrative
+              - link "Aerial ISR Fabric" [ref=e89] [cursor=pointer]:
+                - /url: /platform#aerial
+          - generic [ref=e90]:
+            - heading "Company" [level=4] [ref=e91]
+            - generic [ref=e92]:
+              - link "Mission and Oversight" [ref=e93] [cursor=pointer]:
+                - /url: /company
+              - link "Alliances" [ref=e94] [cursor=pointer]:
+                - /url: /company#alliances
+              - link "Leadership" [ref=e95] [cursor=pointer]:
+                - /url: /company#leadership
+              - link "Contact" [ref=e96] [cursor=pointer]:
+                - /url: /pricing#contact
+          - generic [ref=e97]:
+            - heading "Learn" [level=4] [ref=e98]
+            - generic [ref=e99]:
+              - link "LAB Reports" [ref=e100] [cursor=pointer]:
+                - /url: /lab
+              - link "Tier Architecture" [ref=e101] [cursor=pointer]:
+                - /url: /platform#tiers
+              - link "Use Case Matrix" [ref=e102] [cursor=pointer]:
+                - /url: /solutions#use-cases
+              - link "Governance Model" [ref=e103] [cursor=pointer]:
+                - /url: /company#governance
+      - generic [ref=e104]:
+        - article [ref=e105]:
+          - heading "Tier Stack" [level=5] [ref=e106]
+          - list [ref=e107]:
+            - listitem [ref=e108]: Tier A / Narrative Defense
+            - listitem [ref=e109]: Tier B / Vision and Sensors
+            - listitem [ref=e110]: Tier C / Aerial and ISR
+        - article [ref=e111]:
+          - heading "Industries" [level=5] [ref=e112]
+          - list [ref=e113]:
+            - listitem [ref=e114]: National Security
+            - listitem [ref=e115]: Public Sector
+            - listitem [ref=e116]: Critical Infrastructure
+            - listitem [ref=e117]: Financial Systems
+            - listitem [ref=e118]: Media and Communications
+            - listitem [ref=e119]: Transportation
+            - listitem [ref=e120]: Healthcare Networks
+            - listitem [ref=e121]: Energy Operations
+        - article [ref=e122]:
+          - heading "Roles" [level=5] [ref=e123]
+          - list [ref=e124]:
+            - listitem [ref=e125]: Security Leadership
+            - listitem [ref=e126]: Intelligence Directors
+            - listitem [ref=e127]: Operations Centers
+            - listitem [ref=e128]: Crisis Communication Teams
+            - listitem [ref=e129]: Policy and Governance Boards
+            - listitem [ref=e130]: Risk and Compliance Leads
+        - article [ref=e131]:
+          - heading "Use Cases" [level=5] [ref=e132]
+          - list [ref=e133]:
+            - listitem [ref=e134]: Election integrity and narrative containment
+            - listitem [ref=e135]: Urban camera command and incident response
+            - listitem [ref=e136]: Border and perimeter drone oversight
+            - listitem [ref=e137]: Critical infrastructure continuity
+      - generic [ref=e138]:
+        - generic [ref=e139]: © 2026 NOXIS // Sovereign intelligence operations.
+        - generic [ref=e140]: Built for mandate-based deployment and accountable oversight.

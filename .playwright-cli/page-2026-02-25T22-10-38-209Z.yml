@@ -1,0 +1,390 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Press Option+1 for screen-reader mode, Option+0 to cancel
+  - button "Use Website In a Screen-Reader Mode" [ref=e3]
+  - link "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window" [ref=e4] [cursor=pointer]:
+    - /url: https://accessibe.com/blog/knowledgebase/screen-reader-guide
+  - generic:
+    - generic:
+      - region "Skip Links":
+        - generic:
+          - link "Skip to Content":
+            - /url: "#acsbContent"
+            - text: Skip to Content
+            - generic:
+              - generic: ↵
+              - text: ENTER
+        - generic:
+          - link "Skip to Menu":
+            - /url: "#acsbMenu"
+            - text: Skip to Menu
+            - generic:
+              - generic: ↵
+              - text: ENTER
+        - generic:
+          - link "Skip to Footer":
+            - /url: "#acsbFooter"
+            - text: Skip to Footer
+            - generic:
+              - generic: ↵
+              - text: ENTER
+  - dialog [ref=e5]:
+    - generic [ref=e6]:
+      - img [ref=e7]
+      - text: Simplify Text
+    - button [ref=e9] [cursor=pointer]:
+      - img [ref=e10]
+  - 'button "Open accessiBe: accessibility options, statement and help" [ref=e13] [cursor=pointer]':
+    - generic:
+      - img [ref=e14]
+      - img
+      - img
+  - generic [ref=e17]:
+    - banner [ref=e18]:
+      - generic [ref=e22]:
+        - link [ref=e25] [cursor=pointer]:
+          - /url: https://blackbird.ai
+          - img [ref=e26]
+        - list [ref=e41]:
+          - listitem [ref=e42]:
+            - link "Platform " [ref=e43] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e44]:
+            - link "Solutions " [ref=e45] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e46]:
+            - link "Company " [ref=e47] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e48]:
+            - link "RAV3N Blog" [ref=e49] [cursor=pointer]:
+              - /url: https://blackbird.ai/rav3n-blog/
+          - listitem [ref=e50]:
+            - link "Learn " [ref=e51] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e52]:
+            - link "Pricing" [ref=e53] [cursor=pointer]:
+              - /url: https://blackbird.ai/pricing/
+          - listitem [ref=e54]:
+            - link "Book a Demo" [ref=e55] [cursor=pointer]:
+              - /url: https://blackbird.ai/book-a-demo/
+      - generic:    
+    - main [ref=e57]:
+      - generic [ref=e60]:
+        - heading "Constellation AI-Driven Narrative Intelligence Platform" [level=1] [ref=e61]
+        - paragraph [ref=e62]: Illuminate the narrative. Understand the context. Make better strategic decisions.
+        - paragraph [ref=e63]: Blackbird.AI offers the world's first purpose-built narrative intelligence platform called Constellation, which automatically detects, analyzes and measures risk, and gains context around the impact of emerging narratives to provide clarity for critical decision-making.
+      - generic [ref=e65]:
+        - paragraph [ref=e66]: Constellation's AI-based technology provides an unparalleled view of narrative attacks using five distinct signals that look across thousands of sources to prioritize risk. It does so by illuminating the narratives, the influence behind them, the networks they touch, the anomalous behavior that scales them, and the cohorts that connect them.
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - heading "Reveal" [level=3] [ref=e72]
+            - paragraph [ref=e73]: With high fidelity and speed, see and map emerging harmful narratives as they scale.
+          - generic [ref=e75]:
+            - heading "Analyze" [level=3] [ref=e76]
+            - paragraph [ref=e77]: Understand the mechanisms across 25+ languages in text, images, and memes.
+          - generic [ref=e79]:
+            - heading "Measure" [level=3] [ref=e80]
+            - paragraph [ref=e81]: Determine the velocity of emergent stories as they spread across networks, including the dark web, social media, news, and more.
+          - generic [ref=e83]:
+            - heading "Mitigate" [level=3] [ref=e84]
+            - paragraph [ref=e85]: Evaluate possible scenarios and counter-narratives with clarity and context that de-risk harmful narratives.
+    - generic [ref=e89]:
+      - heading "Action, AI-Driven Narrative Risk Intelligence" [level=2] [ref=e90]
+      - generic [ref=e94]:
+        - heading "Constellation Dashboard" [level=3] [ref=e95]
+        - paragraph [ref=e96]: Our Constellation Dashboard enables visual investigation by providing a dynamic, real-time view of narrative attacks as they scale and become harmful. It maps information from various sources and enables proactive risk analysis. Constellation is multimodal, assessing text, images, and memes; multi-platform, spanning dark web, social media, news, and more; and multilingual, supporting over 25 languages.
+        - link "Explore the Dashboard" [ref=e97] [cursor=pointer]:
+          - /url: https://blackbird.ai/constellation-dashboard/
+      - generic [ref=e101]:
+        - heading "Narrative Feed" [level=3] [ref=e102]
+        - paragraph [ref=e103]: Our Narrative Feed offers organizations a continuous and insightful summary of harmful narratives as they emerge and scale by providing a Narrative Risk Score (NRS) and highlighting critical elements, including cohort activities, bot network manipulation, and key influencers.
+        - link "Explore the Narrative Feed" [ref=e104] [cursor=pointer]:
+          - /url: ""
+      - generic [ref=e108]:
+        - heading "RAV3N Risk LLM" [level=3] [ref=e109]
+        - paragraph [ref=e110]: Our RAV3N Risk LLM simplifies the reporting process with an automated reporting feature, allowing for quick and efficient sharing of narrative attacks with insights and context that are easy to understand, share, and present to executive teams.
+        - link "Explore RAV3N Risk LLM" [ref=e111] [cursor=pointer]:
+          - /url: https://blackbird.ai/rav3n-risk-llm/
+      - generic [ref=e115]:
+        - heading "Compass Context + Compass Vision" [level=3] [ref=e116]
+        - paragraph [ref=e117]: Employ Compass Context and Compass Vision to guide you through the complex terrain of online narrative attacks, offering clarity on both images and claims in today's uncertain digital era.
+        - link "Explore Compass" [ref=e118] [cursor=pointer]:
+          - /url: https://blackbird.ai/compass-context/
+      - generic [ref=e122]:
+        - heading "RAV3N Narrative Intelligence & Research Team" [level=3] [ref=e123]
+        - paragraph [ref=e124]: Our RAV3N Narrative Intelligence and Research Team provides human expertise to ensure you're not alone in facing high-pressure situations and narrative attacks. Our skilled experts apply technological insights to your needs and offer narrative intelligence reports, advanced benchmarking, learning programs, and professional services to boost your defensive strategy.
+        - link "Explore the RAV3N Team" [ref=e125] [cursor=pointer]:
+          - /url: https://blackbird.ai/rav3n-watch-old/
+    - generic [ref=e129]:
+      - heading "Explore Relevant Use Cases" [level=2] [ref=e130]
+      - generic [ref=e131]:
+        - generic [ref=e132]:
+          - paragraph [ref=e133]: See how the Constellation Platform empowers organizations like yours with unprecedented narrative intelligence to set the record straight.
+          - link "Explore All" [ref=e134] [cursor=pointer]:
+            - /url: https://blackbird.ai/solutions-use-cases/
+        - generic [ref=e135]:
+          - link "Crisis Learn more Gain immediate knowledge of evolving narratives to respond proactively." [ref=e136] [cursor=pointer]:
+            - /url: https://blackbird.ai/crisis/
+            - generic [ref=e138]:
+              - generic [ref=e139]:
+                - heading "Crisis" [level=3] [ref=e140]
+                - generic [ref=e141]: Learn more
+              - generic [ref=e142]: Gain immediate knowledge of evolving narratives to respond proactively.
+          - link "Brand Reputation Learn more Preserve brand image by quickly countering and mitigating damaging narratives." [ref=e143] [cursor=pointer]:
+            - /url: https://blackbird.ai/brand-reputation/
+            - generic [ref=e145]:
+              - generic [ref=e146]:
+                - heading "Brand Reputation" [level=3] [ref=e147]
+                - generic [ref=e148]: Learn more
+              - generic [ref=e149]: Preserve brand image by quickly countering and mitigating damaging narratives.
+          - link "Cyber Attacks Learn more Stay ahead of security incident narratives and compliance issues to reduce organizational risks." [ref=e150] [cursor=pointer]:
+            - /url: https://blackbird.ai/cyber-attack/
+            - generic [ref=e152]:
+              - generic [ref=e153]:
+                - heading "Cyber Attacks" [level=3] [ref=e154]
+                - generic [ref=e155]: Learn more
+              - generic [ref=e156]: Stay ahead of security incident narratives and compliance issues to reduce organizational risks.
+          - link "Geopolitical Risk Learn more Navigate global complexities by offering insights into geopolitical risks and trends." [ref=e157] [cursor=pointer]:
+            - /url: https://blackbird.ai/geopolitical-risk/
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - heading "Geopolitical Risk" [level=3] [ref=e161]
+                - generic [ref=e162]: Learn more
+              - generic [ref=e163]: Navigate global complexities by offering insights into geopolitical risks and trends.
+          - link "Financial Markets Risk Learn more Empower timely decision making through insightful narrative trend analysis." [ref=e164] [cursor=pointer]:
+            - /url: https://blackbird.ai/financial-markets-risk/
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - heading "Financial Markets Risk" [level=3] [ref=e168]
+                - generic [ref=e169]: Learn more
+              - generic [ref=e170]: Empower timely decision making through insightful narrative trend analysis.
+    - generic [ref=e172]:
+      - heading "Talk with a Narrative Intelligence Expert" [level=1] [ref=e173]:
+        - text: Talk with a
+        - text: Narrative Intelligence Expert
+      - generic [ref=e175]:
+        - paragraph [ref=e176]: Talk with a Risk Ops Specialist today to discover your organization's narrative threats and take steps to mitigate them with the Constellation Narrative Intelligence Platform.
+        - link "Contact Us" [ref=e177] [cursor=pointer]:
+          - /url: https://blackbird.ai/contact
+  - contentinfo [ref=e178]:
+    - generic [ref=e181]:
+      - generic [ref=e182]:
+        - generic [ref=e183]:
+          - generic [ref=e184]:
+            - link "" [ref=e185] [cursor=pointer]:
+              - /url: https://twitter.com/blackbird_ai
+              - generic [ref=e186]: 
+            - link "" [ref=e187] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/blackbird-ai/
+              - generic [ref=e188]: 
+            - link "" [ref=e189] [cursor=pointer]:
+              - /url: https://www.facebook.com/BlackbirdAI/
+              - generic [ref=e190]: 
+          - heading "Subscribe to our newsletter" [level=3] [ref=e191]
+          - generic [ref=e193]:
+            - textbox "Work email*" [ref=e196]:
+              - /placeholder: Enter your email address
+            - button "Subscribe" [ref=e199]
+        - generic [ref=e200]:
+          - heading "Platform" [level=3] [ref=e201]:
+            - link "Platform" [ref=e202] [cursor=pointer]:
+              - /url: https://blackbird.ai/platform
+          - list [ref=e204]:
+            - listitem [ref=e205]:
+              - link "Constellation Dashboard" [ref=e206] [cursor=pointer]:
+                - /url: https://blackbird.ai/constellation-dashboard/
+            - listitem [ref=e207]:
+              - link "Narrative Feed" [ref=e208] [cursor=pointer]:
+                - /url: https://blackbird.ai/narrative-feed/
+            - listitem [ref=e209]:
+              - link "RAV3N Risk LLM" [ref=e210] [cursor=pointer]:
+                - /url: https://blackbird.ai/rav3n-risk-llm/
+            - listitem [ref=e211]:
+              - link "RAV3N Watch" [ref=e212] [cursor=pointer]:
+                - /url: https://blackbird.ai/rav3n-watch-old/
+            - listitem [ref=e213]:
+              - link "Pricing" [ref=e214] [cursor=pointer]:
+                - /url: https://blackbird.ai/pricing/
+          - heading "RAV3N Blog" [level=3] [ref=e215]:
+            - link "RAV3N Blog" [ref=e216] [cursor=pointer]:
+              - /url: https://blackbird.ai/rav3n-blog
+        - generic [ref=e217]:
+          - heading "Company" [level=3] [ref=e218]:
+            - link "Company" [ref=e219] [cursor=pointer]:
+              - /url: https://blackbird.ai/company
+          - list [ref=e221]:
+            - listitem [ref=e222]:
+              - link "Team" [ref=e223] [cursor=pointer]:
+                - /url: https://blackbird.ai/team/
+            - listitem [ref=e224]:
+              - link "Alliances" [ref=e225] [cursor=pointer]:
+                - /url: https://blackbird.ai/alliances/
+            - listitem [ref=e226]:
+              - link "News" [ref=e227] [cursor=pointer]:
+                - /url: https://blackbird.ai/news/
+            - listitem [ref=e228]:
+              - link "Careers" [ref=e229] [cursor=pointer]:
+                - /url: https://apply.workable.com/blackbirdai/
+            - listitem [ref=e230]:
+              - link "Contact" [ref=e231] [cursor=pointer]:
+                - /url: https://blackbird.ai/contact/
+            - listitem [ref=e232]:
+              - link "AI Crawlers" [ref=e233] [cursor=pointer]:
+                - /url: https://blackbird.ai/ai-info/
+        - generic [ref=e234]:
+          - heading "Learn" [level=3] [ref=e235]:
+            - link "Learn" [ref=e236] [cursor=pointer]:
+              - /url: https://blackbird.ai/learn
+          - link:
+            - /url: https://blackbird.ai/learn
+          - generic [ref=e237]:
+            - link:
+              - /url: https://blackbird.ai/learn
+            - list [ref=e238]:
+              - link:
+                - /url: https://blackbird.ai/learn
+              - listitem [ref=e239]:
+                - link:
+                  - /url: https://blackbird.ai/learn
+                - link "Guides" [ref=e240] [cursor=pointer]:
+                  - /url: https://blackbird.ai/guides/
+              - listitem [ref=e241]:
+                - link "Reports" [ref=e242] [cursor=pointer]:
+                  - /url: https://blackbird.ai/reports/
+              - listitem [ref=e243]:
+                - link "Customer Stories" [ref=e244] [cursor=pointer]:
+                  - /url: https://blackbird.ai/case-studies/
+              - listitem [ref=e245]:
+                - link "Webinars & Events" [ref=e246] [cursor=pointer]:
+                  - /url: https://blackbird.ai/webinars-events/
+              - listitem [ref=e247]:
+                - link "What is Narrative Risk?" [ref=e248] [cursor=pointer]:
+                  - /url: https://blackbird.ai/narrative-attacks/
+              - listitem [ref=e249]:
+                - link "What is Narrative Intelligence?" [ref=e250] [cursor=pointer]:
+                  - /url: https://blackbird.ai/narrative-intelligence/
+      - heading "Solutions" [level=3] [ref=e252]:
+        - link "Solutions" [ref=e253] [cursor=pointer]:
+          - /url: https://blackbird.ai/solutions
+      - generic [ref=e254]:
+        - generic [ref=e255]:
+          - heading "Industries" [level=4] [ref=e256]:
+            - link "Industries" [ref=e257] [cursor=pointer]:
+              - /url: https://blackbird.ai/industries
+          - list [ref=e259]:
+            - listitem [ref=e260]:
+              - link "Corporate Intelligence" [ref=e261] [cursor=pointer]:
+                - /url: https://blackbird.ai/corporate-intelligence/
+            - listitem [ref=e262]:
+              - link "Critical Infrastructure" [ref=e263] [cursor=pointer]:
+                - /url: https://blackbird.ai/critical-infrastructure/
+            - listitem [ref=e264]:
+              - link "Consumer Products" [ref=e265] [cursor=pointer]:
+                - /url: https://blackbird.ai/consumer-products/
+            - listitem [ref=e266]:
+              - link "Media" [ref=e267] [cursor=pointer]:
+                - /url: https://blackbird.ai/media/
+            - listitem [ref=e268]:
+              - link "Healthcare" [ref=e269] [cursor=pointer]:
+                - /url: https://blackbird.ai/healthcare/
+        - generic [ref=e270]:
+          - heading [level=4] [ref=e271]
+          - list [ref=e273]:
+            - listitem [ref=e274]:
+              - link "Technology Platforms" [ref=e275] [cursor=pointer]:
+                - /url: https://blackbird.ai/technology-platforms/
+            - listitem [ref=e276]:
+              - link "Travel & Entertainment" [ref=e277] [cursor=pointer]:
+                - /url: https://blackbird.ai/travel-entertainment/
+            - listitem [ref=e278]:
+              - link "Finance" [ref=e279] [cursor=pointer]:
+                - /url: https://blackbird.ai/finance/
+            - listitem [ref=e280]:
+              - link "Public Sector" [ref=e281] [cursor=pointer]:
+                - /url: https://blackbird.ai/public-sector/
+        - generic [ref=e282]:
+          - heading "Roles" [level=4] [ref=e283]:
+            - link "Roles" [ref=e284] [cursor=pointer]:
+              - /url: https://blackbird.ai/roles
+          - list [ref=e286]:
+            - listitem [ref=e287]:
+              - link "Communication Leaders" [ref=e288] [cursor=pointer]:
+                - /url: https://blackbird.ai/communication-leaders/
+            - listitem [ref=e289]:
+              - link "Marketing Leaders" [ref=e290] [cursor=pointer]:
+                - /url: https://blackbird.ai/marketing-leaders/
+            - listitem [ref=e291]:
+              - link "Security Leaders" [ref=e292] [cursor=pointer]:
+                - /url: https://blackbird.ai/security-leaders/
+            - listitem [ref=e293]:
+              - link "Risk Leaders" [ref=e294] [cursor=pointer]:
+                - /url: https://blackbird.ai/risk-leaders/
+            - listitem [ref=e295]:
+              - link "Public Sector Leaders" [ref=e296] [cursor=pointer]:
+                - /url: https://blackbird.ai/public-sector-leaders/
+            - listitem [ref=e297]:
+              - link "Executive Teams" [ref=e298] [cursor=pointer]:
+                - /url: https://blackbird.ai/executive-teams/
+        - generic [ref=e299]:
+          - heading "Narrative Use Cases" [level=4] [ref=e300]:
+            - link "Narrative Use Cases" [ref=e301] [cursor=pointer]:
+              - /url: https://blackbird.ai/solutions-use-cases
+          - list [ref=e303]:
+            - listitem [ref=e304]:
+              - link "Crisis" [ref=e305] [cursor=pointer]:
+                - /url: https://blackbird.ai/crisis/
+            - listitem [ref=e306]:
+              - link "Labor Relations" [ref=e307] [cursor=pointer]:
+                - /url: https://blackbird.ai/labor-relations/
+            - listitem [ref=e308]:
+              - link "Executive Protection" [ref=e309] [cursor=pointer]:
+                - /url: https://blackbird.ai/executive-protection/
+            - listitem [ref=e310]:
+              - link "Corporate Security" [ref=e311] [cursor=pointer]:
+                - /url: https://blackbird.ai/corporate-security/
+            - listitem [ref=e312]:
+              - link "Environmental, Social and Governance" [ref=e313] [cursor=pointer]:
+                - /url: https://blackbird.ai/environmental-social-and-governance/
+            - listitem [ref=e314]:
+              - link "M&A Due Diligence" [ref=e315] [cursor=pointer]:
+                - /url: https://blackbird.ai/ma-due-diligence/
+            - listitem [ref=e316]:
+              - link "Brand Protection" [ref=e317] [cursor=pointer]:
+                - /url: https://blackbird.ai/brand-protection/
+        - generic [ref=e318]:
+          - heading "Narrative Risk" [level=4] [ref=e319]
+          - list [ref=e321]:
+            - listitem [ref=e322]:
+              - link "Stock Manipulation" [ref=e323] [cursor=pointer]:
+                - /url: https://blackbird.ai/stock-manipulation/
+            - listitem [ref=e324]:
+              - link "Supply Chain and Critical Manufacturing" [ref=e325] [cursor=pointer]:
+                - /url: https://blackbird.ai/supply-chain-and-critical-manufacturing/
+            - listitem [ref=e326]:
+              - link "Insider Threats" [ref=e327] [cursor=pointer]:
+                - /url: https://blackbird.ai/insider-threats/
+            - listitem [ref=e328]:
+              - link "Financial Markets" [ref=e329] [cursor=pointer]:
+                - /url: https://blackbird.ai/financial-markets-risk/
+            - listitem [ref=e330]:
+              - link "Cyber Attacks" [ref=e331] [cursor=pointer]:
+                - /url: https://blackbird.ai/cyber-attack/
+            - listitem [ref=e332]:
+              - link "Brand Risk" [ref=e333] [cursor=pointer]:
+                - /url: https://blackbird.ai/brand-reputation/
+            - listitem [ref=e334]:
+              - link "Geopolitical Risk" [ref=e335] [cursor=pointer]:
+                - /url: https://blackbird.ai/geopolitical-risk/
+    - generic [ref=e339]:
+      - generic [ref=e340]: © 2026 - Blackbird.AI | All rights reserved.
+      - generic [ref=e341]:
+        - link "Glossary of Terms" [ref=e342] [cursor=pointer]:
+          - /url: https://blackbird.ai/glossary-of-terms
+        - text: "|"
+        - link "Privacy Policy" [ref=e343] [cursor=pointer]:
+          - /url: https://blackbird.ai/privacy-policy
+        - text: "|"
+        - link "Terms of Service" [ref=e344] [cursor=pointer]:
+          - /url: https://blackbird.ai/terms-of-service
+        - text: "|"
+        - link "Legal" [ref=e345] [cursor=pointer]:
+          - /url: https://blackbird.ai/legal-docs

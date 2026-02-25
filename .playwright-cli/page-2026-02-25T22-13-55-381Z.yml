@@ -1,0 +1,528 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e504]: Press Option+1 for screen-reader mode, Option+0 to cancel
+  - button "Use Website In a Screen-Reader Mode" [ref=e505]
+  - link "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window" [ref=e506] [cursor=pointer]:
+    - /url: https://accessibe.com/blog/knowledgebase/screen-reader-guide
+  - generic:
+    - generic:
+      - region "Skip Links":
+        - generic:
+          - link "Skip to Content":
+            - /url: "#acsbContent"
+            - text: Skip to Content
+            - generic:
+              - generic: ↵
+              - text: ENTER
+        - generic:
+          - link "Skip to Menu":
+            - /url: "#acsbMenu"
+            - text: Skip to Menu
+            - generic:
+              - generic: ↵
+              - text: ENTER
+        - generic:
+          - link "Skip to Footer":
+            - /url: "#acsbFooter"
+            - text: Skip to Footer
+            - generic:
+              - generic: ↵
+              - text: ENTER
+  - dialog [ref=e507]:
+    - generic [ref=e508]:
+      - img [ref=e509]
+      - text: Simplify Text
+    - button [ref=e511] [cursor=pointer]:
+      - img [ref=e512]
+  - 'button "Open accessiBe: accessibility options, statement and help" [ref=e515] [cursor=pointer]':
+    - generic:
+      - img [ref=e516]
+      - img
+      - img
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e7]:
+        - link [ref=e10] [cursor=pointer]:
+          - /url: https://blackbird.ai
+          - img [ref=e11]
+        - list [ref=e26]:
+          - listitem [ref=e27]:
+            - link "Platform " [ref=e28] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e29]:
+            - link "Solutions " [ref=e30] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e31]:
+            - link "Company " [ref=e32] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e33]:
+            - link "RAV3N Blog" [ref=e34] [cursor=pointer]:
+              - /url: https://blackbird.ai/rav3n-blog/
+          - listitem [ref=e35]:
+            - link "Learn " [ref=e36] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e37]:
+            - link "Pricing" [ref=e38] [cursor=pointer]:
+              - /url: https://blackbird.ai/pricing/
+          - listitem [ref=e39]:
+            - link "Book a Demo" [ref=e40] [cursor=pointer]:
+              - /url: https://blackbird.ai/book-a-demo/
+      - generic:    
+    - main [ref=e42]:
+      - generic [ref=e45]:
+        - heading "Meet the Protectors of Narrative Integrity" [level=1] [ref=e46]
+        - generic [ref=e47]: Blackbird.AI defends organizations from narrative attacks.
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - heading "Narrative Intelligence has become a top priority" [level=2] [ref=e57]
+        - link "What is Narrative Risk?" [ref=e58] [cursor=pointer]:
+          - /url: https://blackbird.ai/narrative-attacks/
+      - paragraph [ref=e60]: Blackbird.AI created the world's first purpose-built AI-based Narrative Intelligence Platform, called Constellation, that automatically detects, analyzes and measures risk, and gains context around the impact of harmful narratives to clarify critical decision making.
+      - paragraph [ref=e62]: We work diligently with top brands and national security organizations to protect them from narrative attacks and help them reduce the risk of financial and reputational harm.
+    - generic [ref=e69]:
+      - heading "Our Mission" [level=2] [ref=e70]
+      - heading "To empower trust, safety, and integrity across the global information ecosystem." [level=3] [ref=e71]
+    - generic [ref=e77]:
+      - heading "Our Story" [level=2] [ref=e78]
+      - generic [ref=e79]:
+        - paragraph [ref=e80]: "In 2017, driven by a shared vision to tackle a profound societal challenge, computer scientists and co-founders Wasim Khaled and Dr. Naushad UzZaman embarked on a mission. They aimed to address one of the most pressing threats to society, which they viewed as an existential problem that kept them both up at night: narrative attacks and a future filled with AI-driven propaganda. This marked the inception of Blackbird.AI. As pioneers in the field, they bootstrapped their venture, channeling their passion into the creation of a mission-driven company focused on scalable technology solutions. The early team included a diverse mix of experts from fields such as artificial intelligence, national security, psychology, journalism, and healthcare, among others. Together, these innovators brought a rich tapestry of global perspectives and expertise, propelling unprecedented innovation in the fight against narrative attacks that continues to this day."
+        - paragraph [ref=e81]: Today Blackbird.AI is considered a leader in protecting organizations from narrative attacks that cause financial and reputational harm. Our Constellation AI-driven Narrative Intelligence Platform – identifies key narratives that impact organizations, the influence behind them, the networks they touch, the bot behavior that scales them, and the cohorts and communities that connect them. This information enables organizations to proactively understand narrative threats as they scale and become harmful for better strategic decision-making.
+    - generic [ref=e87]:
+      - heading "Our Team" [level=2] [ref=e88]
+      - paragraph [ref=e89]: We are a mission-driven team of experts in artificial intelligence, national security, and narrative intelligence. We aim to protect our customers and the global information ecosystem from narrative attacks.
+      - link "Meet the Team" [ref=e90] [cursor=pointer]:
+        - /url: https://blackbird.ai/team/
+    - heading "The world's leading organizations rely on us. You can, too." [level=2] [ref=e94]:
+      - text: The world's leading organizations rely on us.
+      - text: You can, too.
+    - generic [ref=e111]:
+      - heading "RAV3N Narrative Intelligence and Research Team" [level=2] [ref=e112]
+      - generic [ref=e113]:
+        - generic [ref=e115]:
+          - heading "Multi-Disciplinary Experts" [level=3] [ref=e116]
+          - paragraph [ref=e117]: Our team has backgrounds in data science, national security, cybersecurity, journalism, OSINT, and communications. They are power users of the Blackbird.AI Constellation Platform and our custom toolkits, helping you get the most from our partnership to protect your organization.
+        - generic [ref=e119]:
+          - heading "Narrative Intelligence Experts" [level=3] [ref=e120]
+          - paragraph [ref=e121]: Our team can go deep on investigations and provide detailed reports on narrative attacks and highlight critical elements, including cohort activities, bot network manipulation, and key influencers.
+        - generic [ref=e123]:
+          - heading "Program Development" [level=3] [ref=e124]
+          - paragraph [ref=e125]: We provide advanced benchmarking for your sector, organization, and emerging threats. Our learning and development programs empower your leadership teams and analysts to understand the digital landscape with excellent resolution for better decision-making.
+    - generic [ref=e129]:
+      - heading "An Award Winning Company" [level=2] [ref=e130]
+      - generic [ref=e131]:
+        - generic [ref=e132]:
+          - link [ref=e133] [cursor=pointer]:
+            - /url: https://www.prweek.com/article/1947772/ai-25-class-2026
+          - generic [ref=e134]:
+            - 'heading "PRWeek’s AI 25: Class of 2026" [level=4] [ref=e135]'
+            - paragraph [ref=e136]: Recognizing Wasim Khaled as one of the most influential leaders shaping the future of artificial intelligence
+        - generic [ref=e137]:
+          - link [ref=e138] [cursor=pointer]:
+            - /url: https://www.bintelligence.com/posts/2026-big-innovation-awards-159-trailblazers-prove-where-innovation-is-really-happening
+          - generic [ref=e139]:
+            - heading "2026 BIG Innovation Award" [level=4] [ref=e140]
+            - paragraph [ref=e141]: For transforming industries through applied innovation
+        - generic [ref=e142]:
+          - link [ref=e143] [cursor=pointer]:
+            - /url: https://www.inc.com/best-in-business
+          - generic [ref=e144]:
+            - heading "Inc.’s 2025 Best in Business" [level=4] [ref=e145]
+            - paragraph [ref=e146]: Best in Innovation Category
+        - generic [ref=e147]:
+          - link [ref=e148] [cursor=pointer]:
+            - /url: http://blackbird.ai/in-the-news/blackbird-ai-fast-company-most-innovative-companies-for-2025-in-the-applied-ai-category/
+          - generic [ref=e149]:
+            - heading "Most Innovative Companies in Applied AI" [level=4] [ref=e150]
+            - paragraph [ref=e151]: For arming companies with AI that detects AI disinformation
+        - generic [ref=e152]:
+          - link [ref=e153] [cursor=pointer]:
+            - /url: https://www.fastcompany.com/next-big-things-in-tech/list
+          - generic [ref=e154]:
+            - heading "Next Big Thing in Tech 2024" [level=4] [ref=e155]
+            - paragraph [ref=e156]: For creating a weapon against misinformation
+        - generic [ref=e157]:
+          - link [ref=e158] [cursor=pointer]:
+            - /url: https://www.security-innovation.org/sinet16-award/2024winners/
+          - generic [ref=e159]:
+            - heading "SINET16 Innovator Award 2024" [level=4] [ref=e160]
+            - paragraph [ref=e161]: For its groundbreaking AI-technology platform that protects organizations from narrative attacks
+        - generic [ref=e162]:
+          - link [ref=e163] [cursor=pointer]:
+            - /url: https://fortune.com/ranking/impact20/2023/
+          - generic [ref=e164]:
+            - heading "IMPACT 20 Award 2023" [level=4] [ref=e165]
+            - paragraph [ref=e166]: For pioneering AI-driven narrative intelligence
+        - generic [ref=e167]:
+          - link [ref=e168] [cursor=pointer]:
+            - /url: https://www.linkedin.com/feed/update/urn:li:activity:7257791439613345792/
+          - generic [ref=e169]:
+            - heading "Top Infosec Innovators 2024" [level=4] [ref=e170]
+            - paragraph [ref=e171]: For top innovation in cyber defense
+        - generic [ref=e172]:
+          - link [ref=e173] [cursor=pointer]:
+            - /url: https://static1.squarespace.com/static/6282a29cfd1b271f1dc1143d/t/66fafe45ae989c4f43cbbda0/1727725125334/Merit+Awards+Tech+2024+Winners+Final.pdf
+          - generic [ref=e174]:
+            - heading "Best AI Startup" [level=4] [ref=e175]
+            - paragraph [ref=e176]: For highlighting best in current and next generation innovations and technologies
+        - generic [ref=e177]:
+          - link [ref=e178] [cursor=pointer]:
+            - /url: https://www.prdaily.com/pr-daily-announces-pr-tech-hot-list/
+          - generic [ref=e179]:
+            - heading "PR Tech Hot List" [level=4] [ref=e180]
+            - paragraph [ref=e181]: For helping PR practitioners be more effective, influential and impactful
+        - generic [ref=e182]:
+          - link [ref=e183] [cursor=pointer]:
+            - /url: https://cybersecurity-excellence-awards.com/candidates/blackbird-ais-compass-and-constellation-2024/
+          - generic [ref=e184]:
+            - heading "Cybersecurity Excellence 2024" [level=4] [ref=e185]
+            - paragraph [ref=e186]: For Compass by Blackbird.AI and excellence in cybersecurity
+        - generic [ref=e187]:
+          - link [ref=e188] [cursor=pointer]:
+            - /url: https://tag-infosphere.com/
+          - generic [ref=e189]:
+            - heading "TAG Infosphere" [level=4] [ref=e190]
+            - paragraph [ref=e191]: Top 5 Distinguished Vendor
+    - generic [ref=e196]:
+      - generic [ref=e197]:
+        - heading "Our Alliances" [level=2] [ref=e198]
+        - heading "Global Alliance Program" [level=3] [ref=e199]
+      - paragraph [ref=e201]: Blackbird.AI's Global Alliance Program brings the capabilities of our world-class, AI-based Constellation Narrative Intelligence Platform to a network of strategic partners and leaders in communications, data science, cyber security, social and broadcast intelligence, and analytics and risk management. We aim to engage in strategic partnerships to offer the best narrative intelligence solutions to protect top brands and national security organizations.
+    - generic [ref=e205]:
+      - heading "Our Partners" [level=2] [ref=e206]
+      - generic [ref=e207]:
+        - link "CDW" [ref=e209] [cursor=pointer]:
+          - /url: http://cdw.com
+          - img "CDW" [ref=e210]
+        - link "Fivecast" [ref=e212] [cursor=pointer]:
+          - /url: http://fivecast.com
+          - img "Fivecast" [ref=e213]
+        - link "Meltwater" [ref=e215] [cursor=pointer]:
+          - /url: http://meltwater.com
+          - img "Meltwater" [ref=e216]
+        - link "Brandwatch" [ref=e218] [cursor=pointer]:
+          - /url: http://brandwatch.com
+          - img "Brandwatch" [ref=e219]
+        - link "Security Risk Advisors" [ref=e221] [cursor=pointer]:
+          - /url: http://sra.io
+          - img "Security Risk Advisors" [ref=e222]
+        - link "BlackCloak" [ref=e224] [cursor=pointer]:
+          - /url: http://blackcloak.io
+          - img "BlackCloak" [ref=e225]
+        - link "World Wide Technology" [ref=e227] [cursor=pointer]:
+          - /url: http://wwt.com
+          - img "World Wide Technology" [ref=e228]
+        - link "Rilian" [ref=e230] [cursor=pointer]:
+          - /url: http://riliantech.com
+          - img "Rilian" [ref=e231]
+        - link "Carahsoft" [ref=e233] [cursor=pointer]:
+          - /url: http://carahsoft.com
+          - img "Carahsoft" [ref=e234]
+        - link "Ingram Micro" [ref=e236] [cursor=pointer]:
+          - /url: http://ingrammicro.com/
+          - img "Ingram Micro" [ref=e237]
+        - link "Orbis Operations" [ref=e239] [cursor=pointer]:
+          - /url: http://orbisoperations.com
+          - img "Orbis Operations" [ref=e240]
+    - generic [ref=e242]:
+      - heading "What Our Customers Say" [level=2] [ref=e243]
+      - generic [ref=e244]:
+        - blockquote [ref=e247]:
+          - text: “We felt hopeless about this problem until we started working with Blackbird.AI.”
+          - generic [ref=e248]: — Global National Security Customer
+        - blockquote [ref=e251]:
+          - text: “Transforming our reactive crisis management to proactive resilience.”
+          - generic [ref=e252]: — Chris Perry, CIO Weber-Shandwick/Chairman Weber Shandwick Futures
+        - blockquote [ref=e255]:
+          - text: “Quantitative data we NEED.”
+          - generic [ref=e256]: — Global Energy Company
+        - blockquote [ref=e259]:
+          - text: “The ONLY approach that works.”
+          - generic [ref=e260]: — US Army
+        - blockquote [ref=e263]:
+          - text: “Blackbird.AI sees things that no other tools can see.”
+          - generic [ref=e264]: — Fortune 5 Company
+        - blockquote [ref=e267]:
+          - text: “Our TOP choice.”
+          - generic [ref=e268]: — Global Energy Company
+    - generic [ref=e272]:
+      - heading "Careers" [level=2] [ref=e273]
+      - generic [ref=e274]:
+        - paragraph [ref=e275]: "Blackbird.AI is a mission-driven team of experts (and fun people) focused on protecting organizations from narrative attacks. We are deeply passionate about our company’s role on a global scale to stop this massive problem that the World Economic Forum states is the #1 global risk in 2024."
+        - paragraph [ref=e276]: Diverse viewpoints allow us to think bigger, foster trust and communication, advance innovation at speed and scale, and create the opportunity to drive positive social and global impact directly. If that statement causes goosebumps and makes you lean in, check out our job postings below.
+      - link "Join Our Team" [ref=e277] [cursor=pointer]:
+        - /url: https://blackbird.ai/careers/
+    - generic [ref=e282]:
+      - heading "Contact" [level=2] [ref=e283]
+      - paragraph [ref=e284]: Complete the form to connect with us. We are here to help.
+      - generic [ref=e288]:
+        - group [ref=e289]:
+          - textbox [ref=e292]:
+            - /placeholder: First name*
+          - textbox [ref=e295]:
+            - /placeholder: Last name*
+        - group [ref=e296]:
+          - textbox [ref=e299]:
+            - /placeholder: Company name*
+          - textbox [ref=e302]:
+            - /placeholder: Phone number
+        - group [ref=e303]:
+          - textbox [ref=e306]:
+            - /placeholder: Email address*
+        - group [ref=e307]:
+          - combobox [ref=e310]:
+            - option "Inquiry type*" [disabled] [selected]
+            - option "General"
+            - option "Gov-Defense"
+            - option "Enterprise"
+            - option "Partnership"
+            - option "Press"
+            - option "Other"
+        - group [ref=e311]:
+          - textbox [ref=e314]:
+            - /placeholder: Message*
+        - group
+        - group
+        - group
+        - group
+        - group [ref=e315]:
+          - paragraph [ref=e318]:
+            - text: By submitting the form, I agree to Blackbird.AI's
+            - link "Privacy Policy" [ref=e319] [cursor=pointer]:
+              - /url: https://www.blackbird.ai/privacy
+            - text: .
+        - button "Submit" [ref=e322]
+    - generic [ref=e327]:
+      - generic [ref=e328]:
+        - paragraph [ref=e329]:
+          - generic [ref=e330]: 
+          - text: "Immediate assistance:"
+        - link "+1 (212) 547-9408" [ref=e331] [cursor=pointer]:
+          - /url: tel:+12125479408
+      - generic [ref=e332]:
+        - paragraph [ref=e333]:
+          - generic [ref=e334]: 
+          - text: "Security inquiries:"
+        - link "security@blackbird.ai" [ref=e335] [cursor=pointer]:
+          - /url: mailto:security@blackbird.ai
+  - contentinfo [ref=e336]:
+    - generic [ref=e339]:
+      - generic [ref=e340]:
+        - generic [ref=e341]:
+          - generic [ref=e342]:
+            - link "" [ref=e343] [cursor=pointer]:
+              - /url: https://twitter.com/blackbird_ai
+              - generic [ref=e344]: 
+            - link "" [ref=e345] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/blackbird-ai/
+              - generic [ref=e346]: 
+            - link "" [ref=e347] [cursor=pointer]:
+              - /url: https://www.facebook.com/BlackbirdAI/
+              - generic [ref=e348]: 
+          - heading "Subscribe to our newsletter" [level=3] [ref=e349]
+          - generic [ref=e351]:
+            - textbox "Work email*" [ref=e354]:
+              - /placeholder: Enter your email address
+            - button "Subscribe" [ref=e357]
+        - generic [ref=e358]:
+          - heading "Platform" [level=3] [ref=e359]:
+            - link "Platform" [ref=e360] [cursor=pointer]:
+              - /url: https://blackbird.ai/platform
+          - list [ref=e362]:
+            - listitem [ref=e363]:
+              - link "Constellation Dashboard" [ref=e364] [cursor=pointer]:
+                - /url: https://blackbird.ai/constellation-dashboard/
+            - listitem [ref=e365]:
+              - link "Narrative Feed" [ref=e366] [cursor=pointer]:
+                - /url: https://blackbird.ai/narrative-feed/
+            - listitem [ref=e367]:
+              - link "RAV3N Risk LLM" [ref=e368] [cursor=pointer]:
+                - /url: https://blackbird.ai/rav3n-risk-llm/
+            - listitem [ref=e369]:
+              - link "RAV3N Watch" [ref=e370] [cursor=pointer]:
+                - /url: https://blackbird.ai/rav3n-watch-old/
+            - listitem [ref=e371]:
+              - link "Pricing" [ref=e372] [cursor=pointer]:
+                - /url: https://blackbird.ai/pricing/
+          - heading "RAV3N Blog" [level=3] [ref=e373]:
+            - link "RAV3N Blog" [ref=e374] [cursor=pointer]:
+              - /url: https://blackbird.ai/rav3n-blog
+        - generic [ref=e375]:
+          - heading "Company" [level=3] [ref=e376]:
+            - link "Company" [ref=e377] [cursor=pointer]:
+              - /url: https://blackbird.ai/company
+          - list [ref=e379]:
+            - listitem [ref=e380]:
+              - link "Team" [ref=e381] [cursor=pointer]:
+                - /url: https://blackbird.ai/team/
+            - listitem [ref=e382]:
+              - link "Alliances" [ref=e383] [cursor=pointer]:
+                - /url: https://blackbird.ai/alliances/
+            - listitem [ref=e384]:
+              - link "News" [ref=e385] [cursor=pointer]:
+                - /url: https://blackbird.ai/news/
+            - listitem [ref=e386]:
+              - link "Careers" [ref=e387] [cursor=pointer]:
+                - /url: https://apply.workable.com/blackbirdai/
+            - listitem [ref=e388]:
+              - link "Contact" [ref=e389] [cursor=pointer]:
+                - /url: https://blackbird.ai/contact/
+            - listitem [ref=e390]:
+              - link "AI Crawlers" [ref=e391] [cursor=pointer]:
+                - /url: https://blackbird.ai/ai-info/
+        - generic [ref=e392]:
+          - heading "Learn" [level=3] [ref=e393]:
+            - link "Learn" [ref=e394] [cursor=pointer]:
+              - /url: https://blackbird.ai/learn
+          - link:
+            - /url: https://blackbird.ai/learn
+          - generic [ref=e395]:
+            - link:
+              - /url: https://blackbird.ai/learn
+            - list [ref=e396]:
+              - link:
+                - /url: https://blackbird.ai/learn
+              - listitem [ref=e397]:
+                - link:
+                  - /url: https://blackbird.ai/learn
+                - link "Guides" [ref=e398] [cursor=pointer]:
+                  - /url: https://blackbird.ai/guides/
+              - listitem [ref=e399]:
+                - link "Reports" [ref=e400] [cursor=pointer]:
+                  - /url: https://blackbird.ai/reports/
+              - listitem [ref=e401]:
+                - link "Customer Stories" [ref=e402] [cursor=pointer]:
+                  - /url: https://blackbird.ai/case-studies/
+              - listitem [ref=e403]:
+                - link "Webinars & Events" [ref=e404] [cursor=pointer]:
+                  - /url: https://blackbird.ai/webinars-events/
+              - listitem [ref=e405]:
+                - link "What is Narrative Risk?" [ref=e406] [cursor=pointer]:
+                  - /url: https://blackbird.ai/narrative-attacks/
+              - listitem [ref=e407]:
+                - link "What is Narrative Intelligence?" [ref=e408] [cursor=pointer]:
+                  - /url: https://blackbird.ai/narrative-intelligence/
+      - heading "Solutions" [level=3] [ref=e410]:
+        - link "Solutions" [ref=e411] [cursor=pointer]:
+          - /url: https://blackbird.ai/solutions
+      - generic [ref=e412]:
+        - generic [ref=e413]:
+          - heading "Industries" [level=4] [ref=e414]:
+            - link "Industries" [ref=e415] [cursor=pointer]:
+              - /url: https://blackbird.ai/industries
+          - list [ref=e417]:
+            - listitem [ref=e418]:
+              - link "Corporate Intelligence" [ref=e419] [cursor=pointer]:
+                - /url: https://blackbird.ai/corporate-intelligence/
+            - listitem [ref=e420]:
+              - link "Critical Infrastructure" [ref=e421] [cursor=pointer]:
+                - /url: https://blackbird.ai/critical-infrastructure/
+            - listitem [ref=e422]:
+              - link "Consumer Products" [ref=e423] [cursor=pointer]:
+                - /url: https://blackbird.ai/consumer-products/
+            - listitem [ref=e424]:
+              - link "Media" [ref=e425] [cursor=pointer]:
+                - /url: https://blackbird.ai/media/
+            - listitem [ref=e426]:
+              - link "Healthcare" [ref=e427] [cursor=pointer]:
+                - /url: https://blackbird.ai/healthcare/
+        - generic [ref=e428]:
+          - heading [level=4] [ref=e429]
+          - list [ref=e431]:
+            - listitem [ref=e432]:
+              - link "Technology Platforms" [ref=e433] [cursor=pointer]:
+                - /url: https://blackbird.ai/technology-platforms/
+            - listitem [ref=e434]:
+              - link "Travel & Entertainment" [ref=e435] [cursor=pointer]:
+                - /url: https://blackbird.ai/travel-entertainment/
+            - listitem [ref=e436]:
+              - link "Finance" [ref=e437] [cursor=pointer]:
+                - /url: https://blackbird.ai/finance/
+            - listitem [ref=e438]:
+              - link "Public Sector" [ref=e439] [cursor=pointer]:
+                - /url: https://blackbird.ai/public-sector/
+        - generic [ref=e440]:
+          - heading "Roles" [level=4] [ref=e441]:
+            - link "Roles" [ref=e442] [cursor=pointer]:
+              - /url: https://blackbird.ai/roles
+          - list [ref=e444]:
+            - listitem [ref=e445]:
+              - link "Communication Leaders" [ref=e446] [cursor=pointer]:
+                - /url: https://blackbird.ai/communication-leaders/
+            - listitem [ref=e447]:
+              - link "Marketing Leaders" [ref=e448] [cursor=pointer]:
+                - /url: https://blackbird.ai/marketing-leaders/
+            - listitem [ref=e449]:
+              - link "Security Leaders" [ref=e450] [cursor=pointer]:
+                - /url: https://blackbird.ai/security-leaders/
+            - listitem [ref=e451]:
+              - link "Risk Leaders" [ref=e452] [cursor=pointer]:
+                - /url: https://blackbird.ai/risk-leaders/
+            - listitem [ref=e453]:
+              - link "Public Sector Leaders" [ref=e454] [cursor=pointer]:
+                - /url: https://blackbird.ai/public-sector-leaders/
+            - listitem [ref=e455]:
+              - link "Executive Teams" [ref=e456] [cursor=pointer]:
+                - /url: https://blackbird.ai/executive-teams/
+        - generic [ref=e457]:
+          - heading "Narrative Use Cases" [level=4] [ref=e458]:
+            - link "Narrative Use Cases" [ref=e459] [cursor=pointer]:
+              - /url: https://blackbird.ai/solutions-use-cases
+          - list [ref=e461]:
+            - listitem [ref=e462]:
+              - link "Crisis" [ref=e463] [cursor=pointer]:
+                - /url: https://blackbird.ai/crisis/
+            - listitem [ref=e464]:
+              - link "Labor Relations" [ref=e465] [cursor=pointer]:
+                - /url: https://blackbird.ai/labor-relations/
+            - listitem [ref=e466]:
+              - link "Executive Protection" [ref=e467] [cursor=pointer]:
+                - /url: https://blackbird.ai/executive-protection/
+            - listitem [ref=e468]:
+              - link "Corporate Security" [ref=e469] [cursor=pointer]:
+                - /url: https://blackbird.ai/corporate-security/
+            - listitem [ref=e470]:
+              - link "Environmental, Social and Governance" [ref=e471] [cursor=pointer]:
+                - /url: https://blackbird.ai/environmental-social-and-governance/
+            - listitem [ref=e472]:
+              - link "M&A Due Diligence" [ref=e473] [cursor=pointer]:
+                - /url: https://blackbird.ai/ma-due-diligence/
+            - listitem [ref=e474]:
+              - link "Brand Protection" [ref=e475] [cursor=pointer]:
+                - /url: https://blackbird.ai/brand-protection/
+        - generic [ref=e476]:
+          - heading "Narrative Risk" [level=4] [ref=e477]
+          - list [ref=e479]:
+            - listitem [ref=e480]:
+              - link "Stock Manipulation" [ref=e481] [cursor=pointer]:
+                - /url: https://blackbird.ai/stock-manipulation/
+            - listitem [ref=e482]:
+              - link "Supply Chain and Critical Manufacturing" [ref=e483] [cursor=pointer]:
+                - /url: https://blackbird.ai/supply-chain-and-critical-manufacturing/
+            - listitem [ref=e484]:
+              - link "Insider Threats" [ref=e485] [cursor=pointer]:
+                - /url: https://blackbird.ai/insider-threats/
+            - listitem [ref=e486]:
+              - link "Financial Markets" [ref=e487] [cursor=pointer]:
+                - /url: https://blackbird.ai/financial-markets-risk/
+            - listitem [ref=e488]:
+              - link "Cyber Attacks" [ref=e489] [cursor=pointer]:
+                - /url: https://blackbird.ai/cyber-attack/
+            - listitem [ref=e490]:
+              - link "Brand Risk" [ref=e491] [cursor=pointer]:
+                - /url: https://blackbird.ai/brand-reputation/
+            - listitem [ref=e492]:
+              - link "Geopolitical Risk" [ref=e493] [cursor=pointer]:
+                - /url: https://blackbird.ai/geopolitical-risk/
+    - generic [ref=e497]:
+      - generic [ref=e498]: © 2026 - Blackbird.AI | All rights reserved.
+      - generic [ref=e499]:
+        - link "Glossary of Terms" [ref=e500] [cursor=pointer]:
+          - /url: https://blackbird.ai/glossary-of-terms
+        - text: "|"
+        - link "Privacy Policy" [ref=e501] [cursor=pointer]:
+          - /url: https://blackbird.ai/privacy-policy
+        - text: "|"
+        - link "Terms of Service" [ref=e502] [cursor=pointer]:
+          - /url: https://blackbird.ai/terms-of-service
+        - text: "|"
+        - link "Legal" [ref=e503] [cursor=pointer]:
+          - /url: https://blackbird.ai/legal-docs

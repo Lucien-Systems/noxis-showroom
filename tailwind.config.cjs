@@ -5,23 +5,24 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        bg: "#040816",
-        card: "#0A132B",
-        panel: "#101C3A",
-        line: "#24345C",
-        ink: "#F2F5FF",
-        mute: "#97A7CC",
-        accent: "#E9C25B",
-        accent2: "#FFD84F",
+        bg: "#05070B",
+        card: "#0D1220",
+        panel: "#111829",
+        line: "#24314A",
+        ink: "#E7EDF9",
+        mute: "#97A4BA",
+        accent: "#D8A93A",
+        accent2: "#F4C84A",
       },
       boxShadow: {
-        glow: "0 0 0 1px #24345c, 0 0 38px 4px rgba(255,216,79,.18)",
+        glow: "0 0 0 1px #24314a, 0 14px 36px -20px rgba(244,200,74,.35)",
       },
       borderRadius: {
         "2xl": "20px",
       },
       fontFamily: {
-        sans: ["Inter", "system-ui", "sans-serif"],
+        sans: ["Roboto", "system-ui", "sans-serif"],
+        heading: ["Michroma", "Roboto", "sans-serif"],
       },
       maxWidth: {
         container: "1200px",

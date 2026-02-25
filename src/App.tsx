@@ -1,40 +1,114 @@
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Hero from "./sections/Hero";
-import WhatIs from "./sections/WhatIs";
-import Principles from "./sections/Principles";
-import How from "./sections/How";
-import Audience from "./sections/Audience";
-import Technology from "./sections/Technology";
-import Ecosystem from "./sections/Ecosystem";
-import Founder from "./sections/Founder";
+import { useEffect, useMemo, useState } from "react";
+import type { ReactElement } from "react";
+import SiteFooter from "./components/SiteFooter";
+import SiteHeader from "./components/SiteHeader";
+import CompanyPage from "./pages/CompanyPage";
+import HomePage from "./pages/HomePage";
+import LabPage from "./pages/LabPage";
+import PlatformPage from "./pages/PlatformPage";
+import PricingPage from "./pages/PricingPage";
+import SolutionsPage from "./pages/SolutionsPage";
 
-function Wrap({id,title,children}:{id:string;title:string;children:React.ReactNode}){
-  return (
-    <section id={id} className="section">
-      <div className="container">
-        <h2 className="section__title">{title}</h2>
-        <div className="mt-3">{children}</div>
-      </div>
-    </section>
-  );
+type PageProps = {
+  onNavigate: (path: string) => void;
+};
+
+type RouteConfig = {
+  title: string;
+  render: (props: PageProps) => ReactElement;
+};
+
+const routes: Record<string, RouteConfig> = {
+  "/": { title: "NOXIS | Sovereign Intelligence Grid", render: (props) => <HomePage {...props} /> },
+  "/platform": { title: "Platform | NOXIS", render: (props) => <PlatformPage {...props} /> },
+  "/solutions": { title: "Solutions | NOXIS", render: (props) => <SolutionsPage {...props} /> },
+  "/company": { title: "Company | NOXIS", render: (props) => <CompanyPage {...props} /> },
+  "/pricing": { title: "Pricing | NOXIS", render: (props) => <PricingPage {...props} /> },
+  "/lab": { title: "LAB | NOXIS", render: (props) => <LabPage {...props} /> },
+};
+
+function normalizePath(pathname: string) {
+  if (!pathname || pathname === "/") return "/";
+  return pathname.endsWith("/") ? pathname.slice(0, -1) : pathname;
 }
 
-export default function App(){
+function splitTarget(target: string) {
+  const [pathname, hash] = target.split("#");
+  return {
+    pathname: normalizePath(pathname || "/"),
+    hash: hash ? `#${hash}` : "",
+  };
+}
+
+function scrollToHash(hash: string) {
+  if (!hash) return;
+  const id = hash.replace("#", "");
+  const el = document.getElementById(id);
+  if (el) {
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+}
+
+export default function App() {
+  const [currentPath, setCurrentPath] = useState(() => normalizePath(window.location.pathname));
+
+  const route = useMemo(() => routes[currentPath] ?? routes["/"], [currentPath]);
+
+  useEffect(() => {
+    const onPopState = () => {
+      setCurrentPath(normalizePath(window.location.pathname));
+      requestAnimationFrame(() => {
+        scrollToHash(window.location.hash);
+      });
+    };
+
+    window.addEventListener("popstate", onPopState);
+    return () => window.removeEventListener("popstate", onPopState);
+  }, []);
+
+  useEffect(() => {
+    document.title = route.title;
+  }, [route.title]);
+
+  useEffect(() => {
+    if (!window.location.hash) {
+      window.scrollTo({ top: 0, behavior: "instant" as ScrollBehavior });
+      return;
+    }
+    requestAnimationFrame(() => {
+      scrollToHash(window.location.hash);
+    });
+  }, [currentPath]);
+
+  const onNavigate = (target: string) => {
+    const { pathname, hash } = splitTarget(target);
+    const knownPath = routes[pathname] ? pathname : "/";
+    const nextUrl = `${knownPath}${hash}`;
+
+    if (`${currentPath}${window.location.hash}` === nextUrl) {
+      if (hash) scrollToHash(hash);
+      return;
+    }
+
+    if (knownPath === currentPath) {
+      window.history.pushState({}, "", nextUrl);
+      if (hash) {
+        scrollToHash(hash);
+      } else {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+      return;
+    }
+
+    window.history.pushState({}, "", nextUrl);
+    setCurrentPath(knownPath);
+  };
+
   return (
-    <>
-      <Navbar />
-      <main style={{ paddingTop: 96 }}>
-        <section id="top" className="section"><div className="container"><Hero /></div></section>
-        <Wrap id="about" title="What is Noxis"><WhatIs /></Wrap>
-        <Wrap id="principles" title="Key Principles"><Principles /></Wrap>
-        <Wrap id="how" title="How Noxis Works"><How /></Wrap>
-        <Wrap id="audience" title="Audience (Who it’s for)"><Audience /></Wrap>
-        <Wrap id="technology" title="Technology (high-level)"><Technology /></Wrap>
-        <Wrap id="ecosystem" title="Lucien Ecosystem"><Ecosystem /></Wrap>
-        <Wrap id="founder" title="About the Founder"><Founder /></Wrap>
-      </main>
-      <Footer />
-    </>
+    <div className="site-shell">
+      <SiteHeader currentPath={currentPath} onNavigate={onNavigate} />
+      <main className="site-main">{route.render({ onNavigate })}</main>
+      <SiteFooter onNavigate={onNavigate} />
+    </div>
   );
 }

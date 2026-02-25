@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.6",
+    "@fontsource/michroma": "^5.2.8",
+    "@fontsource/roboto": "^5.2.10",
+    "@fontsource/space-grotesk": "^5.2.10",
     "focus-trap-react": "^11.0.4",
     "framer-motion": "^12.23.12",
     "lucide-react": "^0.542.0",

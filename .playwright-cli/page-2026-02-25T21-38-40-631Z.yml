@@ -1,0 +1,1121 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - generic:
+        - img "Loading"
+    - generic [ref=e3]:
+      - navigation "Main" [ref=e4]:
+        - generic [ref=e5]:
+          - article [ref=e6]:
+            - heading "Navigation" [level=2] [ref=e7]
+            - list [ref=e8]:
+              - listitem [ref=e9]:
+                - link "Generate Alpha" [ref=e10] [cursor=pointer]:
+                  - /url: /alpha/
+              - listitem [ref=e11]:
+                - link "↳ AIP" [ref=e12] [cursor=pointer]:
+                  - /url: /platforms/aip/
+              - listitem [ref=e13]:
+                - link "↳ Foundry" [ref=e14] [cursor=pointer]:
+                  - /url: /platforms/foundry/
+              - listitem [ref=e15]:
+                - link "↳ Gotham" [ref=e16] [cursor=pointer]:
+                  - /url: /platforms/gotham/
+              - listitem [ref=e17]:
+                - link "↳ Ontology" [ref=e18] [cursor=pointer]:
+                  - /url: /platforms/ontology/
+              - listitem [ref=e19]:
+                - link "↳ Apollo" [ref=e20] [cursor=pointer]:
+                  - /url: /platforms/apollo/
+              - listitem [ref=e21]:
+                - link "Offerings" [ref=e22] [cursor=pointer]:
+                  - /url: /offerings/
+              - listitem [ref=e23]:
+                - link "Impact Studies" [ref=e24] [cursor=pointer]:
+                  - /url: /impact/
+              - listitem [ref=e25]:
+                - link "Documentation" [ref=e26] [cursor=pointer]:
+                  - /url: https://www.palantir.com/docs/
+              - listitem [ref=e27]:
+                - link "Careers" [ref=e28] [cursor=pointer]:
+                  - /url: /careers/
+              - listitem [ref=e29]:
+                - link "Newsroom" [ref=e30] [cursor=pointer]:
+                  - /url: /newsroom/
+              - listitem [ref=e31]:
+                - link "Palantir Explained" [ref=e32] [cursor=pointer]:
+                  - /url: /palantir-explained/
+          - generic [ref=e34]:
+            - article [ref=e35]:
+              - generic [ref=e36]:
+                - heading "Latest News" [level=2] [ref=e37]
+                - link "Newsroom" [ref=e38] [cursor=pointer]:
+                  - /url: /newsroom/
+                  - text: Newsroom ↗
+              - list [ref=e39]:
+                - listitem [ref=e40]:
+                  - link "CNBC, February 19, 2025 Palantir CEO on CNBC Alex Karp talks US software dominance, DOGE, and his book The Technological Republic Palantir CEO Alex Karp spoke about his new book The Technological Republic, the state of Western tech institutions, and DOGE on CNBC Squawk Box. Watch Here" [ref=e41] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=V7mYWOzdhpc
+                    - generic [ref=e42]:
+                      - generic [ref=e43]: CNBC, February 19, 2025
+                      - img "Palantir CEO on CNBC" [ref=e46]
+                    - generic [ref=e49]:
+                      - paragraph [ref=e50]: Alex Karp talks US software dominance, DOGE, and his book The Technological Republic
+                      - paragraph [ref=e51]: Palantir CEO Alex Karp spoke about his new book The Technological Republic, the state of Western tech institutions, and DOGE on CNBC Squawk Box.
+                    - generic [ref=e52]:
+                      - generic [ref=e53]: ↳
+                      - generic [ref=e54]: Watch Here
+            - article [ref=e55]:
+              - generic [ref=e56]:
+                - heading "Offerings" [level=2] [ref=e57]
+                - link "View All Offerings" [ref=e58] [cursor=pointer]:
+                  - /url: /offerings/
+                  - text: View All Offerings ↗
+              - list [ref=e59]:
+                - listitem [ref=e60]:
+                  - link "Our platforms are used throughout the public, private, and non-profit sectors to help organizations quickly implement solutions to the hardest problems they face. Learn more about AIP" [ref=e61] [cursor=pointer]:
+                    - /url: /platforms/aip/
+                    - paragraph [ref=e66]: Our platforms are used throughout the public, private, and non-profit sectors to help organizations quickly implement solutions to the hardest problems they face.
+                    - generic [ref=e67]:
+                      - generic [ref=e68]: ↳
+                      - generic [ref=e69]: Learn more about AIP
+            - article [ref=e70]:
+              - generic [ref=e71]:
+                - heading "Latest Impact" [level=2] [ref=e72]
+                - link "View All Impact Studies" [ref=e73] [cursor=pointer]:
+                  - /url: /impact/
+                  - text: View All Impact Studies ↗
+              - list [ref=e74]:
+                - listitem [ref=e75]:
+                  - link "Impact Study // Tampa General Hospital View of empty hospital room Infusing data throughout the care continuum" [ref=e76] [cursor=pointer]:
+                    - /url: /impact/tampa-general-hospital/
+                    - generic [ref=e77]:
+                      - generic [ref=e78]: Impact Study // Tampa General Hospital
+                      - img "View of empty hospital room" [ref=e81]
+                    - paragraph [ref=e85]: Infusing data throughout the care continuum
+            - article [ref=e86]:
+              - heading "Quick links" [level=2] [ref=e87]
+              - navigation [ref=e88]:
+                - list [ref=e89]:
+                  - listitem [ref=e90]:
+                    - link "— About Palantir" [ref=e91] [cursor=pointer]:
+                      - /url: /about/
+                  - listitem [ref=e92]:
+                    - link "— Blog" [ref=e93] [cursor=pointer]:
+                      - /url: /blog/
+                  - listitem [ref=e94]:
+                    - link "— Investor Relations" [ref=e95] [cursor=pointer]:
+                      - /url: https://investors.palantir.com/
+                  - listitem [ref=e96]:
+                    - link "— Letters from the CEO" [ref=e97] [cursor=pointer]:
+                      - /url: /newsroom/letters/
+                  - listitem [ref=e98]:
+                    - link "— Privacy & Civil Liberties" [ref=e99] [cursor=pointer]:
+                      - /url: /pcl/
+                  - listitem [ref=e100]:
+                    - link "— Information Security" [ref=e101] [cursor=pointer]:
+                      - /url: /information-security/
+                  - listitem [ref=e102]:
+                    - link "— Cloud Partners" [ref=e103] [cursor=pointer]:
+                      - /url: /partnerships/cloud/
+                  - listitem [ref=e104]:
+                    - link "— Palantir Learning" [ref=e105] [cursor=pointer]:
+                      - /url: https://learn.palantir.com/
+                  - listitem [ref=e106]:
+                    - link "— Customer Success Services" [ref=e107] [cursor=pointer]:
+                      - /url: /customer-success-services/
+                  - listitem [ref=e108]:
+                    - link "— Palantir Apparel Store" [ref=e109] [cursor=pointer]:
+                      - /url: /store/
+                  - listitem [ref=e110]:
+                    - link "— Contact" [ref=e111] [cursor=pointer]:
+                      - /url: /contact/
+      - generic [ref=e113]:
+        - paragraph [ref=e116]:
+          - text: Read CEO Alex Karp’s
+          - link "Letter to Shareholders" [ref=e117] [cursor=pointer]:
+            - /url: /q4-2025-letter
+        - button "Close" [ref=e118] [cursor=pointer]:
+          - img [ref=e119]
+      - button "Skip to Content" [ref=e121] [cursor=pointer]
+      - banner:
+        - link "Link to Palantir homepage" [ref=e123] [cursor=pointer]:
+          - /url: /
+          - img "Palantir" [ref=e124]
+      - generic [ref=e127]:
+        - generic [ref=e129] [cursor=pointer]: Get Started
+        - generic [ref=e130]:
+          - button "Show Search" [ref=e131] [cursor=pointer]:
+            - img "Show Search" [ref=e132]
+          - button "Show Navigation" [ref=e135] [cursor=pointer]
+      - banner [ref=e141]:
+        - generic [ref=e142]:
+          - heading "AI-Powered Automation for Every Decision" [level=1] [ref=e143]:
+            - generic [ref=e144]: AI-Powered
+            - generic [ref=e145]: Automation
+            - generic [ref=e146]: for
+            - generic [ref=e147]: Every
+            - generic [ref=e148]: Decision
+          - img [ref=e150]
+          - paragraph [ref=e152]: Scroll to Explore
+      - generic [ref=e157]:
+        - generic [ref=e159]:
+          - generic [ref=e160]:
+            - paragraph [ref=e161]: ShipOS
+            - link "Rebuilding American Sea Power ShipOS Rebuilding American Sea Power ↗ See All →" [ref=e162] [cursor=pointer]:
+              - /url: https://www.palantir.com/shipos
+              - img "Rebuilding American Sea Power" [ref=e163]
+              - generic [ref=e164]:
+                - paragraph [ref=e165]: ShipOS
+                - heading "Rebuilding American Sea Power ↗" [level=3] [ref=e166]
+                - link "See All" [ref=e167]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e168]:
+            - paragraph [ref=e169]: Warp Speed
+            - link "The Manufacturing OS for American Re-Industrialization Warp Speed The Manufacturing OS for American Re-Industrialization ↗ See All →" [ref=e170] [cursor=pointer]:
+              - /url: https://www.palantir.com/warpspeed/
+              - img "The Manufacturing OS for American Re-Industrialization" [ref=e171]
+              - generic [ref=e172]:
+                - paragraph [ref=e173]: Warp Speed
+                - heading "The Manufacturing OS for American Re-Industrialization ↗" [level=3] [ref=e174]
+                - link "See All" [ref=e175]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e176]:
+            - paragraph [ref=e177]: Systems Migration
+            - link "Systems Migration Systems Migration Accelerate Enterprise Data Migration with Palantir AIP ↗ See All →" [ref=e178] [cursor=pointer]:
+              - /url: https://www.palantir.com/migration
+              - img "Systems Migration" [ref=e179]
+              - generic [ref=e180]:
+                - paragraph [ref=e181]: Systems Migration
+                - heading "Accelerate Enterprise Data Migration with Palantir AIP ↗" [level=3] [ref=e182]
+                - link "See All" [ref=e183]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e184]:
+            - paragraph [ref=e185]: DevCon 4
+            - link "Building Maximally Ambitious Products on a Digital Architecture Shared by Human + AI Teams DevCon 4 Building Maximally Ambitious Products on a Digital Architecture Shared by Human + AI Teams ↗ See All →" [ref=e186] [cursor=pointer]:
+              - /url: https://www.youtube.com/playlist?list=PLqTLGbLI0CvkZmevZavWNOmEo2WNgKMB-
+              - img "Building Maximally Ambitious Products on a Digital Architecture Shared by Human + AI Teams" [ref=e187]
+              - generic [ref=e188]:
+                - paragraph [ref=e189]: DevCon 4
+                - heading "Building Maximally Ambitious Products on a Digital Architecture Shared by Human + AI Teams ↗" [level=3] [ref=e190]
+                - link "See All" [ref=e191]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e192]:
+            - paragraph [ref=e193]: AIPCon 8
+            - 'link "How Foundry and AIP Help Companies Win: 70+ Speakers Including American Airlines, BP, The Nuclear Company, and Novartis AIPCon 8 How Foundry and AIP Help Companies Win: 70+ Speakers Including American Airlines, BP, The Nuclear Company, and Novartis ↗ See All →" [ref=e194] [cursor=pointer]':
+              - /url: https://www.youtube.com/watch?v=ZdaYBjjXVyQ
+              - 'img "How Foundry and AIP Help Companies Win: 70+ Speakers Including American Airlines, BP, The Nuclear Company, and Novartis" [ref=e195]'
+              - generic [ref=e196]:
+                - paragraph [ref=e197]: AIPCon 8
+                - 'heading "How Foundry and AIP Help Companies Win: 70+ Speakers Including American Airlines, BP, The Nuclear Company, and Novartis ↗" [level=3] [ref=e198]'
+                - link "See All" [ref=e199]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e200]:
+            - paragraph [ref=e201]: Interoperability
+            - link "Activate AI. With Any Storage. Any Compute. Any Model. Anywhere Multimodal Data Plane Activate AI. With Any Storage. Any Compute. Any Model. Anywhere ↗ See All →" [ref=e202] [cursor=pointer]:
+              - /url: https://www.palantir.com/interoperability/
+              - img "Activate AI. With Any Storage. Any Compute. Any Model. Anywhere" [ref=e203]
+              - generic [ref=e204]:
+                - paragraph [ref=e205]: Multimodal Data Plane
+                - heading "Activate AI. With Any Storage. Any Compute. Any Model. Anywhere ↗" [level=3] [ref=e206]
+                - link "See All" [ref=e207]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e208]:
+            - paragraph [ref=e209]: Maven Smart System
+            - link "AI Is Transforming the Battlefield Maven AI Is Transforming the Battlefield ↗ See All →" [ref=e210] [cursor=pointer]:
+              - /url: https://investors.palantir.com/news-details/2024/Palantir-Expands-Maven-Smart-System-AIML-Capabilities-to-Military-Services/
+              - img "AI Is Transforming the Battlefield" [ref=e211]
+              - generic [ref=e212]:
+                - paragraph [ref=e213]: Maven
+                - heading "AI Is Transforming the Battlefield ↗" [level=3] [ref=e214]
+                - link "See All" [ref=e215]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e216]:
+            - paragraph [ref=e217]: TITAN
+            - link "The New ISV TITAN. Designed and Delivered in 90 Days TITAN The New ISV TITAN. Designed and Delivered in 90 Days ↗ See All →" [ref=e218] [cursor=pointer]:
+              - /url: https://www.palantir.com/titan/
+              - img "The New ISV TITAN. Designed and Delivered in 90 Days" [ref=e219]
+              - generic [ref=e220]:
+                - paragraph [ref=e221]: TITAN
+                - heading "The New ISV TITAN. Designed and Delivered in 90 Days ↗" [level=3] [ref=e222]
+                - link "See All" [ref=e223]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e224]:
+            - paragraph [ref=e225]: Chain Reaction
+            - link "The Operating System for American AI Infrastructure Chain Reaction The Operating System for American AI Infrastructure ↗ See All →" [ref=e226] [cursor=pointer]:
+              - /url: https://www.palantir.com/chain-reaction/
+              - img "The Operating System for American AI Infrastructure" [ref=e227]
+              - generic [ref=e228]:
+                - paragraph [ref=e229]: Chain Reaction
+                - heading "The Operating System for American AI Infrastructure ↗" [level=3] [ref=e230]
+                - link "See All" [ref=e231]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e232]:
+            - paragraph [ref=e233]: ShipOS
+            - link "Rebuilding American Sea Power ShipOS Rebuilding American Sea Power ↗ See All →" [ref=e234] [cursor=pointer]:
+              - /url: https://www.palantir.com/shipos
+              - img "Rebuilding American Sea Power" [ref=e235]
+              - generic [ref=e236]:
+                - paragraph [ref=e237]: ShipOS
+                - heading "Rebuilding American Sea Power ↗" [level=3] [ref=e238]
+                - link "See All" [ref=e239]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e240]:
+            - paragraph [ref=e241]: Warp Speed
+            - link "The Manufacturing OS for American Re-Industrialization Warp Speed The Manufacturing OS for American Re-Industrialization ↗ See All →" [ref=e242] [cursor=pointer]:
+              - /url: https://www.palantir.com/warpspeed/
+              - img "The Manufacturing OS for American Re-Industrialization" [ref=e243]
+              - generic [ref=e244]:
+                - paragraph [ref=e245]: Warp Speed
+                - heading "The Manufacturing OS for American Re-Industrialization ↗" [level=3] [ref=e246]
+                - link "See All" [ref=e247]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e248]:
+            - paragraph [ref=e249]: Systems Migration
+            - link "Systems Migration Systems Migration Accelerate Enterprise Data Migration with Palantir AIP ↗ See All →" [ref=e250] [cursor=pointer]:
+              - /url: https://www.palantir.com/migration
+              - img "Systems Migration" [ref=e251]
+              - generic [ref=e252]:
+                - paragraph [ref=e253]: Systems Migration
+                - heading "Accelerate Enterprise Data Migration with Palantir AIP ↗" [level=3] [ref=e254]
+                - link "See All" [ref=e255]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e256]:
+            - paragraph [ref=e257]: DevCon 4
+            - link "Building Maximally Ambitious Products on a Digital Architecture Shared by Human + AI Teams DevCon 4 Building Maximally Ambitious Products on a Digital Architecture Shared by Human + AI Teams ↗ See All →" [ref=e258] [cursor=pointer]:
+              - /url: https://www.youtube.com/playlist?list=PLqTLGbLI0CvkZmevZavWNOmEo2WNgKMB-
+              - img "Building Maximally Ambitious Products on a Digital Architecture Shared by Human + AI Teams" [ref=e259]
+              - generic [ref=e260]:
+                - paragraph [ref=e261]: DevCon 4
+                - heading "Building Maximally Ambitious Products on a Digital Architecture Shared by Human + AI Teams ↗" [level=3] [ref=e262]
+                - link "See All" [ref=e263]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e264]:
+            - paragraph [ref=e265]: AIPCon 8
+            - 'link "How Foundry and AIP Help Companies Win: 70+ Speakers Including American Airlines, BP, The Nuclear Company, and Novartis AIPCon 8 How Foundry and AIP Help Companies Win: 70+ Speakers Including American Airlines, BP, The Nuclear Company, and Novartis ↗ See All →" [ref=e266] [cursor=pointer]':
+              - /url: https://www.youtube.com/watch?v=ZdaYBjjXVyQ
+              - 'img "How Foundry and AIP Help Companies Win: 70+ Speakers Including American Airlines, BP, The Nuclear Company, and Novartis" [ref=e267]'
+              - generic [ref=e268]:
+                - paragraph [ref=e269]: AIPCon 8
+                - 'heading "How Foundry and AIP Help Companies Win: 70+ Speakers Including American Airlines, BP, The Nuclear Company, and Novartis ↗" [level=3] [ref=e270]'
+                - link "See All" [ref=e271]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e272]:
+            - paragraph [ref=e273]: Interoperability
+            - link "Activate AI. With Any Storage. Any Compute. Any Model. Anywhere Multimodal Data Plane Activate AI. With Any Storage. Any Compute. Any Model. Anywhere ↗ See All →" [ref=e274] [cursor=pointer]:
+              - /url: https://www.palantir.com/interoperability/
+              - img "Activate AI. With Any Storage. Any Compute. Any Model. Anywhere" [ref=e275]
+              - generic [ref=e276]:
+                - paragraph [ref=e277]: Multimodal Data Plane
+                - heading "Activate AI. With Any Storage. Any Compute. Any Model. Anywhere ↗" [level=3] [ref=e278]
+                - link "See All" [ref=e279]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e280]:
+            - paragraph [ref=e281]: Maven Smart System
+            - link "AI Is Transforming the Battlefield Maven AI Is Transforming the Battlefield ↗ See All →" [ref=e282] [cursor=pointer]:
+              - /url: https://investors.palantir.com/news-details/2024/Palantir-Expands-Maven-Smart-System-AIML-Capabilities-to-Military-Services/
+              - img "AI Is Transforming the Battlefield" [ref=e283]
+              - generic [ref=e284]:
+                - paragraph [ref=e285]: Maven
+                - heading "AI Is Transforming the Battlefield ↗" [level=3] [ref=e286]
+                - link "See All" [ref=e287]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e288]:
+            - paragraph [ref=e289]: TITAN
+            - link "The New ISV TITAN. Designed and Delivered in 90 Days TITAN The New ISV TITAN. Designed and Delivered in 90 Days ↗ See All →" [ref=e290] [cursor=pointer]:
+              - /url: https://www.palantir.com/titan/
+              - img "The New ISV TITAN. Designed and Delivered in 90 Days" [ref=e291]
+              - generic [ref=e292]:
+                - paragraph [ref=e293]: TITAN
+                - heading "The New ISV TITAN. Designed and Delivered in 90 Days ↗" [level=3] [ref=e294]
+                - link "See All" [ref=e295]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e296]:
+            - paragraph [ref=e297]: Chain Reaction
+            - link "The Operating System for American AI Infrastructure Chain Reaction The Operating System for American AI Infrastructure ↗ See All →" [ref=e298] [cursor=pointer]:
+              - /url: https://www.palantir.com/chain-reaction/
+              - img "The Operating System for American AI Infrastructure" [ref=e299]
+              - generic [ref=e300]:
+                - paragraph [ref=e301]: Chain Reaction
+                - heading "The Operating System for American AI Infrastructure ↗" [level=3] [ref=e302]
+                - link "See All" [ref=e303]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e304]:
+            - paragraph [ref=e305]: ShipOS
+            - link "Rebuilding American Sea Power ShipOS Rebuilding American Sea Power ↗ See All →" [ref=e306] [cursor=pointer]:
+              - /url: https://www.palantir.com/shipos
+              - img "Rebuilding American Sea Power" [ref=e307]
+              - generic [ref=e308]:
+                - paragraph [ref=e309]: ShipOS
+                - heading "Rebuilding American Sea Power ↗" [level=3] [ref=e310]
+                - link "See All" [ref=e311]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e312]:
+            - paragraph [ref=e313]: Warp Speed
+            - link "The Manufacturing OS for American Re-Industrialization Warp Speed The Manufacturing OS for American Re-Industrialization ↗ See All →" [ref=e314] [cursor=pointer]:
+              - /url: https://www.palantir.com/warpspeed/
+              - img "The Manufacturing OS for American Re-Industrialization" [ref=e315]
+              - generic [ref=e316]:
+                - paragraph [ref=e317]: Warp Speed
+                - heading "The Manufacturing OS for American Re-Industrialization ↗" [level=3] [ref=e318]
+                - link "See All" [ref=e319]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e320]:
+            - paragraph [ref=e321]: Systems Migration
+            - link "Systems Migration Systems Migration Accelerate Enterprise Data Migration with Palantir AIP ↗ See All →" [ref=e322] [cursor=pointer]:
+              - /url: https://www.palantir.com/migration
+              - img "Systems Migration" [ref=e323]
+              - generic [ref=e324]:
+                - paragraph [ref=e325]: Systems Migration
+                - heading "Accelerate Enterprise Data Migration with Palantir AIP ↗" [level=3] [ref=e326]
+                - link "See All" [ref=e327]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e328]:
+            - paragraph [ref=e329]: DevCon 4
+            - link "Building Maximally Ambitious Products on a Digital Architecture Shared by Human + AI Teams DevCon 4 Building Maximally Ambitious Products on a Digital Architecture Shared by Human + AI Teams ↗ See All →" [ref=e330] [cursor=pointer]:
+              - /url: https://www.youtube.com/playlist?list=PLqTLGbLI0CvkZmevZavWNOmEo2WNgKMB-
+              - img "Building Maximally Ambitious Products on a Digital Architecture Shared by Human + AI Teams" [ref=e331]
+              - generic [ref=e332]:
+                - paragraph [ref=e333]: DevCon 4
+                - heading "Building Maximally Ambitious Products on a Digital Architecture Shared by Human + AI Teams ↗" [level=3] [ref=e334]
+                - link "See All" [ref=e335]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e336]:
+            - paragraph [ref=e337]: AIPCon 8
+            - 'link "How Foundry and AIP Help Companies Win: 70+ Speakers Including American Airlines, BP, The Nuclear Company, and Novartis AIPCon 8 How Foundry and AIP Help Companies Win: 70+ Speakers Including American Airlines, BP, The Nuclear Company, and Novartis ↗ See All →" [ref=e338] [cursor=pointer]':
+              - /url: https://www.youtube.com/watch?v=ZdaYBjjXVyQ
+              - 'img "How Foundry and AIP Help Companies Win: 70+ Speakers Including American Airlines, BP, The Nuclear Company, and Novartis" [ref=e339]'
+              - generic [ref=e340]:
+                - paragraph [ref=e341]: AIPCon 8
+                - 'heading "How Foundry and AIP Help Companies Win: 70+ Speakers Including American Airlines, BP, The Nuclear Company, and Novartis ↗" [level=3] [ref=e342]'
+                - link "See All" [ref=e343]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e344]:
+            - paragraph [ref=e345]: Interoperability
+            - link "Activate AI. With Any Storage. Any Compute. Any Model. Anywhere Multimodal Data Plane Activate AI. With Any Storage. Any Compute. Any Model. Anywhere ↗ See All →" [ref=e346] [cursor=pointer]:
+              - /url: https://www.palantir.com/interoperability/
+              - img "Activate AI. With Any Storage. Any Compute. Any Model. Anywhere" [ref=e347]
+              - generic [ref=e348]:
+                - paragraph [ref=e349]: Multimodal Data Plane
+                - heading "Activate AI. With Any Storage. Any Compute. Any Model. Anywhere ↗" [level=3] [ref=e350]
+                - link "See All" [ref=e351]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e352]:
+            - paragraph [ref=e353]: Maven Smart System
+            - link "AI Is Transforming the Battlefield Maven AI Is Transforming the Battlefield ↗ See All →" [ref=e354] [cursor=pointer]:
+              - /url: https://investors.palantir.com/news-details/2024/Palantir-Expands-Maven-Smart-System-AIML-Capabilities-to-Military-Services/
+              - img "AI Is Transforming the Battlefield" [ref=e355]
+              - generic [ref=e356]:
+                - paragraph [ref=e357]: Maven
+                - heading "AI Is Transforming the Battlefield ↗" [level=3] [ref=e358]
+                - link "See All" [ref=e359]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e360]:
+            - paragraph [ref=e361]: TITAN
+            - link "The New ISV TITAN. Designed and Delivered in 90 Days TITAN The New ISV TITAN. Designed and Delivered in 90 Days ↗ See All →" [ref=e362] [cursor=pointer]:
+              - /url: https://www.palantir.com/titan/
+              - img "The New ISV TITAN. Designed and Delivered in 90 Days" [ref=e363]
+              - generic [ref=e364]:
+                - paragraph [ref=e365]: TITAN
+                - heading "The New ISV TITAN. Designed and Delivered in 90 Days ↗" [level=3] [ref=e366]
+                - link "See All" [ref=e367]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+          - generic [ref=e368]:
+            - paragraph [ref=e369]: Chain Reaction
+            - link "The Operating System for American AI Infrastructure Chain Reaction The Operating System for American AI Infrastructure ↗ See All →" [ref=e370] [cursor=pointer]:
+              - /url: https://www.palantir.com/chain-reaction/
+              - img "The Operating System for American AI Infrastructure" [ref=e371]
+              - generic [ref=e372]:
+                - paragraph [ref=e373]: Chain Reaction
+                - heading "The Operating System for American AI Infrastructure ↗" [level=3] [ref=e374]
+                - link "See All" [ref=e375]:
+                  - /url: https://www.palantir.com/newsroom/
+              - generic:
+                - button "→"
+        - text: ↗ ↗ ↗ ↗ ↗ ↗ ↗ ↗ ↗
+      - generic [ref=e376]:
+        - paragraph [ref=e378]: Our software powers real-time, AI-driven decisions in critical government and commercial enterprises in the West, from the factory floors to the front lines.
+        - generic [ref=e380]:
+          - heading "Our Software" [level=2] [ref=e381]
+          - generic [ref=e382]:
+            - link "AIP" [ref=e383] [cursor=pointer]:
+              - /url: https://www.palantir.com/platforms/aip/
+              - paragraph [ref=e386]: Automate operations, from the factory floor to the front lines
+              - generic [ref=e387]:
+                - heading "AIP" [level=3] [ref=e388]
+                - paragraph [ref=e389]: /0.1
+            - link "Gotham" [ref=e390] [cursor=pointer]:
+              - /url: https://www.palantir.com/platforms/gotham/
+              - paragraph [ref=e393]: Achieve AI-driven combat superiority, from space to mud
+              - generic [ref=e394]:
+                - heading "Gotham" [level=3] [ref=e395]
+                - paragraph [ref=e396]: /0.2
+            - link "Foundry" [ref=e397] [cursor=pointer]:
+              - /url: https://www.palantir.com/platforms/foundry/
+              - paragraph [ref=e400]: Build and manage Ontology-powered software, with a complete developer platform
+              - generic [ref=e401]:
+                - heading "Foundry" [level=3] [ref=e402]
+                - paragraph [ref=e403]: /0.3
+            - link "Ontology" [ref=e404] [cursor=pointer]:
+              - /url: https://www.palantir.com/platforms/foundry/foundry-ontology/
+              - paragraph [ref=e407]: The central system for orchestrating decisions across Human+AI teams
+              - generic [ref=e408]:
+                - heading "Ontology" [level=3] [ref=e409]
+                - paragraph [ref=e410]: /0.4
+            - link "Apollo" [ref=e411] [cursor=pointer]:
+              - /url: https://www.palantir.com/platforms/apollo/
+              - paragraph [ref=e414]: Autonomously deploy, monitor, and manage software across any environment
+              - generic [ref=e415]:
+                - heading "Apollo" [level=3] [ref=e416]
+                - paragraph [ref=e417]: /0.5
+      - generic [ref=e420]:
+        - img "Two people in a Palantir office." [ref=e422]
+        - generic [ref=e423]:
+          - heading "There is so much left to build" [level=3] [ref=e424]
+          - paragraph [ref=e425]: Palantirians deliver mission-critical outcomes for the West's most important institutions.
+          - link "Learn More" [ref=e426] [cursor=pointer]:
+            - /url: http://palantir.com/careers
+      - generic [ref=e428]:
+        - generic [ref=e431]:
+          - heading "What our partners say about us" [level=2] [ref=e432]
+          - generic [ref=e433]:
+            - generic [ref=e434]:
+              - generic [ref=e436]:
+                - generic [ref=e437]: WENDY'S QUALITY SUPPLY CHAIN CO-OP
+                - generic [ref=e438]: "\"Now, we've not only fixed our inventory problem, we've now taken a problem that would go on for weeks and days and fixed it in five minutes, making our people incredibly efficient.\""
+                - generic [ref=e439]:
+                  - generic [ref=e440]: Pete Suerken
+                  - generic [ref=e441]: President & CEO, Wendy's Quality Supply Chain Co-op
+              - generic [ref=e443]:
+                - generic [ref=e444]: WALGREENS
+                - generic [ref=e445]: "\"We started with the goal of piloting 10 stores within about six months. However, leveraging Foundry and AIP, we began to see real promise quickly in composing AI-powered, end-to-end workflows that allowed us to get to about 4000 stores within eight months.\""
+                - generic [ref=e446]:
+                  - generic [ref=e447]: Jeff Hoffman
+                  - generic [ref=e448]: Walgreens, VP, Product Pharmacy
+              - generic [ref=e450]:
+                - generic [ref=e451]: AT&T
+                - generic [ref=e452]: "\"[S.C.O.U.T] began as a joint effort between AT&T and Palantir, and now has over 100 AT&T dedicated engineers and a dedicated support team…for this application. It's just one of the 660 applications we have on Foundry today.\""
+                - generic [ref=e453]:
+                  - generic [ref=e454]: Dan Wagner
+                  - generic [ref=e455]: Dir. of Technology, AT&T
+              - generic [ref=e457]:
+                - generic [ref=e458]: PAREXEL
+                - generic [ref=e459]: "\"We estimate that this solution reduces our time to submission materials by over 50% from the current 10 to 12 week average to around 3 to 4 weeks. We can create this process, manage the process, standardize it...and cut [in] half the time that is required to get there.\""
+                - generic [ref=e460]:
+                  - generic [ref=e461]: Dan Ballard
+                  - generic [ref=e462]: SVP Digital Innovation, Parexel
+              - generic [ref=e464]:
+                - generic [ref=e465]: HEINEKEN
+                - generic [ref=e466]: "\"We had a great chassis of the car. But our engine was underpowered. So we went to Palantir because we want to have the best engine out there...In three months, [the teams] built what took us three years before.\""
+                - generic [ref=e467]:
+                  - generic [ref=e468]: Laurens van de Rotte
+                  - generic [ref=e469]: Chief Operating Officer, Heineken USA
+              - generic [ref=e471]:
+                - generic [ref=e472]: WALGREENS
+                - generic [ref=e473]: "\"We needed to start scaling and building out autonomous orchestration. If we were to rely on humans solely...that would amount to about 384 billion decisions every day. It would be flat out impossible.\""
+                - generic [ref=e474]:
+                  - generic [ref=e475]: Jeff Hoffman
+                  - generic [ref=e476]: Walgreens, VP, Product Pharmacy
+              - generic [ref=e478]:
+                - generic [ref=e479]: L3HARRIS
+                - generic [ref=e480]: "\"I did not want a dashboard to tell me I was in trouble. I know when I'm in trouble. I wanted someone to give me some predictives, and some ways to...get me not only technologically advanced, but decisionally be more agile and and able to maximize cost [savings] and efficiencies.\""
+                - generic [ref=e481]:
+                  - generic [ref=e482]: Jay Abendroth
+                  - generic [ref=e483]: President, Integrated Vision Solutions Sector, L3Harris
+              - generic [ref=e485]:
+                - generic [ref=e486]: SOMPO JAPAN
+                - generic [ref=e487]: "\"So, what was the impact? Over the last three years, we have seen a $60 million improvement in profit. And we expect an additional $100M over the next three years.\""
+                - generic [ref=e488]:
+                  - generic [ref=e489]: Akiko Murakami
+                  - generic [ref=e490]: Sompo, Chief Technology Officer
+              - generic [ref=e492]:
+                - generic [ref=e493]: GENERAL MILLS
+                - generic [ref=e494]: "\"We’re saving on average about $40,000 a day, which is about $14M annually – and it’s really only deployed to part of our network.\""
+                - generic [ref=e495]:
+                  - generic [ref=e496]: Dave Jackett
+                  - generic [ref=e497]: General Mills, Sr. Director Supply Chain Digital Transformation
+              - generic [ref=e499]:
+                - generic [ref=e500]: AARP
+                - generic [ref=e501]: "\"Foundry and AIP have been terrific for us. We launched the first prototype within 45 days. And that was just amazing from my perspective.\""
+                - generic [ref=e502]:
+                  - generic [ref=e503]: Sami Hassanyeh
+                  - generic [ref=e504]: AARP, SVP Digital Strategy & Membership
+              - generic [ref=e506]:
+                - generic [ref=e507]: LOWE'S
+                - generic [ref=e508]: "\"In less than four months, we created something from POC all the way to production. Palantir has made us faster and smarter.\""
+                - generic [ref=e509]:
+                  - generic [ref=e510]: Elaina Wheeldon
+                  - generic [ref=e511]: Lowe's, VP Data Products, Applied AI, & Analytics
+              - generic [ref=e513]:
+                - generic [ref=e514]: CAZ INVESTMENTS
+                - generic [ref=e515]: "\"With AIP, we can now process over 100 times more leads with the same amount of resources. This has reduced our lead processing time by over 90%. This would not have been possible without AIP.\""
+                - generic [ref=e516]:
+                  - generic [ref=e517]: James Stuard
+                  - generic [ref=e518]: CAZ Investments, VP of Finance
+              - generic [ref=e520]:
+                - generic [ref=e521]: PANASONIC ENERGY NORTH AMERICA
+                - generic [ref=e522]: "\"Ask Atom [powered by Palantir AIP] serves as a vital training tool for our new, and even veteran technicians – cutting that 3-6 month learning curve down to just a few weeks.\""
+                - generic [ref=e523]:
+                  - generic [ref=e524]: Tara Meisinger
+                  - generic [ref=e525]: Panasonic Energy North America, Sr. Maintenance Manager
+              - generic [ref=e527]:
+                - generic [ref=e528]: UNITED AIRLINES
+                - generic [ref=e529]: "\"We deployed Chime late last year…we’ve already saved almost 300 delays, 20 cancellations...this represents millions of dollars of cost avoidance.\""
+                - generic [ref=e530]:
+                  - generic [ref=e531]: Luis Mesen
+                  - generic [ref=e532]: United Airlines, Dir. Of Tech Ops Data Analytics
+              - generic [ref=e534]:
+                - generic [ref=e535]: FUJITSU
+                - generic [ref=e536]: "\"We've combined Foundry's data integration capabilities and Fujitsu's machine learning AI to transform our operations … creating alert systems, demand forecasting, inventory control systems, and so on. This transformation resulted in an impressive annual cost reduction of $9M within just 3 months.\""
+                - generic [ref=e537]:
+                  - generic [ref=e538]: Kazuki Hiraiso
+                  - generic [ref=e539]: Fujitsu, Data Scientist
+              - generic [ref=e541]:
+                - generic [ref=e542]: ESI
+                - generic [ref=e543]: "\"I attended a bootcamp not too long ago...and in 90 minutes, [the team] built an AIP module that was able to read a very poorly made scan...and issue a remarkably good judgment. This has blown our minds.\""
+                - generic [ref=e544]:
+                  - generic [ref=e545]: Timothy Gotsick
+                  - generic [ref=e546]: ESI, Vice President Technology and Innovation
+              - generic [ref=e548]:
+                - generic [ref=e549]: PAREXEL
+                - generic [ref=e550]: "\"On the technology side, we were looking for a partner and an approach to our data strategy, if you will excuse the term, that actually produced s***.\""
+                - generic [ref=e551]:
+                  - generic [ref=e552]: Jonathan Shough
+                  - generic [ref=e553]: Parexel, Chief Information Officer
+              - generic [ref=e555]:
+                - generic [ref=e556]: LENNAR
+                - generic [ref=e557]: "\"It was totally quiet for 14 minutes. People were just in awe. All total hell broke loose, because people completely couldn’t believe what they had seen.\""
+                - generic [ref=e558]:
+                  - generic [ref=e559]: Scott Spradley
+                  - generic [ref=e560]: Lennar, Chief Technology Officer
+              - generic [ref=e562]:
+                - generic [ref=e563]: ARCHER AVIATION
+                - generic [ref=e564]: "\"We’ve been able to build an ontology...and really get this all to come together in a faster time scale than ever been seen for an aircraft certification program of this magnitude.\""
+                - generic [ref=e565]:
+                  - generic [ref=e566]: Adam Wormoth
+                  - generic [ref=e567]: Archer Aviation, Head of Product
+              - generic [ref=e569]:
+                - generic [ref=e570]: CUMMINS
+                - generic [ref=e571]: "\"You’ve got to have the right technology to be able to access [your data] fast...efficiently. That’s the difference with Foundry and building ontologies.\""
+                - generic [ref=e572]:
+                  - generic [ref=e573]: Jim Jacob
+                  - generic [ref=e574]: Cummins, VP Executive Director, Digitalization, Advanced Analytics and Artificial Intelligence
+              - generic [ref=e576]:
+                - generic [ref=e577]: JACOBS
+                - generic [ref=e578]: "\"Palantir's frontline mixed reality capabilities...will complement our technology goals of worker enablement and job site safety. No matter what industrial site our teams are at...workers gain access to data and insights in the field where it's most relevant and critical.\""
+                - generic [ref=e579]:
+                  - generic [ref=e580]: Shannon Miller
+                  - generic [ref=e581]: Jacobs, SVP Digital Strategy
+              - generic [ref=e583]:
+                - generic [ref=e584]: TAMPA GENERAL HOSPITAL
+                - generic [ref=e585]: "\"Palantir is going to be front and center for everything that we do…[the platform] is a strategic differentiator for us.\""
+                - generic [ref=e586]:
+                  - generic [ref=e587]: John Couris
+                  - generic [ref=e588]: Tampa General Hospital, CEO
+              - generic [ref=e590]:
+                - generic [ref=e591]: NORTHWIND TECHNICAL SERVICES
+                - generic [ref=e592]: "\"We chose Palantir because their products are absolutely best in the class. We partnered with Palantir because their core values match with Northwind core values. And last, we win with Palantir because this relationship will make us a better competitor.\""
+                - generic [ref=e593]:
+                  - generic [ref=e594]: Michael Bosworth
+                  - generic [ref=e595]: NorthWind Technical Services, Founder & CEO
+              - generic [ref=e597]:
+                - generic [ref=e598]: EATON
+                - generic [ref=e599]: "\"We like to say that we make what matters work. Palantir is helping us focus on what matters.\""
+                - generic [ref=e600]:
+                  - generic [ref=e601]: Brian Fifarek
+                  - generic [ref=e602]: Eaton, Vice President Supply Chain Digitalization
+              - generic [ref=e604]:
+                - generic [ref=e605]: HCA HEALTHCARE
+                - generic [ref=e606]: "\"We have a better-balanced schedule. We have a better complement of competencies every single day. A unique feature of this scheduling system also allows us to balance it out in the future.\""
+                - generic [ref=e607]:
+                  - generic [ref=e608]: Dr. Michael Schlosser
+                  - generic [ref=e609]: HCA Healthcare, SVP Care Transformation and Innovation
+              - generic [ref=e611]:
+                - generic [ref=e612]: CINTRA FERROVIAL
+                - generic [ref=e613]: "\"It is important that in real-time we can send out help right away. So that we can not only make our operations more efficient, but it can save lives.\""
+                - generic [ref=e614]:
+                  - generic [ref=e615]: Jen Duthie
+                  - generic [ref=e616]: Cintra Ferrovial, Head of Innovation
+              - generic [ref=e618]:
+                - generic [ref=e619]: CPKC
+                - generic [ref=e620]: "\"We are building for the future, on a platform that we think is scalable for the future.\""
+                - generic [ref=e621]:
+                  - generic [ref=e622]: Shailesh Yerram
+                  - generic [ref=e623]: CPKC, AVP, Business Intelligence & CISO
+            - generic [ref=e624]:
+              - generic [ref=e626]:
+                - generic [ref=e627]: WENDY'S QUALITY SUPPLY CHAIN CO-OP
+                - generic [ref=e628]: "\"Now, we've not only fixed our inventory problem, we've now taken a problem that would go on for weeks and days and fixed it in five minutes, making our people incredibly efficient.\""
+                - generic [ref=e629]:
+                  - generic [ref=e630]: Pete Suerken
+                  - generic [ref=e631]: President & CEO, Wendy's Quality Supply Chain Co-op
+              - generic [ref=e633]:
+                - generic [ref=e634]: WALGREENS
+                - generic [ref=e635]: "\"We started with the goal of piloting 10 stores within about six months. However, leveraging Foundry and AIP, we began to see real promise quickly in composing AI-powered, end-to-end workflows that allowed us to get to about 4000 stores within eight months.\""
+                - generic [ref=e636]:
+                  - generic [ref=e637]: Jeff Hoffman
+                  - generic [ref=e638]: Walgreens, VP, Product Pharmacy
+              - generic [ref=e640]:
+                - generic [ref=e641]: AT&T
+                - generic [ref=e642]: "\"[S.C.O.U.T] began as a joint effort between AT&T and Palantir, and now has over 100 AT&T dedicated engineers and a dedicated support team…for this application. It's just one of the 660 applications we have on Foundry today.\""
+                - generic [ref=e643]:
+                  - generic [ref=e644]: Dan Wagner
+                  - generic [ref=e645]: Dir. of Technology, AT&T
+              - generic [ref=e647]:
+                - generic [ref=e648]: PAREXEL
+                - generic [ref=e649]: "\"We estimate that this solution reduces our time to submission materials by over 50% from the current 10 to 12 week average to around 3 to 4 weeks. We can create this process, manage the process, standardize it...and cut [in] half the time that is required to get there.\""
+                - generic [ref=e650]:
+                  - generic [ref=e651]: Dan Ballard
+                  - generic [ref=e652]: SVP Digital Innovation, Parexel
+              - generic [ref=e654]:
+                - generic [ref=e655]: HEINEKEN
+                - generic [ref=e656]: "\"We had a great chassis of the car. But our engine was underpowered. So we went to Palantir because we want to have the best engine out there...In three months, [the teams] built what took us three years before.\""
+                - generic [ref=e657]:
+                  - generic [ref=e658]: Laurens van de Rotte
+                  - generic [ref=e659]: Chief Operating Officer, Heineken USA
+              - generic [ref=e661]:
+                - generic [ref=e662]: WALGREENS
+                - generic [ref=e663]: "\"We needed to start scaling and building out autonomous orchestration. If we were to rely on humans solely...that would amount to about 384 billion decisions every day. It would be flat out impossible.\""
+                - generic [ref=e664]:
+                  - generic [ref=e665]: Jeff Hoffman
+                  - generic [ref=e666]: Walgreens, VP, Product Pharmacy
+              - generic [ref=e668]:
+                - generic [ref=e669]: L3HARRIS
+                - generic [ref=e670]: "\"I did not want a dashboard to tell me I was in trouble. I know when I'm in trouble. I wanted someone to give me some predictives, and some ways to...get me not only technologically advanced, but decisionally be more agile and and able to maximize cost [savings] and efficiencies.\""
+                - generic [ref=e671]:
+                  - generic [ref=e672]: Jay Abendroth
+                  - generic [ref=e673]: President, Integrated Vision Solutions Sector, L3Harris
+              - generic [ref=e675]:
+                - generic [ref=e676]: SOMPO JAPAN
+                - generic [ref=e677]: "\"So, what was the impact? Over the last three years, we have seen a $60 million improvement in profit. And we expect an additional $100M over the next three years.\""
+                - generic [ref=e678]:
+                  - generic [ref=e679]: Akiko Murakami
+                  - generic [ref=e680]: Sompo, Chief Technology Officer
+              - generic [ref=e682]:
+                - generic [ref=e683]: GENERAL MILLS
+                - generic [ref=e684]: "\"We’re saving on average about $40,000 a day, which is about $14M annually – and it’s really only deployed to part of our network.\""
+                - generic [ref=e685]:
+                  - generic [ref=e686]: Dave Jackett
+                  - generic [ref=e687]: General Mills, Sr. Director Supply Chain Digital Transformation
+              - generic [ref=e689]:
+                - generic [ref=e690]: AARP
+                - generic [ref=e691]: "\"Foundry and AIP have been terrific for us. We launched the first prototype within 45 days. And that was just amazing from my perspective.\""
+                - generic [ref=e692]:
+                  - generic [ref=e693]: Sami Hassanyeh
+                  - generic [ref=e694]: AARP, SVP Digital Strategy & Membership
+              - generic [ref=e696]:
+                - generic [ref=e697]: LOWE'S
+                - generic [ref=e698]: "\"In less than four months, we created something from POC all the way to production. Palantir has made us faster and smarter.\""
+                - generic [ref=e699]:
+                  - generic [ref=e700]: Elaina Wheeldon
+                  - generic [ref=e701]: Lowe's, VP Data Products, Applied AI, & Analytics
+              - generic [ref=e703]:
+                - generic [ref=e704]: CAZ INVESTMENTS
+                - generic [ref=e705]: "\"With AIP, we can now process over 100 times more leads with the same amount of resources. This has reduced our lead processing time by over 90%. This would not have been possible without AIP.\""
+                - generic [ref=e706]:
+                  - generic [ref=e707]: James Stuard
+                  - generic [ref=e708]: CAZ Investments, VP of Finance
+              - generic [ref=e710]:
+                - generic [ref=e711]: PANASONIC ENERGY NORTH AMERICA
+                - generic [ref=e712]: "\"Ask Atom [powered by Palantir AIP] serves as a vital training tool for our new, and even veteran technicians – cutting that 3-6 month learning curve down to just a few weeks.\""
+                - generic [ref=e713]:
+                  - generic [ref=e714]: Tara Meisinger
+                  - generic [ref=e715]: Panasonic Energy North America, Sr. Maintenance Manager
+              - generic [ref=e717]:
+                - generic [ref=e718]: UNITED AIRLINES
+                - generic [ref=e719]: "\"We deployed Chime late last year…we’ve already saved almost 300 delays, 20 cancellations...this represents millions of dollars of cost avoidance.\""
+                - generic [ref=e720]:
+                  - generic [ref=e721]: Luis Mesen
+                  - generic [ref=e722]: United Airlines, Dir. Of Tech Ops Data Analytics
+              - generic [ref=e724]:
+                - generic [ref=e725]: FUJITSU
+                - generic [ref=e726]: "\"We've combined Foundry's data integration capabilities and Fujitsu's machine learning AI to transform our operations … creating alert systems, demand forecasting, inventory control systems, and so on. This transformation resulted in an impressive annual cost reduction of $9M within just 3 months.\""
+                - generic [ref=e727]:
+                  - generic [ref=e728]: Kazuki Hiraiso
+                  - generic [ref=e729]: Fujitsu, Data Scientist
+              - generic [ref=e731]:
+                - generic [ref=e732]: ESI
+                - generic [ref=e733]: "\"I attended a bootcamp not too long ago...and in 90 minutes, [the team] built an AIP module that was able to read a very poorly made scan...and issue a remarkably good judgment. This has blown our minds.\""
+                - generic [ref=e734]:
+                  - generic [ref=e735]: Timothy Gotsick
+                  - generic [ref=e736]: ESI, Vice President Technology and Innovation
+              - generic [ref=e738]:
+                - generic [ref=e739]: PAREXEL
+                - generic [ref=e740]: "\"On the technology side, we were looking for a partner and an approach to our data strategy, if you will excuse the term, that actually produced s***.\""
+                - generic [ref=e741]:
+                  - generic [ref=e742]: Jonathan Shough
+                  - generic [ref=e743]: Parexel, Chief Information Officer
+              - generic [ref=e745]:
+                - generic [ref=e746]: LENNAR
+                - generic [ref=e747]: "\"It was totally quiet for 14 minutes. People were just in awe. All total hell broke loose, because people completely couldn’t believe what they had seen.\""
+                - generic [ref=e748]:
+                  - generic [ref=e749]: Scott Spradley
+                  - generic [ref=e750]: Lennar, Chief Technology Officer
+              - generic [ref=e752]:
+                - generic [ref=e753]: ARCHER AVIATION
+                - generic [ref=e754]: "\"We’ve been able to build an ontology...and really get this all to come together in a faster time scale than ever been seen for an aircraft certification program of this magnitude.\""
+                - generic [ref=e755]:
+                  - generic [ref=e756]: Adam Wormoth
+                  - generic [ref=e757]: Archer Aviation, Head of Product
+              - generic [ref=e759]:
+                - generic [ref=e760]: CUMMINS
+                - generic [ref=e761]: "\"You’ve got to have the right technology to be able to access [your data] fast...efficiently. That’s the difference with Foundry and building ontologies.\""
+                - generic [ref=e762]:
+                  - generic [ref=e763]: Jim Jacob
+                  - generic [ref=e764]: Cummins, VP Executive Director, Digitalization, Advanced Analytics and Artificial Intelligence
+              - generic [ref=e766]:
+                - generic [ref=e767]: JACOBS
+                - generic [ref=e768]: "\"Palantir's frontline mixed reality capabilities...will complement our technology goals of worker enablement and job site safety. No matter what industrial site our teams are at...workers gain access to data and insights in the field where it's most relevant and critical.\""
+                - generic [ref=e769]:
+                  - generic [ref=e770]: Shannon Miller
+                  - generic [ref=e771]: Jacobs, SVP Digital Strategy
+              - generic [ref=e773]:
+                - generic [ref=e774]: TAMPA GENERAL HOSPITAL
+                - generic [ref=e775]: "\"Palantir is going to be front and center for everything that we do…[the platform] is a strategic differentiator for us.\""
+                - generic [ref=e776]:
+                  - generic [ref=e777]: John Couris
+                  - generic [ref=e778]: Tampa General Hospital, CEO
+              - generic [ref=e780]:
+                - generic [ref=e781]: NORTHWIND TECHNICAL SERVICES
+                - generic [ref=e782]: "\"We chose Palantir because their products are absolutely best in the class. We partnered with Palantir because their core values match with Northwind core values. And last, we win with Palantir because this relationship will make us a better competitor.\""
+                - generic [ref=e783]:
+                  - generic [ref=e784]: Michael Bosworth
+                  - generic [ref=e785]: NorthWind Technical Services, Founder & CEO
+              - generic [ref=e787]:
+                - generic [ref=e788]: EATON
+                - generic [ref=e789]: "\"We like to say that we make what matters work. Palantir is helping us focus on what matters.\""
+                - generic [ref=e790]:
+                  - generic [ref=e791]: Brian Fifarek
+                  - generic [ref=e792]: Eaton, Vice President Supply Chain Digitalization
+              - generic [ref=e794]:
+                - generic [ref=e795]: HCA HEALTHCARE
+                - generic [ref=e796]: "\"We have a better-balanced schedule. We have a better complement of competencies every single day. A unique feature of this scheduling system also allows us to balance it out in the future.\""
+                - generic [ref=e797]:
+                  - generic [ref=e798]: Dr. Michael Schlosser
+                  - generic [ref=e799]: HCA Healthcare, SVP Care Transformation and Innovation
+              - generic [ref=e801]:
+                - generic [ref=e802]: CINTRA FERROVIAL
+                - generic [ref=e803]: "\"It is important that in real-time we can send out help right away. So that we can not only make our operations more efficient, but it can save lives.\""
+                - generic [ref=e804]:
+                  - generic [ref=e805]: Jen Duthie
+                  - generic [ref=e806]: Cintra Ferrovial, Head of Innovation
+              - generic [ref=e808]:
+                - generic [ref=e809]: CPKC
+                - generic [ref=e810]: "\"We are building for the future, on a platform that we think is scalable for the future.\""
+                - generic [ref=e811]:
+                  - generic [ref=e812]: Shailesh Yerram
+                  - generic [ref=e813]: CPKC, AVP, Business Intelligence & CISO
+        - generic [ref=e816]:
+          - link "Request a Demo →" [ref=e817] [cursor=pointer]:
+            - /url: https://www.palantir.com/contact/get-started/
+            - generic [ref=e818]: Request a Demo
+            - generic [ref=e819]: →
+          - link "Start Building →" [ref=e820] [cursor=pointer]:
+            - /url: https://www.palantir.com/developers
+            - generic [ref=e821]: Start Building
+            - generic [ref=e822]: →
+      - contentinfo [ref=e826]:
+        - generic [ref=e828]:
+          - generic [ref=e829]:
+            - paragraph [ref=e830]: © 2026 Palantir Technologies Inc.
+            - paragraph [ref=e831]: All rights reserved.
+            - button "— Cookies Settings" [ref=e832] [cursor=pointer]:
+              - text: —
+              - generic [ref=e833]: Cookies Settings
+            - generic [ref=e834]:
+              - link "US" [ref=e835] [cursor=pointer]:
+                - /url: /
+              - link "UK" [ref=e836] [cursor=pointer]:
+                - /url: /uk
+              - link "JP" [ref=e837] [cursor=pointer]:
+                - /url: /jp
+            - generic [ref=e839]:
+              - link "Youtube" [ref=e840] [cursor=pointer]:
+                - /url: https://youtube.com/c/palantirtech
+              - link "X" [ref=e841] [cursor=pointer]:
+                - /url: https://twitter.com/PalantirTech
+              - link "Linkedin" [ref=e842] [cursor=pointer]:
+                - /url: https://linkedin.com/company/palantir-technologies
+              - link "Github" [ref=e843] [cursor=pointer]:
+                - /url: https://github.com/palantir
+              - link "Store" [ref=e844] [cursor=pointer]:
+                - /url: https://store.palantir.com
+          - generic [ref=e845]:
+            - generic [ref=e847]:
+              - generic [ref=e848]: Offerings
+              - list [ref=e850]:
+                - listitem [ref=e851]:
+                  - link "— American Tech Fellowship" [ref=e852] [cursor=pointer]:
+                    - /url: /american-tech-fellowship/
+                - listitem [ref=e853]:
+                  - link "— Anti-Money Laundering" [ref=e854] [cursor=pointer]:
+                    - /url: /offerings/anti-money-laundering/
+                - listitem [ref=e855]:
+                  - link "— Automotive & Mobility" [ref=e856] [cursor=pointer]:
+                    - /url: /offerings/automotive-mobility/
+                - listitem [ref=e857]:
+                  - link "— Construction" [ref=e858] [cursor=pointer]:
+                    - /url: /offerings/construction/
+                - listitem [ref=e859]:
+                  - link "— Data Protection" [ref=e860] [cursor=pointer]:
+                    - /url: /offerings/data-protection/
+                - listitem [ref=e861]:
+                  - link "— Defense" [ref=e862] [cursor=pointer]:
+                    - /url: /offerings/defense/
+                - listitem [ref=e863]:
+                  - link "— Energy" [ref=e864] [cursor=pointer]:
+                    - /url: /offerings/energy/
+                - listitem [ref=e865]:
+                  - link "— Federal Health" [ref=e866] [cursor=pointer]:
+                    - /url: /offerings/federal-health/
+                - listitem [ref=e867]:
+                  - link "— FedStart" [ref=e868] [cursor=pointer]:
+                    - /url: /offerings/fedstart/
+                - listitem [ref=e869]:
+                  - link "— Financial Services" [ref=e870] [cursor=pointer]:
+                    - /url: https://www.palantir.com/offerings/financial-services
+                - listitem [ref=e871]:
+                  - link "— Food & Beverage" [ref=e872] [cursor=pointer]:
+                    - /url: /offerings/food-and-beverage/
+                - listitem [ref=e873]:
+                  - link "— Palantir for Builders" [ref=e874] [cursor=pointer]:
+                    - /url: /offerings/palantir-for-builders/
+                - listitem [ref=e875]:
+                  - link "— Govt Financial Management" [ref=e876] [cursor=pointer]:
+                    - /url: /offerings/financial-services/government/
+                - listitem [ref=e877]:
+                  - link "— Hospital Operations" [ref=e878] [cursor=pointer]:
+                    - /url: /offerings/palantir-for-hospitals/
+                - listitem [ref=e879]:
+                  - link "— Insurance" [ref=e880] [cursor=pointer]:
+                    - /url: /offerings/insurance/
+                - listitem [ref=e881]:
+                  - link "— Intelligence" [ref=e882] [cursor=pointer]:
+                    - /url: /offerings/intelligence/
+                - listitem [ref=e883]:
+                  - link "— Life Sciences" [ref=e884] [cursor=pointer]:
+                    - /url: /offerings/life-sciences/
+                - listitem [ref=e885]:
+                  - link "— Mission Manager" [ref=e886] [cursor=pointer]:
+                    - /url: /mission-manager/
+                - listitem [ref=e887]:
+                  - link "— Procurement" [ref=e888] [cursor=pointer]:
+                    - /url: /offerings/procurement/
+                - listitem [ref=e889]:
+                  - link "— Rail" [ref=e890] [cursor=pointer]:
+                    - /url: /offerings/palantir-for-rail/
+                - listitem [ref=e891]:
+                  - link "— Readiness" [ref=e892] [cursor=pointer]:
+                    - /url: /offerings/readiness/
+                - listitem [ref=e893]:
+                  - link "— Retail" [ref=e894] [cursor=pointer]:
+                    - /url: /offerings/retail/
+                - listitem [ref=e895]:
+                  - link "— Secure Collaboration" [ref=e896] [cursor=pointer]:
+                    - /url: /offerings/defense/secure-collaboration/
+                - listitem [ref=e897]:
+                  - link "— Semiconductors" [ref=e898] [cursor=pointer]:
+                    - /url: /offerings/semiconductors/
+                - listitem [ref=e899]:
+                  - link "— Supply Chain" [ref=e900] [cursor=pointer]:
+                    - /url: https://www.palantir.com/offerings/supply-chain/
+                - listitem [ref=e901]:
+                  - link "— Telecommunications" [ref=e902] [cursor=pointer]:
+                    - /url: /offerings/telecommunications/
+                - listitem [ref=e903]:
+                  - link "— Utilities" [ref=e904] [cursor=pointer]:
+                    - /url: https://www.palantir.com/offerings/utilities/
+            - generic [ref=e906]:
+              - generic [ref=e907]: Impact Studies
+              - list [ref=e909]:
+                - listitem [ref=e910]:
+                  - link "— Airbus" [ref=e911] [cursor=pointer]:
+                    - /url: /impact/airbus/
+                - listitem [ref=e912]:
+                  - link "— Axel Springer" [ref=e913] [cursor=pointer]:
+                    - /url: /impact/axel-springer/
+                - listitem [ref=e914]:
+                  - link "— Cleveland Clinic" [ref=e915] [cursor=pointer]:
+                    - /url: /impact/cleveland-clinic/
+                - listitem [ref=e916]:
+                  - link "— Concordance" [ref=e917] [cursor=pointer]:
+                    - /url: /impact/concordance/
+                - listitem [ref=e918]:
+                  - link "— Doosan Infracore" [ref=e919] [cursor=pointer]:
+                    - /url: /impact/powering-innovation-for-doosan-infracore/
+                - listitem [ref=e920]:
+                  - link "— Fujitsu" [ref=e921] [cursor=pointer]:
+                    - /url: /impact/fujitsu/
+                - listitem [ref=e922]:
+                  - link "— Jacobs" [ref=e923] [cursor=pointer]:
+                    - /url: /impact/jacobs/
+                - listitem [ref=e924]:
+                  - link "— Kinder Morgan" [ref=e925] [cursor=pointer]:
+                    - /url: /impact/kindermorgan/
+                - listitem [ref=e926]:
+                  - link "— NHS" [ref=e927] [cursor=pointer]:
+                    - /url: /uk/healthcare/
+                - listitem [ref=e928]:
+                  - link "— Noto Peninsula Earthquake" [ref=e929] [cursor=pointer]:
+                    - /url: /impact/disaster-response/
+                - listitem [ref=e930]:
+                  - link "— Pacific Gas & Electric" [ref=e931] [cursor=pointer]:
+                    - /url: /impact/pacific-gas-and-electric/
+                - listitem [ref=e932]:
+                  - link "— Ringier" [ref=e933] [cursor=pointer]:
+                    - /url: /impact/ringier/
+                - listitem [ref=e934]:
+                  - link "— Sonnedix" [ref=e935] [cursor=pointer]:
+                    - /url: /impact/sonnedix/
+                - listitem [ref=e936]:
+                  - link "— SOMPO" [ref=e937] [cursor=pointer]:
+                    - /url: /impact/sompo/
+                - listitem [ref=e938]:
+                  - link "— Swiss Re" [ref=e939] [cursor=pointer]:
+                    - /url: /impact/swiss-re/
+                - listitem [ref=e940]:
+                  - link "— Tampa General Hospital" [ref=e941] [cursor=pointer]:
+                    - /url: /impact/tampa-general-hospital/
+                - listitem [ref=e942]:
+                  - link "— World Food Programme" [ref=e943] [cursor=pointer]:
+                    - /url: /impact/world-food-programme/
+            - generic [ref=e945]:
+              - generic [ref=e946]: Capabilities
+              - list [ref=e948]:
+                - listitem [ref=e949]:
+                  - link "— AI + ML" [ref=e950] [cursor=pointer]:
+                    - /url: /platforms/aip/
+                - listitem [ref=e951]:
+                  - link "— AIP for Developers" [ref=e952] [cursor=pointer]:
+                    - /url: /aip/developers/
+                - listitem [ref=e953]:
+                  - link "— Data Integration" [ref=e954] [cursor=pointer]:
+                    - /url: /platforms/foundry/data-integration/
+                - listitem [ref=e955]:
+                  - link "— Digital Twin" [ref=e956] [cursor=pointer]:
+                    - /url: /platforms/foundry/digital-twin/
+                - listitem [ref=e957]:
+                  - link "— Dynamic Scheduling" [ref=e958] [cursor=pointer]:
+                    - /url: /platforms/foundry/dynamic-scheduling/
+                - listitem [ref=e959]:
+                  - link "— Edge AI" [ref=e960] [cursor=pointer]:
+                    - /url: /offerings/edge-ai/
+                - listitem [ref=e961]:
+                  - link "— Marketplace" [ref=e962] [cursor=pointer]:
+                    - /url: /platforms/foundry/marketplace/
+                - listitem [ref=e963]:
+                  - link "— MetaConstellation" [ref=e964] [cursor=pointer]:
+                    - /url: /offerings/metaconstellation/
+                - listitem [ref=e965]:
+                  - link "— Pipeline Builder" [ref=e966] [cursor=pointer]:
+                    - /url: /platforms/foundry/data-integration/pipeline-builder/
+                - listitem [ref=e967]:
+                  - link "— Process Mining" [ref=e968] [cursor=pointer]:
+                    - /url: /platforms/foundry/process-mining/
+                - listitem [ref=e969]:
+                  - link "— Real-Time Alerting" [ref=e970] [cursor=pointer]:
+                    - /url: /platforms/foundry/foundry-rules/
+                - listitem [ref=e971]:
+                  - link "— Streaming" [ref=e972] [cursor=pointer]:
+                    - /url: /platforms/foundry/streaming/
+                - listitem [ref=e973]:
+                  - link "— Titanium" [ref=e974] [cursor=pointer]:
+                    - /url: /titanium/
+                - listitem [ref=e975]:
+                  - link "— Warp Speed" [ref=e976] [cursor=pointer]:
+                    - /url: /warpspeed/
+            - generic [ref=e978]:
+              - generic [ref=e979]: Documents
+              - list [ref=e981]:
+                - listitem [ref=e982]:
+                  - link "— Developer Community" [ref=e983] [cursor=pointer]:
+                    - /url: https://community.palantir.com/
+                - listitem [ref=e984]:
+                  - link "— Platform Documentation" [ref=e985] [cursor=pointer]:
+                    - /url: https://www.palantir.com/docs/
+                - listitem [ref=e986]:
+                  - link "— Palantir Developers" [ref=e987] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UCQRc3PMlCsoodxbR4IsglKQ
+                - listitem [ref=e988]:
+                  - link "— Trust Center" [ref=e989] [cursor=pointer]:
+                    - /url: https://palantir.safebase.us/
+                - listitem [ref=e990]:
+                  - link "— Modern Slavery Statement" [ref=e991] [cursor=pointer]:
+                    - /url: /modern-slavery-statement/
+                - listitem [ref=e992]:
+                  - link "— Cookies" [ref=e993] [cursor=pointer]:
+                    - /url: /cookie-statement
+                - listitem [ref=e994]:
+                  - link "— Privacy and Civil Liberties" [ref=e995] [cursor=pointer]:
+                    - /url: " https://www.palantir.com/pcl/"
+                - listitem [ref=e996]:
+                  - link "— US Public Policy" [ref=e997] [cursor=pointer]:
+                    - /url: /us-public-policy-positions/
+                - listitem [ref=e998]:
+                  - link "— Palantir Explained" [ref=e999] [cursor=pointer]:
+                    - /url: /palantir-explained/
+                - listitem [ref=e1000]:
+                  - link "— Sustainability" [ref=e1001] [cursor=pointer]:
+                    - /url: /responsible-business-and-sustainability/
+                - listitem [ref=e1002]:
+                  - link "— Human Rights Policy" [ref=e1003] [cursor=pointer]:
+                    - /url: /human-rights/
+                - listitem [ref=e1004]:
+                  - link "— Privacy Statement" [ref=e1005] [cursor=pointer]:
+                    - /url: /privacy-and-security/
+                - listitem [ref=e1006]:
+                  - link "— Terms of Use" [ref=e1007] [cursor=pointer]:
+                    - /url: /terms-and-conditions/
+  - alert [ref=e1008]

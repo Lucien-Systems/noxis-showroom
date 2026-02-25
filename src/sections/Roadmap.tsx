@@ -1,8 +1,9 @@
 import { useState, useMemo } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { FiFlag, FiActivity, FiTrendingUp } from "react-icons/fi";
+import type { IconType } from "react-icons";
 
-type Item = { t:string; d:string; expl:string; icon:any };
+type Item = { t:string; d:string; expl:string; icon: IconType };
 const ITEMS:Item[]=[
   {
     t:'Phase 1',

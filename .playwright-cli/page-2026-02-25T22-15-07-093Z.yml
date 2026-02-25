@@ -1,0 +1,359 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Noxis secure vision suite" [ref=e7] [cursor=pointer]:
+          - /url: "#top"
+          - img "Noxis" [ref=e8]
+          - generic [ref=e9]: secure vision suite
+        - link "Open Flow" [ref=e10] [cursor=pointer]:
+          - /url: "#how"
+      - generic [ref=e11]:
+        - link "About" [ref=e12] [cursor=pointer]:
+          - /url: "#about"
+          - text: About
+        - link "Principles" [ref=e14] [cursor=pointer]:
+          - /url: "#principles"
+        - link "Flow" [ref=e15] [cursor=pointer]:
+          - /url: "#how"
+        - link "Audience" [ref=e16] [cursor=pointer]:
+          - /url: "#audience"
+        - link "Technology" [ref=e17] [cursor=pointer]:
+          - /url: "#technology"
+        - link "Ecosystem" [ref=e18] [cursor=pointer]:
+          - /url: "#ecosystem"
+        - link "Founder" [ref=e19] [cursor=pointer]:
+          - /url: "#founder"
+  - main [ref=e20]:
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - paragraph [ref=e25]: NOXIS / Rights-first Intelligence
+        - heading "Narrative defense without mass surveillance." [level=1] [ref=e26]
+        - paragraph [ref=e27]: NOXIS is the strategic security layer inside the Lambda ARCHEON ecosystem. It protects information space, data integrity, and decision pipelines through targeted OSINT, narrative graph analysis, and cryptographically verifiable outputs.
+        - generic [ref=e28]:
+          - link "Open Operational Flow" [ref=e29] [cursor=pointer]:
+            - /url: "#how"
+          - link "Explore Ecosystem Links" [ref=e30] [cursor=pointer]:
+            - /url: "#ecosystem"
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - paragraph [ref=e33]: Collection Scope
+            - paragraph [ref=e34]: Public + mandated feeds
+            - paragraph [ref=e35]: No dragnet ingestion
+          - generic [ref=e36]:
+            - paragraph [ref=e37]: Narrative Lens
+            - paragraph [ref=e38]: Graph + anomaly burst
+            - paragraph [ref=e39]: Coordination pattern detection
+          - generic [ref=e40]:
+            - paragraph [ref=e41]: Audit Integrity
+            - paragraph [ref=e42]: Hash + provenance
+            - paragraph [ref=e43]: Replayable decision trail
+      - generic [ref=e44]:
+        - img "NOXIS visual identity"
+    - generic [ref=e47]:
+      - generic [ref=e48]:
+        - paragraph [ref=e49]: Mission Context
+        - heading "What NOXIS actually does" [level=2] [ref=e50]
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - article [ref=e53]:
+            - img [ref=e55]
+            - heading "Digital Immune Function" [level=3] [ref=e57]
+            - paragraph [ref=e58]: NOXIS monitors manipulative influence patterns that target public trust, institutional operations, and decision authority.
+          - article [ref=e59]:
+            - img [ref=e61]
+            - heading "Targeted, Not Mass Monitoring" [level=3] [ref=e64]
+            - paragraph [ref=e65]: Collection stays within public sources or legally mandated channels. Scope control and minimization are enforced by policy and system design.
+          - article [ref=e66]:
+            - img [ref=e68]
+            - heading "Narrative Intelligence Engine" [level=3] [ref=e71]
+            - paragraph [ref=e72]: Graph-driven narrative analysis, burst detection, and multimodal checks produce evidence-ready outputs with transparent provenance.
+        - generic [ref=e73]: "Chief architect and system author: Adam Karl Lucien."
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - paragraph [ref=e77]: Core Guardrails
+        - heading "Principles that cannot be bypassed" [level=2] [ref=e78]
+      - generic [ref=e80]:
+        - article [ref=e81]:
+          - generic [ref=e82]:
+            - img [ref=e84]
+            - heading "Rights-first Control" [level=3] [ref=e86]
+          - paragraph [ref=e87]: Civil rights constraints are mandatory boundaries, not optional policy text.
+        - article [ref=e88]:
+          - generic [ref=e89]:
+            - img [ref=e91]
+            - heading "Targeted Scope" [level=3] [ref=e95]
+          - paragraph [ref=e96]: Public and lawful channels only, with strict mission limitation and minimization.
+        - article [ref=e97]:
+          - generic [ref=e98]:
+            - img [ref=e100]
+            - heading "Need-to-know Access" [level=3] [ref=e105]
+          - paragraph [ref=e106]: Role-based modular visibility prevents uncontrolled data spread inside operations.
+        - article [ref=e107]:
+          - generic [ref=e108]:
+            - img [ref=e110]
+            - heading "Narrative Graph Model" [level=3] [ref=e114]
+          - paragraph [ref=e115]: Actors, channels, and propagation paths are mapped to reveal campaign architecture.
+        - article [ref=e116]:
+          - generic [ref=e117]:
+            - img [ref=e119]
+            - heading "Cryptographic Receipts" [level=3] [ref=e122]
+          - paragraph [ref=e123]: Every critical output includes hash, provenance, and replay context for verification.
+        - article [ref=e124]:
+          - generic [ref=e125]:
+            - img [ref=e127]
+            - heading "Immunity Veto" [level=3] [ref=e130]
+          - paragraph [ref=e131]: Tainted inputs can be blocked before they influence strategic decision workflows.
+    - generic [ref=e133]:
+      - generic [ref=e134]:
+        - paragraph [ref=e135]: Operational Flow
+        - heading "From signal intake to legal-grade brief" [level=2] [ref=e136]
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - button "1. Targeted Collection" [ref=e139] [cursor=pointer]
+          - button "2. Narrative Analysis" [ref=e140] [cursor=pointer]
+          - button "3. Manipulation Mapping" [ref=e141] [cursor=pointer]
+          - button "4. Decision Brief" [ref=e142] [cursor=pointer]
+          - button "5. Cryptographic Receipt" [ref=e143] [cursor=pointer]
+        - generic [ref=e144]:
+          - generic [ref=e146]:
+            - heading "Targeted Collection" [level=3] [ref=e147]
+            - list [ref=e148]:
+              - listitem [ref=e149]: Public OSINT channels (media, RSS, licensed API).
+              - listitem [ref=e150]: Optional state-tier sources under legal mandate.
+              - listitem [ref=e151]: Need-to-know and minimization controls at ingest layer.
+          - img [ref=e154]
+    - generic [ref=e167]:
+      - generic [ref=e168]:
+        - paragraph [ref=e169]: Deployment Modes
+        - heading "Configuration by institution type" [level=2] [ref=e170]
+      - generic [ref=e171]:
+        - generic [ref=e172]:
+          - generic [ref=e173]:
+            - button "Government" [ref=e174] [cursor=pointer]
+            - button "Security" [ref=e175] [cursor=pointer]
+            - button "Newsrooms" [ref=e176] [cursor=pointer]
+            - button "Civil" [ref=e177] [cursor=pointer]
+            - button "Research" [ref=e178] [cursor=pointer]
+          - generic [ref=e179]:
+            - img [ref=e180]
+            - text: rights-first
+        - generic [ref=e184]:
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - img [ref=e187]
+              - heading "Government" [level=3] [ref=e190]
+            - paragraph [ref=e191]: Decision protection for state governance flows
+            - list [ref=e192]:
+              - listitem [ref=e193]: Policy shock detection
+              - listitem [ref=e194]: Immunity veto for tainted inputs
+              - listitem [ref=e195]: Receipts-ready decisions
+            - generic [ref=e196]:
+              - button "Request policy brief" [ref=e197] [cursor=pointer]:
+                - img [ref=e198]
+                - text: Request policy brief
+              - link "Explore technology" [ref=e201] [cursor=pointer]:
+                - /url: "#technology"
+          - generic [ref=e202]:
+            - heading "Compliance Dial" [level=4] [ref=e203]
+            - generic [ref=e204]:
+              - generic [ref=e205]:
+                - img [ref=e206]
+                - generic [ref=e209]:
+                  - text: "Targeted Scope:"
+                  - generic [ref=e210]: 92%
+              - generic [ref=e211]:
+                - img [ref=e212]
+                - generic [ref=e215]:
+                  - text: "Minimization:"
+                  - generic [ref=e216]: 88%
+              - generic [ref=e217]:
+                - img [ref=e218]
+                - generic [ref=e221]:
+                  - text: "Auditability:"
+                  - generic [ref=e222]: 98%
+            - generic [ref=e223]: Presets are synthetic and differ per audience.
+    - generic [ref=e225]:
+      - generic [ref=e226]:
+        - paragraph [ref=e227]: Architecture
+        - heading "Technical stack behind NOXIS" [level=2] [ref=e228]
+      - generic [ref=e230]:
+        - generic [ref=e231]:
+          - button "AI/ML (NLP + CV) Narrative-aware pipelines with deterministic runs." [ref=e232] [cursor=pointer]:
+            - img [ref=e234]
+            - generic [ref=e237]:
+              - generic [ref=e238]: AI/ML (NLP + CV)
+              - generic [ref=e239]: Narrative-aware pipelines with deterministic runs.
+          - button "Targeted OSINT Ingestion Public/licensed sources under strict scope control." [ref=e240] [cursor=pointer]:
+            - img [ref=e242]
+            - generic [ref=e245]:
+              - generic [ref=e246]: Targeted OSINT Ingestion
+              - generic [ref=e247]: Public/licensed sources under strict scope control.
+          - button "Cryptographic Receipts Hash + provenance for every critical output." [ref=e248] [cursor=pointer]:
+            - img [ref=e250]
+            - generic [ref=e254]:
+              - generic [ref=e255]: Cryptographic Receipts
+              - generic [ref=e256]: Hash + provenance for every critical output.
+          - button "Rights-first Controls Minimization, redaction, and lawful use boundaries." [ref=e257] [cursor=pointer]:
+            - img [ref=e259]
+            - generic [ref=e262]:
+              - generic [ref=e263]: Rights-first Controls
+              - generic [ref=e264]: Minimization, redaction, and lawful use boundaries.
+          - button "Attribution Correlation Layer Narrative events linked with ownership/finance context." [ref=e265] [cursor=pointer]:
+            - img [ref=e267]
+            - generic [ref=e272]:
+              - generic [ref=e273]: Attribution Correlation Layer
+              - generic [ref=e274]: Narrative events linked with ownership/finance context.
+          - button "Operational Visualization Narrative graphs and command-level briefing views." [ref=e275] [cursor=pointer]:
+            - img [ref=e277]
+            - generic [ref=e279]:
+              - generic [ref=e280]: Operational Visualization
+              - generic [ref=e281]: Narrative graphs and command-level briefing views.
+        - generic [ref=e284]:
+          - generic [ref=e285]:
+            - img [ref=e287]
+            - heading "AI/ML (NLP + CV)" [level=3] [ref=e290]
+          - paragraph [ref=e291]: Narrative-aware pipelines with deterministic runs.
+          - img [ref=e292]
+          - generic [ref=e308]:
+            - list [ref=e309]:
+              - listitem [ref=e310]: Cross-modal feature fusion
+              - listitem [ref=e311]: Narrative pattern extraction
+              - listitem [ref=e312]: Signal confidence scoring
+            - generic [ref=e313]:
+              - heading "Why it matters" [level=4] [ref=e314]
+              - paragraph [ref=e315]: Transforms chaotic information flow into evidence-grade structure for high-trust decisions.
+          - generic [ref=e317]:
+            - button "Request technical brief" [ref=e318] [cursor=pointer]
+            - link "See ecosystem linkage" [ref=e319] [cursor=pointer]:
+              - /url: "#ecosystem"
+    - generic [ref=e321]:
+      - generic [ref=e322]:
+        - paragraph [ref=e323]: Lucien Ecosystem
+        - heading "Connected strategic platforms" [level=2] [ref=e324]
+      - generic [ref=e325]:
+        - article [ref=e326]:
+          - generic [ref=e327]:
+            - img [ref=e329]
+            - heading "Lucien Systems Hub" [level=3] [ref=e336]
+          - paragraph [ref=e337]: Central navigation point for the full Lucien Systems network.
+          - link "Open luciensystems.io" [ref=e338] [cursor=pointer]:
+            - /url: https://luciensystems.io
+        - article [ref=e339]:
+          - generic [ref=e340]:
+            - img [ref=e342]
+            - heading "Lucien" [level=3] [ref=e345]
+          - paragraph [ref=e346]: Strategic architecture, sovereign operating frameworks, and execution systems.
+          - link "Open lucien.technology" [ref=e347] [cursor=pointer]:
+            - /url: https://lucien.technology
+        - article [ref=e348]:
+          - generic [ref=e349]:
+            - img [ref=e351]
+            - heading "Adam Karl Lucien Profile" [level=3] [ref=e354]
+          - paragraph [ref=e355]: Official founder profile, mission context, archive, and direct strategic channel.
+          - link "Open adamkarl.lucien.technology" [ref=e356] [cursor=pointer]:
+            - /url: https://adamkarl.lucien.technology
+        - article [ref=e357]:
+          - generic [ref=e358]:
+            - img [ref=e360]
+            - heading "ARCHEON" [level=3] [ref=e362]
+          - paragraph [ref=e363]: Governance intelligence OS for resilience planning and state-scale decision architecture.
+          - link "Open archeon.lucien.technology" [ref=e364] [cursor=pointer]:
+            - /url: https://archeon.lucien.technology
+        - article [ref=e365]:
+          - generic [ref=e366]:
+            - img [ref=e368]
+            - heading "Portal" [level=3] [ref=e371]
+          - paragraph [ref=e372]: Interim management workspace for execution, oversight, and intervention workflows.
+          - link "Open portal.lucien.technology" [ref=e373] [cursor=pointer]:
+            - /url: https://portal.lucien.technology
+        - article [ref=e374]:
+          - generic [ref=e375]:
+            - img [ref=e377]
+            - heading "Kryfor" [level=3] [ref=e380]
+          - paragraph [ref=e381]: Agentic AI structure SaaS for modular automation and scalable deployment.
+          - link "Open kryfor.lucien.technology" [ref=e382] [cursor=pointer]:
+            - /url: https://kryfor.lucien.technology
+    - generic [ref=e384]:
+      - generic [ref=e385]:
+        - paragraph [ref=e386]: Authorship
+        - heading "System architect and governance stance" [level=2] [ref=e387]
+      - generic [ref=e389]:
+        - complementary [ref=e390]:
+          - generic [ref=e391]:
+            - generic [ref=e392]: AKL
+            - generic [ref=e393]:
+              - heading "Adam Karl Lucien" [level=3] [ref=e394]
+              - paragraph [ref=e395]: Systems architect, governance and narrative security
+          - generic [ref=e396]:
+            - generic [ref=e397]: AI/ML
+            - generic [ref=e398]: OSINT
+            - generic [ref=e399]: Governance
+            - generic [ref=e400]: Auditability
+        - generic [ref=e401]:
+          - generic [ref=e402]:
+            - button "Principles" [ref=e403] [cursor=pointer]
+            - button "Bio" [ref=e404] [cursor=pointer]
+            - button "Timeline" [ref=e405] [cursor=pointer]
+          - generic [ref=e406]:
+            - generic [ref=e407]:
+              - img [ref=e408]
+              - generic [ref=e411]: Targeted scope over mass collection
+            - generic [ref=e412]:
+              - img [ref=e413]
+              - generic [ref=e416]: Reproducibility and versioned runs
+            - generic [ref=e417]:
+              - img [ref=e418]
+              - generic [ref=e421]: Cryptographic evidence chain by default
+            - generic [ref=e422]:
+              - img [ref=e423]
+              - generic [ref=e426]: Privacy-first operating boundaries
+            - generic [ref=e427]:
+              - img [ref=e428]
+              - generic [ref=e431]: Clear review trail for governance
+            - generic [ref=e432]:
+              - img [ref=e433]
+              - generic [ref=e436]: Clarity over narrative noise
+  - contentinfo [ref=e437]:
+    - generic [ref=e439]:
+      - generic [ref=e440]:
+        - generic [ref=e441]:
+          - img "NOXIS" [ref=e443]
+          - paragraph [ref=e444]: Rights-first intelligence suite in the Lucien ecosystem.
+        - generic [ref=e445]:
+          - heading "Contact" [level=4] [ref=e446]
+          - list [ref=e447]:
+            - listitem [ref=e448]:
+              - link "company@luciensystems.io" [ref=e449] [cursor=pointer]:
+                - /url: mailto:company@luciensystems.io
+            - listitem [ref=e450]:
+              - link "Ecosystem links" [ref=e451] [cursor=pointer]:
+                - /url: "#ecosystem"
+        - generic [ref=e452]:
+          - heading "Projects" [level=4] [ref=e453]
+          - list [ref=e454]:
+            - listitem [ref=e455]:
+              - link "luciensystems.io" [ref=e456] [cursor=pointer]:
+                - /url: https://luciensystems.io
+            - listitem [ref=e457]:
+              - link "lucien.technology" [ref=e458] [cursor=pointer]:
+                - /url: https://lucien.technology
+            - listitem [ref=e459]:
+              - link "archeon.lucien.technology" [ref=e460] [cursor=pointer]:
+                - /url: https://archeon.lucien.technology
+            - listitem [ref=e461]:
+              - link "portal.lucien.technology" [ref=e462] [cursor=pointer]:
+                - /url: https://portal.lucien.technology
+            - listitem [ref=e463]:
+              - link "kryfor.lucien.technology" [ref=e464] [cursor=pointer]:
+                - /url: https://kryfor.lucien.technology
+        - generic [ref=e465]:
+          - heading "Assurance" [level=4] [ref=e466]
+          - list [ref=e467]:
+            - listitem [ref=e468]: Rights-first boundaries
+            - listitem [ref=e469]: Auditable output chain
+            - listitem [ref=e470]: Targeted collection model
+            - listitem [ref=e471]: Synthetic demo environment
+      - generic [ref=e472]:
+        - generic [ref=e473]: © 2026 NOXIS.
+        - generic [ref=e474]: By Adam Karl Lucien
