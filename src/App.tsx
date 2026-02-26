@@ -8,6 +8,7 @@ import LabPage from "./pages/LabPage";
 import PlatformPage from "./pages/PlatformPage";
 import PricingPage from "./pages/PricingPage";
 import SolutionsPage from "./pages/SolutionsPage";
+import { useI18n } from "./i18n-core";
 import { applyRouteSeo } from "./seo";
 
 type PageProps = {
@@ -50,6 +51,7 @@ function scrollToHash(hash: string) {
 }
 
 export default function App() {
+  const { language } = useI18n();
   const [currentPath, setCurrentPath] = useState(() => normalizePath(window.location.pathname));
 
   const route = useMemo(() => routes[currentPath] ?? routes["/"], [currentPath]);
@@ -67,8 +69,8 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    applyRouteSeo(currentPath);
-  }, [currentPath]);
+    applyRouteSeo(currentPath, language);
+  }, [currentPath, language]);
 
   useEffect(() => {
     if (!window.location.hash) {

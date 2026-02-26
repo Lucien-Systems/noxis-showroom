@@ -1,0 +1,304 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - button "Přejít na domovskou stránku NOXIS" [ref=e381] [cursor=pointer]:
+        - img "NOXIS" [ref=e7]
+        - generic [ref=e8]: Suverénní zpravodajská síť
+      - navigation "Hlavní navigace" [ref=e382]:
+        - link "Platforma" [ref=e383] [cursor=pointer]:
+          - /url: /platform
+        - link "Řešení" [ref=e384] [cursor=pointer]:
+          - /url: /solutions
+        - link "Společnost" [ref=e385] [cursor=pointer]:
+          - /url: /company
+        - link "LAB" [ref=e13] [cursor=pointer]:
+          - /url: /lab
+        - link "Ceník" [ref=e386] [cursor=pointer]:
+          - /url: /pricing
+      - group "Přepínač jazyka" [ref=e387]:
+        - button "EN" [ref=e16] [cursor=pointer]
+        - button "CZ" [active] [ref=e17] [cursor=pointer]
+      - link "Domluvit demo" [ref=e388] [cursor=pointer]:
+        - /url: /pricing#contact
+        - text: Domluvit demo
+        - img [ref=e19]
+  - main [ref=e22]:
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - paragraph [ref=e26]: NOXIS / Vícevrstvá strategická dohledová platforma
+        - heading "Poznejte mapu hrozeb" [level=1] [ref=e389]
+        - paragraph [ref=e28]: NOXIS propojuje narativní inteligenci, provoz kamer v reálném čase a dronové ISR do jednoho odpovědného velitelského stacku.
+        - generic "Klíčové schopnosti" [ref=e390]:
+          - generic [ref=e391]:
+            - img [ref=e392]
+            - text: Graf narativů
+          - generic [ref=e399]:
+            - img [ref=e400]
+            - text: Kamery v reálném čase
+          - generic [ref=e403]:
+            - img [ref=e404]
+            - text: Dronové ISR
+        - generic [ref=e49]:
+          - link "Domluvit demo" [ref=e410] [cursor=pointer]:
+            - /url: /pricing#contact
+          - link "Prozkoumat platformu" [ref=e411] [cursor=pointer]:
+            - /url: /platform
+      - generic [ref=e52]:
+        - generic [ref=e53]: Vrstvené velení
+        - generic [ref=e54]: Práva a dohled od návrhu
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - paragraph [ref=e58]: Důvěryhodná síť
+        - heading "Instituce s kritickou odpovědností" [level=2] [ref=e412]:
+          - img [ref=e60]
+          - text: Instituce s kritickou odpovědností
+      - generic [ref=e67]:
+        - generic [ref=e413]: NÁRODNÍ BEZPEČNOSTNÍ ÚSTŘEDÍ
+        - generic [ref=e415]: ÚŘAD CIVILNÍ OCHRANY
+        - generic [ref=e417]: RADA KRITICKÉ INFRASTRUKTURY
+        - generic [ref=e419]: DOPRAVNÍ OPERAČNÍ VELENÍ
+        - generic [ref=e421]: KOORDINAČNÍ ŠTÁB VEŘEJNÉHO ZDRAVÍ
+        - generic [ref=e423]: SÍŤ KRIZOVÉ ODEZVY
+    - generic [ref=e81]:
+      - generic [ref=e82]:
+        - paragraph [ref=e83]: Architektura vrstev
+        - heading "Jedno velitelské rozhraní, tři operační vrstvy" [level=2] [ref=e425]:
+          - img [ref=e85]
+          - text: Jedno velitelské rozhraní, tři operační vrstvy
+      - generic [ref=e89]:
+        - article [ref=e90]:
+          - generic [ref=e91]:
+            - img [ref=e93]
+            - paragraph [ref=e95]: Tier A / Obrana informačního prostoru
+          - heading "Analýza narativních a dezinformačních hrozeb" [level=3] [ref=e426]
+          - paragraph [ref=e97]: Sleduje koordinované vlivové operace, nepřátelské narativy a manipulační špičky nad otevřenými, licencovanými i mandatovanými datovými zdroji.
+          - list [ref=e98]:
+            - listitem [ref=e427]: Grafová analýza narativů a anomálních vln
+            - listitem [ref=e428]: Korelace entit a kampaní napříč jazyky
+            - listitem [ref=e429]: Rizikové skórování pro státní správu, veřejný pořádek a strategickou komunikaci
+        - article [ref=e102]:
+          - generic [ref=e103]:
+            - img [ref=e105]
+            - paragraph [ref=e108]: Tier B / Vize a senzory
+          - heading "Inteligence z kamer v reálném čase a fúze s VMS" [level=3] [ref=e430]
+          - paragraph [ref=e110]: Propojuje fixní CCTV, mobilní kamerové streamy a edge senzory do jednoho velitelského toku pro rychlou reakci a provozní kontinuitu.
+          - list [ref=e111]:
+            - listitem [ref=e431]: Ingest kamerových streamů a indexace událostí v reálném čase
+            - listitem [ref=e432]: Vícelokalitní operační dashboard s eskalačními workflow
+            - listitem [ref=e433]: Předávání incidentů mezi operátory s neměnným kontextem časové osy
+        - article [ref=e115]:
+          - generic [ref=e116]:
+            - img [ref=e118]
+            - paragraph [ref=e124]: Tier C / Aerial a ISR
+          - heading "Dronová a geospatial operační vrstva" [level=3] [ref=e434]
+          - paragraph [ref=e126]: Integruje telemetrii UAV, letecká data a mission kanály pro dynamické monitorování území pod víceúrovňovým státním dohledem.
+          - list [ref=e127]:
+            - listitem [ref=e435]: Orchestrace dronových misí a streamů
+            - listitem [ref=e436]: Geospatial monitoring hotspotů a perimetrů
+            - listitem [ref=e437]: Cross-tier triáž od terénního ISR k centrálnímu velení
+    - generic [ref=e132]:
+      - article [ref=e438]:
+        - paragraph [ref=e439]: 24/7
+        - paragraph [ref=e440]: Operační připravenost
+      - article [ref=e441]:
+        - paragraph [ref=e442]: "3"
+        - paragraph [ref=e443]: Zpravodajské vrstvy
+      - article [ref=e444]:
+        - paragraph [ref=e445]: 99.99%
+        - paragraph [ref=e446]: Pokrytí auditní stopy
+      - article [ref=e447]:
+        - paragraph [ref=e448]: < 60 s
+        - paragraph [ref=e449]: Předání alertu mezi vrstvami
+    - generic [ref=e146]:
+      - generic [ref=e147]:
+        - paragraph [ref=e148]: Klíčové moduly
+        - heading "Komponenty připravené pro provoz ve vysoce rizikovém prostředí" [level=2] [ref=e450]:
+          - img [ref=e150]
+          - text: Komponenty připravené pro provoz ve vysoce rizikovém prostředí
+      - generic [ref=e153]:
+        - article [ref=e154]:
+          - generic [ref=e155]:
+            - img [ref=e157]
+            - paragraph [ref=e161]: Modul
+          - heading "Constellation Command Grid" [level=3] [ref=e162]
+          - paragraph [ref=e163]: Jednotné velitelské prostředí pro narativní, kamerové i letecké streamy.
+          - list [ref=e164]:
+            - listitem [ref=e451]: Vícevrstvý workspace
+            - listitem [ref=e452]: Provozní log napříč institucemi
+            - listitem [ref=e453]: Eskalace podle playbooků
+        - article [ref=e168]:
+          - generic [ref=e169]:
+            - img [ref=e171]
+            - paragraph [ref=e174]: Modul
+          - heading "Realtime Vision Core" [level=3] [ref=e175]
+          - paragraph [ref=e176]: Událostně řízený kamerový pipeline s rizikově řízeným routováním alertů.
+          - list [ref=e177]:
+            - listitem [ref=e454]: Konektory na VMS
+            - listitem [ref=e455]: Alerty chování a objektů
+            - listitem [ref=e456]: Forenzní playback incidentů
+        - article [ref=e181]:
+          - generic [ref=e182]:
+            - img [ref=e184]
+            - paragraph [ref=e187]: Modul
+          - heading "Narrative Risk Engine" [level=3] [ref=e188]
+          - paragraph [ref=e189]: Detekce kampaní a predikce rizik informačních operací.
+          - list [ref=e190]:
+            - listitem [ref=e457]: Model narativních vzorců
+            - listitem [ref=e458]: Mapy aktérů a kanálů
+            - listitem [ref=e459]: Skóre šíření hrozeb
+        - article [ref=e194]:
+          - generic [ref=e195]:
+            - img [ref=e197]
+            - paragraph [ref=e203]: Modul
+          - heading "Aerial ISR Fabric" [level=3] [ref=e204]
+          - paragraph [ref=e205]: Fúze dronové telemetrie s geospatial kontextem událostí.
+          - list [ref=e206]:
+            - listitem [ref=e460]: Fúze UAV feedů
+            - listitem [ref=e461]: Geografické vrstvy
+            - listitem [ref=e462]: Kontrolní body kontinuity misí
+        - article [ref=e210]:
+          - generic [ref=e211]:
+            - img [ref=e213]
+            - paragraph [ref=e216]: Modul
+          - heading "Governance and Audit Chain" [level=3] [ref=e217]
+          - paragraph [ref=e218]: Právně obhajitelná dohledatelnost každého kritického výstupu.
+          - list [ref=e219]:
+            - listitem [ref=e463]: Kryptografické receipts
+            - listitem [ref=e464]: Přístupový ledger
+            - listitem [ref=e465]: Replay provozních rozhodnutí
+        - article [ref=e223]:
+          - generic [ref=e224]:
+            - img [ref=e226]
+            - paragraph [ref=e233]: Modul
+          - heading "Operator Integrity Controls" [level=3] [ref=e234]
+          - paragraph [ref=e235]: Mandátové hranice rolí a řízení oprávnění podle účelu.
+          - list [ref=e236]:
+            - listitem [ref=e237]: Need-to-know policy gates
+            - listitem [ref=e466]: Redakce a minimalizace dat
+            - listitem [ref=e467]: Supervizní override pravidla
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - paragraph [ref=e243]: Scénáře použití
+        - heading "Navrženo pro informační konflikt, městskou bezpečnost a ISR kontinuitu" [level=2] [ref=e468]:
+          - img [ref=e245]
+          - text: Navrženo pro informační konflikt, městskou bezpečnost a ISR kontinuitu
+      - generic [ref=e252]:
+        - article [ref=e469]:
+          - generic [ref=e470]:
+            - img [ref=e472]
+            - paragraph [ref=e474]: Scénář
+          - heading "Ochrana volebního prostoru a containment narativů" [level=3] [ref=e475]
+          - paragraph [ref=e476]: Odhaluje koordinované dezinformační vlny, syntetický obsah i vlivové kanály dříve, než rozkolísají rozhodovací procesy institucí.
+        - article [ref=e477]:
+          - generic [ref=e478]:
+            - img [ref=e480]
+            - paragraph [ref=e483]: Scénář
+          - heading "Městské kamerové velení a incident response" [level=3] [ref=e484]
+          - paragraph [ref=e485]: Koreluje živé kamerové signály napříč městem, dopravou a složkami IZS pro rychlejší operační rozhodnutí.
+        - article [ref=e486]:
+          - generic [ref=e487]:
+            - img [ref=e489]
+            - paragraph [ref=e495]: Scénář
+          - heading "Perimetr a hraniční dohled pomocí dronů" [level=3] [ref=e496]
+          - paragraph [ref=e497]: Monitoruje geospatial koridory přes telemetrii misí a navázanou eskalaci do velitelských governance kanálů.
+        - article [ref=e498]:
+          - generic [ref=e499]:
+            - img [ref=e501]
+            - paragraph [ref=e508]: Scénář
+          - heading "Kontinuita kritické infrastruktury" [level=3] [ref=e509]
+          - paragraph [ref=e510]: Mapuje kaskádová rizika napříč provozem, mediálním tlakem a terénními senzory, aby chránil provoz pod zátěží.
+    - generic [ref=e296]:
+      - generic [ref=e297]:
+        - paragraph [ref=e298]: Velitelský briefing
+        - heading "Nasazení NOXIS jako suverénní zpravodajské páteře" [level=2] [ref=e511]
+        - paragraph [ref=e300]: Nastavte narativní, kamerovou i dronovou vrstvu s governance pravidly podle mandátu.
+      - link "Zahájit briefing" [ref=e512] [cursor=pointer]:
+        - /url: /pricing#contact
+  - contentinfo [ref=e302]:
+    - generic [ref=e303]:
+      - generic [ref=e304]:
+        - generic [ref=e305]:
+          - heading "Odebírejte operační aktualizace" [level=3] [ref=e513]
+          - paragraph [ref=e307]: Získejte přehledy o nasazení, threat briefy a metodické poznámky z praxe.
+          - generic [ref=e308]:
+            - textbox "Pracovní e-mail" [ref=e514]
+            - button "Odebírat" [ref=e515] [cursor=pointer]
+        - generic [ref=e311]:
+          - generic [ref=e312]:
+            - heading "Platforma" [level=4] [ref=e516]:
+              - img [ref=e314]
+              - text: Platforma
+            - generic [ref=e318]:
+              - link "Constellation Command Grid" [ref=e319] [cursor=pointer]:
+                - /url: /platform
+              - link "Realtime Vision Core" [ref=e320] [cursor=pointer]:
+                - /url: /platform#vision
+              - link "Narrative Risk Engine" [ref=e321] [cursor=pointer]:
+                - /url: /platform#narrative
+              - link "Aerial ISR Fabric" [ref=e322] [cursor=pointer]:
+                - /url: /platform#aerial
+          - generic [ref=e323]:
+            - heading "Společnost" [level=4] [ref=e517]:
+              - img [ref=e325]
+              - text: Společnost
+            - generic [ref=e327]:
+              - link "Mise a dohled" [ref=e518] [cursor=pointer]:
+                - /url: /company
+              - link "Aliance" [ref=e519] [cursor=pointer]:
+                - /url: /company#alliances
+              - link "Vedení" [ref=e520] [cursor=pointer]:
+                - /url: /company#leadership
+              - link "Kontakt" [ref=e521] [cursor=pointer]:
+                - /url: /pricing#contact
+          - generic [ref=e332]:
+            - heading "Zdroje" [level=4] [ref=e522]:
+              - img [ref=e334]
+              - text: Zdroje
+            - generic [ref=e336]:
+              - link "LAB reporty" [ref=e523] [cursor=pointer]:
+                - /url: /lab
+              - link "Architektura vrstev" [ref=e524] [cursor=pointer]:
+                - /url: /platform#tiers
+              - link "Matice scénářů" [ref=e525] [cursor=pointer]:
+                - /url: /solutions#use-cases
+              - link "Governance model" [ref=e526] [cursor=pointer]:
+                - /url: /company#governance
+      - generic [ref=e341]:
+        - article [ref=e342]:
+          - heading "Tier stack" [level=5] [ref=e527]
+          - list [ref=e344]:
+            - listitem [ref=e345]: Tier A / Obrana informačního prostoru
+            - listitem [ref=e346]: Tier B / Vize a senzory
+            - listitem [ref=e347]: Tier C / Aerial a ISR
+        - article [ref=e348]:
+          - heading "Odvětví" [level=5] [ref=e528]
+          - list [ref=e350]:
+            - listitem [ref=e529]: Národní bezpečnost
+            - listitem [ref=e530]: Veřejná správa
+            - listitem [ref=e531]: Kritická infrastruktura
+            - listitem [ref=e532]: Finanční systémy
+            - listitem [ref=e533]: Média a komunikace
+            - listitem [ref=e534]: Doprava
+            - listitem [ref=e535]: Zdravotní sítě
+            - listitem [ref=e536]: Energetika
+        - article [ref=e359]:
+          - heading "Role" [level=5] [ref=e537]
+          - list [ref=e361]:
+            - listitem [ref=e538]: Bezpečnostní vedení
+            - listitem [ref=e539]: Ředitelé zpravodajství
+            - listitem [ref=e540]: Operační centra
+            - listitem [ref=e541]: Krizová komunikace
+            - listitem [ref=e542]: Politické a governance rady
+            - listitem [ref=e543]: Risk a compliance vedení
+        - article [ref=e368]:
+          - heading "Scénáře" [level=5] [ref=e544]
+          - list [ref=e370]:
+            - listitem [ref=e545]: Ochrana volebního prostoru a containment narativů
+            - listitem [ref=e546]: Městské kamerové velení a incident response
+            - listitem [ref=e547]: Perimetr a hraniční dohled pomocí dronů
+            - listitem [ref=e548]: Kontinuita kritické infrastruktury
+      - generic [ref=e375]:
+        - generic [ref=e376]: © 2026 NOXIS // Suverénní zpravodajské operace.
+        - generic [ref=e377]:
+          - img [ref=e378]
+          - text: Postaveno pro mandatované nasazení a dohledatelné rozhodování.

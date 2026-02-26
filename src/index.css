@@ -155,6 +155,33 @@ img {
   color: var(--accent);
 }
 
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  padding: 3px;
+  background: rgba(12, 18, 28, 0.78);
+}
+
+.lang-switch__btn {
+  border: 0;
+  background: transparent;
+  color: #a9b4c8;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+}
+
+.lang-switch__btn.is-active {
+  color: #001611;
+  background: var(--accent);
+}
+
 .pill-cta,
 .ghost-cta {
   display: inline-flex;
@@ -893,6 +920,10 @@ img {
     font-size: 16px;
   }
 
+  .lang-switch__btn {
+    padding: 5px 8px;
+  }
+
   .section-3col {
     grid-template-columns: 1fr;
   }
@@ -912,6 +943,10 @@ img {
     justify-content: flex-start;
     overflow-x: auto;
     padding-bottom: 4px;
+  }
+
+  .lang-switch {
+    margin-left: auto;
   }
 
   .site-main {
@@ -966,6 +1001,15 @@ img {
   .top-nav__link {
     font-size: 14px;
     padding: 8px 8px;
+  }
+
+  .lang-switch {
+    order: 1;
+  }
+
+  .lang-switch__btn {
+    font-size: 11px;
+    padding: 4px 7px;
   }
 
   .site-main {

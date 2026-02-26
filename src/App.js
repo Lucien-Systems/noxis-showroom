@@ -8,6 +8,7 @@ import LabPage from "./pages/LabPage";
 import PlatformPage from "./pages/PlatformPage";
 import PricingPage from "./pages/PricingPage";
 import SolutionsPage from "./pages/SolutionsPage";
+import { useI18n } from "./i18n-core";
 import { applyRouteSeo } from "./seo";
 const routes = {
     "/": { render: (props) => _jsx(HomePage, { ...props }) },
@@ -39,6 +40,7 @@ function scrollToHash(hash) {
     }
 }
 export default function App() {
+    const { language } = useI18n();
     const [currentPath, setCurrentPath] = useState(() => normalizePath(window.location.pathname));
     const route = useMemo(() => routes[currentPath] ?? routes["/"], [currentPath]);
     useEffect(() => {
@@ -52,8 +54,8 @@ export default function App() {
         return () => window.removeEventListener("popstate", onPopState);
     }, []);
     useEffect(() => {
-        applyRouteSeo(currentPath);
-    }, [currentPath]);
+        applyRouteSeo(currentPath, language);
+    }, [currentPath, language]);
     useEffect(() => {
         if (!window.location.hash) {
             window.scrollTo({ top: 0, behavior: "instant" });

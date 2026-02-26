@@ -8,4 +8,5 @@ import "./index.css";
 import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App";
-createRoot(document.getElementById("root")).render(_jsx(React.StrictMode, { children: _jsx(App, {}) }));
+import { I18nProvider } from "./i18n";
+createRoot(document.getElementById("root")).render(_jsx(React.StrictMode, { children: _jsx(I18nProvider, { children: _jsx(App, {}) }) }));
