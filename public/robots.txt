@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://noxis.luciensystems.io/sitemap.xml
+Host: noxis.luciensystems.io

@@ -8,23 +8,23 @@ import LabPage from "./pages/LabPage";
 import PlatformPage from "./pages/PlatformPage";
 import PricingPage from "./pages/PricingPage";
 import SolutionsPage from "./pages/SolutionsPage";
+import { applyRouteSeo } from "./seo";
 
 type PageProps = {
   onNavigate: (path: string) => void;
 };
 
 type RouteConfig = {
-  title: string;
   render: (props: PageProps) => ReactElement;
 };
 
 const routes: Record<string, RouteConfig> = {
-  "/": { title: "NOXIS | Sovereign Intelligence Grid", render: (props) => <HomePage {...props} /> },
-  "/platform": { title: "Platform | NOXIS", render: (props) => <PlatformPage {...props} /> },
-  "/solutions": { title: "Solutions | NOXIS", render: (props) => <SolutionsPage {...props} /> },
-  "/company": { title: "Company | NOXIS", render: (props) => <CompanyPage {...props} /> },
-  "/pricing": { title: "Pricing | NOXIS", render: (props) => <PricingPage {...props} /> },
-  "/lab": { title: "LAB | NOXIS", render: (props) => <LabPage {...props} /> },
+  "/": { render: (props) => <HomePage {...props} /> },
+  "/platform": { render: (props) => <PlatformPage {...props} /> },
+  "/solutions": { render: (props) => <SolutionsPage {...props} /> },
+  "/company": { render: (props) => <CompanyPage {...props} /> },
+  "/pricing": { render: (props) => <PricingPage {...props} /> },
+  "/lab": { render: (props) => <LabPage {...props} /> },
 };
 
 function normalizePath(pathname: string) {
@@ -67,8 +67,8 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    document.title = route.title;
-  }, [route.title]);
+    applyRouteSeo(currentPath);
+  }, [currentPath]);
 
   useEffect(() => {
     if (!window.location.hash) {

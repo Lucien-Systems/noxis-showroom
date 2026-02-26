@@ -8,13 +8,14 @@ import LabPage from "./pages/LabPage";
 import PlatformPage from "./pages/PlatformPage";
 import PricingPage from "./pages/PricingPage";
 import SolutionsPage from "./pages/SolutionsPage";
+import { applyRouteSeo } from "./seo";
 const routes = {
-    "/": { title: "NOXIS | Sovereign Intelligence Grid", render: (props) => _jsx(HomePage, { ...props }) },
-    "/platform": { title: "Platform | NOXIS", render: (props) => _jsx(PlatformPage, { ...props }) },
-    "/solutions": { title: "Solutions | NOXIS", render: (props) => _jsx(SolutionsPage, { ...props }) },
-    "/company": { title: "Company | NOXIS", render: (props) => _jsx(CompanyPage, { ...props }) },
-    "/pricing": { title: "Pricing | NOXIS", render: (props) => _jsx(PricingPage, { ...props }) },
-    "/lab": { title: "LAB | NOXIS", render: (props) => _jsx(LabPage, { ...props }) },
+    "/": { render: (props) => _jsx(HomePage, { ...props }) },
+    "/platform": { render: (props) => _jsx(PlatformPage, { ...props }) },
+    "/solutions": { render: (props) => _jsx(SolutionsPage, { ...props }) },
+    "/company": { render: (props) => _jsx(CompanyPage, { ...props }) },
+    "/pricing": { render: (props) => _jsx(PricingPage, { ...props }) },
+    "/lab": { render: (props) => _jsx(LabPage, { ...props }) },
 };
 function normalizePath(pathname) {
     if (!pathname || pathname === "/")
@@ -51,8 +52,8 @@ export default function App() {
         return () => window.removeEventListener("popstate", onPopState);
     }, []);
     useEffect(() => {
-        document.title = route.title;
-    }, [route.title]);
+        applyRouteSeo(currentPath);
+    }, [currentPath]);
     useEffect(() => {
         if (!window.location.hash) {
             window.scrollTo({ top: 0, behavior: "instant" });

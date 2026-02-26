@@ -1,6 +1,9 @@
 {
-  "name": "Noxis AI",
-  "short_name": "Noxis AI",
+  "name": "NOXIS",
+  "short_name": "NOXIS",
+  "description": "Tiered intelligence platform for narrative defense, realtime camera operations, and drone ISR.",
+  "start_url": "/",
+  "scope": "/",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -15,7 +18,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
+  "theme_color": "#020407",
+  "background_color": "#020407",
   "display": "standalone"
 }
