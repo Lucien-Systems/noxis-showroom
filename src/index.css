@@ -18,6 +18,8 @@
   --accent-soft: rgba(62, 240, 186, 0.2);
   --accent-warm: #f3cf57;
   --container: 1240px;
+  --font-body: "Roboto", "Segoe UI", sans-serif;
+  --font-display: "Sora", "Segoe UI", sans-serif;
 }
 
 * {
@@ -36,7 +38,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+  font-family: var(--font-body);
   color: var(--text);
   background:
     radial-gradient(860px 440px at 78% -12%, rgba(62, 240, 186, 0.14), transparent 70%),
@@ -59,6 +61,33 @@ body::before {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-title,
+.section-title,
+.kicker,
+.brand-mark__chip,
+.top-nav__link,
+.pill-cta,
+.ghost-cta,
+.lang-switch__btn,
+.card-eyebrow,
+.timeline-year,
+.role-label,
+.stat-value,
+.contact-form__title,
+.footer-columns h4,
+.site-footer__matrix h5,
+.newsletter-card h3,
+.line-pill,
+.hero-kpi {
+  font-family: var(--font-display);
 }
 
 img {

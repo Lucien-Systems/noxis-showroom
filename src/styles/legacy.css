@@ -7,9 +7,12 @@ body{
   margin:0;
   background:var(--bg);
   color:var(--ink);
-  font-family:Inter,system-ui,sans-serif;
+  font-family:Roboto,"Segoe UI",system-ui,sans-serif;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
+}
+h1,h2,h3,h4,h5,h6,.h1,.section__title,.card-title,.nav-link,.btn,.chip,.pill,.eyebrow{
+  font-family:Sora,"Segoe UI",system-ui,sans-serif;
 }
 :focus-visible{outline:2px solid var(--accent2);outline-offset:2px}
 

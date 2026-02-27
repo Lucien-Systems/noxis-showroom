@@ -1,7 +1,9 @@
-@import "@fontsource/inter/400.css";
-@import "@fontsource/inter/500.css";
-@import "@fontsource/inter/600.css";
-@import "@fontsource/inter/700.css";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
+@import "@fontsource/sora/500.css";
+@import "@fontsource/sora/600.css";
+@import "@fontsource/sora/700.css";
 
 @tailwind base;
 @tailwind components;
@@ -9,7 +11,13 @@
 
 @layer base {
   :root { color-scheme: dark; }
-  html, body { @apply bg-bg text-ink font-inter; }
+  html, body {
+    @apply bg-bg text-ink;
+    font-family: "Roboto", "Segoe UI", system-ui, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Sora", "Segoe UI", system-ui, sans-serif;
+  }
 }
 
 @layer components {
