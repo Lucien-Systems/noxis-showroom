@@ -204,6 +204,7 @@ export function applyRouteSeo(pathname: string, language: Language) {
   upsertMeta("name", "description", seo.description);
   upsertMeta("name", "keywords", seo.keywords);
   upsertMeta("name", "robots", "index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1");
+  upsertMeta("name", "googlebot", "index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1");
   upsertMeta("name", "author", "NOXIS");
   upsertMeta("name", "application-name", "NOXIS");
   upsertMeta("name", "theme-color", "#020407");
